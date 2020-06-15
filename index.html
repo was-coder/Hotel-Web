@@ -13,13 +13,16 @@
 <body>
     <!--start of header-->
         <header>
-            <div class="burger">
-                <span class="burger__button"></span>
+            <div class="menu-btn">
+                <span onclick="openBurger()" class="menu-btn__burger"></span>
             </div>
 
-            <nav>
+            <nav id="myNav" class="overlay">
                 <label>Pleasure<sub>Point</sub></label>
-                <ul>
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <ul class="nav__ul">
                     <li class="nav__li">
                         <a href="#" class="nav__link active">home</a>
                     </li>
