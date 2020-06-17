@@ -48,11 +48,25 @@ nav ul li {
   color: #000;
   text-decoration: none;
   line-height: 40px;
-  padding:0 20px;
-  margin: 5px 0;
+  padding:0 10px;
+  margin: 10px 10px;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#unique__link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  padding:5px 10px;
+  margin: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 10px;
 }
 
 .nav-li__link:active, .nav-li__link:hover {
@@ -62,16 +76,31 @@ nav ul li {
   color: #000;
 }
 
+#unique-li {
+  
+  color: #fff;
+}
+
 .closebtn {
   visibility: hidden;
 }
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:990px) {
+  #unique-li {
+    display: none;
+  }
+
+  .nav-li__link {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
   nav {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     position: fixed;
     z-index: 1;
     background-color: rgb(180, 173, 173);
@@ -81,17 +110,28 @@ nav ul li {
   }
 
   nav ul {
+    text-align: center;
     position: absolute;
     display: flex;
     flex-direction: column;
-    text-align: center;
     right: 25%;
-    top: 80px;
+    top: 10px;
+    transition: 0.5s;
   }
 
   nav ul li {
-    margin: 30px 0;
+    display: block;
+    margin: 40px 0;
   }
+
+  .nav-li__link {
+    font-size: 20px;
+  }
+
+  #unique-li {
+    display: none;
+  }
+
 
   .closebtn {
     position: absolute;
