@@ -39,6 +39,7 @@ nav ul {
 }
 
 nav ul li {
+  display: inline-block;
   list-style: none;
 }
 
@@ -67,21 +68,14 @@ nav ul li {
 
 
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 600px) {
   nav {
     height: 100%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     background-color: rgb(180, 173, 173);
     background-color: rgba(rgb(180, 173, 173), 0.9);
-    overflow-x: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -90,7 +84,13 @@ nav ul li {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    text-align: center;
+    right: 25%;
+    top: 80px;
+  }
+
+  nav ul li {
+    margin: 30px 0;
   }
 
   .closebtn {
