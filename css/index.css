@@ -14,6 +14,7 @@ body {
 /*end of normal css syntax*/
 
 /*start of style for logo*/
+
 h2 {
   text-transform: uppercase;
   padding:10px;
@@ -25,14 +26,20 @@ h2 {
 sub {
   color: #000;
 }
+header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 16;
+  height: 80px;
+  width: 100%;
+}
 /*end of style for logo*/
 
 /*start of style for nav*/
 nav {
+  width: 100%;
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 80px;
 }
 
 nav ul {
@@ -87,7 +94,7 @@ nav ul li {
 
 /*start of style on first section*/
 .first-section {
-  height: 100vh;
+  height: 2100vh;
   overflow: hidden;
 }
 
@@ -101,15 +108,27 @@ nav ul li {
   font-size: 70px;
   font-weight: bolder;
   margin-bottom: 20px;
+  font-family: 'Metal Mania', cursive;
+  color: rgb(16, 16, 94);
 }
 
 img {
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
 }
 
 .small {
   visibility: hidden;
+}
+
+.first-a {
+  color: #fff;
+  font-size: 20px;  
+}
+
+.first-a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 
@@ -122,12 +141,37 @@ img {
 
   .nav-li__link {
     font-size: 20px;
-    padding: 0 5px;
+    padding: 0;
   }
-}
 /*end of styling for some nav*/
 
-@media only screen and (max-width: 750px) {
+/*start of styling for text in carousel*/
+.my-text {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.my-text h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family: 'Metal Mania', cursive;
+  color: rgb(16, 16, 94);
+}
+/*end of styling for text in carousel*/
+
+
+/*start of styling for button*/
+  .first-a {
+    color: #fff;
+    font-size: 20px;  
+  }
+/*end of styling for button*/
+}
+
+/*styling for small screen size*/
+@media only screen and (max-width: 765px) {
   /*start of style for nav*/
   nav {
     height: 100vh;
