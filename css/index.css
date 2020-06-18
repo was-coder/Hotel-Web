@@ -1,8 +1,8 @@
+/*normal css syntax*/
 body {
   margin: 0;
   padding: 0;
   font-family: 'Muli';
-  height: 100vh;
 }
 
 *,
@@ -11,8 +11,9 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+/*end of normal css syntax*/
 
-
+/*start of style for logo*/
 h2 {
   text-transform: uppercase;
   padding:10px;
@@ -24,7 +25,9 @@ h2 {
 sub {
   color: #000;
 }
+/*end of style for logo*/
 
+/*start of style for nav*/
 nav {
   position: fixed;
   top: 0;
@@ -39,7 +42,6 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block;
   list-style: none;
 }
 
@@ -49,7 +51,7 @@ nav ul li {
   text-decoration: none;
   line-height: 40px;
   padding:0 10px;
-  margin: 10px 10px;
+  margin: 10px;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -73,21 +75,47 @@ nav ul li {
   border-bottom: 3px solid blue;
   border-top: 3px solid blue;
   text-decoration: none;
-  color: #000;
+  color: blue;
 }
+/*end of nav styling for larger screen size*/
 
-#unique-li {
-  
-  color: #fff;
-}
-
+/*style of close button on large screen*/
 .closebtn {
+  visibility: hidden;
+}
+/*end of style on slose button*/
+
+/*start of style on first section*/
+.first-section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.my-text {
+  margin-bottom: 50px;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.my-text h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 70vh;
+  background-size: cover;
+}
+
+.small {
   visibility: hidden;
 }
 
 
-
+/*start of styling for tablet size*/
 @media only screen and (max-width:990px) {
+/*styling for some nav*/
   #unique-li {
     display: none;
   }
@@ -97,12 +125,13 @@ nav ul li {
     padding: 0 5px;
   }
 }
+/*end of styling for some nav*/
 
 @media only screen and (max-width: 750px) {
+  /*start of style for nav*/
   nav {
     height: 100vh;
-    position: fixed;
-    z-index: 1;
+    z-index: 10;
     background-color: rgb(180, 173, 173);
     background-color: rgba(rgb(180, 173, 173), 0.9);
     -webkit-transition: 0.5s;
@@ -122,33 +151,28 @@ nav ul li {
   }
 
   nav ul li {
-    display: block;
-    margin: 40px 0;
+    margin: 30px 0;
   }
+  /*end of style for nav*/
 
-  .nav-li__link {
-    font-size: 20px;
-  }
-
-  #unique-li {
-    display: none;
-  }
-
-
+  /*start of style for close button*/
   .closebtn {
     position: absolute;
-    top: -30px;
-    right: 0.7rem;
+    top: -15px;
+    right: 1rem;
     font-size: 50px;
     visibility: visible;
   }
+  /*end of style for close button*/
 
+  /*start of style for burger button*/
   .menu-btn {
     position: absolute;
     cursor: pointer;
+    position: fixed;
     z-index: 1;
     right: 1rem;
-    top: 1rem;
+    top: 1.5rem;
     height: 20px;
     width: 28px;
     -webkit-transition: all 0.5s ease-in-out;
@@ -186,6 +210,30 @@ nav ul li {
   background-color: #000;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+/*end of style for burger button*/
+.large {
+  display: none;
+}
+
+.small {
+  visibility: visible;
+}
+
+.small {
+  z-index: -1;
+}
+
+.my-text {
+  margin-bottom: 50px;
+  line-height: 40px;
+  font-size: 17px;
+}
+
+.my-text h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 50px;
 }
 
 }
