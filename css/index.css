@@ -226,7 +226,7 @@ img {
 
 .my-text {
   margin-bottom: 30px;
-  line-height: 20px;
+  line-height: 30px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -235,7 +235,7 @@ img {
   font-family: 'Metal Mania', cursive;
   font-size: 40px;
   font-weight: bolder;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 }
