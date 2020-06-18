@@ -15,7 +15,7 @@ body {
 
 /*start of style for logo*/
 
-h2 {
+#my-h2 {
   text-transform: uppercase;
   padding:10px;
   font-family: 'Metal Mania', cursive;
@@ -94,7 +94,7 @@ nav ul li {
 
 /*start of style on first section*/
 .first-section {
-  height: 2100vh;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -130,6 +130,45 @@ img {
   text-decoration: none;
   color: #fff;
 }
+/*end of style for first section*/
+
+
+/*start of style for second section*/
+.second-section {
+  height: 80vh;
+  background-color: rgb(212, 212, 212);
+}
+
+.second-section1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+.second-section__grid1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#second-hr {
+  margin: 0;
+  height: 3px;
+  width: 30%;
+  justify-content: start;
+}
+
+.second-a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.second-a:hover {
+  text-decoration: none;
+  color: #027ae4;
+}
+
+
 
 
 /*start of styling for tablet size*/
