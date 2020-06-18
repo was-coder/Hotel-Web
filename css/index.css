@@ -224,14 +224,14 @@ img {
   z-index: -1;
 }
 
-.my-text {
+.my-text-small {
   margin-bottom: 30px;
   line-height: 30px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.my-text h1 {
+.my-text-small h1 {
   font-family: 'Metal Mania', cursive;
   font-size: 40px;
   font-weight: bolder;
