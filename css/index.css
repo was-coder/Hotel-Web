@@ -227,14 +227,15 @@ img {
 .my-text {
   margin-bottom: 30px;
   line-height: 20px;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .my-text h1 {
   font-family: 'Metal Mania', cursive;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bolder;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 }
