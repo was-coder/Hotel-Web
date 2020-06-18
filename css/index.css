@@ -170,7 +170,7 @@ img {
     position: absolute;
     cursor: pointer;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     right: 1rem;
     top: 1.5rem;
     height: 20px;
@@ -231,7 +231,8 @@ img {
 }
 
 .my-text h1 {
-  font-size: 50px;
+  font-family: 'Metal Mania', cursive;
+  font-size: 35px;
   font-weight: bolder;
   margin-bottom: 10px;
 }
