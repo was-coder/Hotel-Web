@@ -126,7 +126,7 @@ sub {
 
 .menu-nav__item {
   transform: translateX(100vw);
-  padding: 50px 0;
+  padding: 40px 0;
   font-family: 'Metal Mania', cursive;
 }
 
@@ -171,7 +171,7 @@ img {
 }
 
 .my-text {
-  top: 150px;
+  top: 100px;
 }
 
 .my-text h1 {
@@ -186,7 +186,7 @@ img {
   margin: auto;
   line-height: 1.5;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .first-a {
