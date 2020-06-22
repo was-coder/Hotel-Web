@@ -126,7 +126,7 @@ sub {
 
 .menu-nav__item {
   transform: translateX(100vw);
-  padding: 40px 0;
+  padding: 45px 0;
   font-family: 'Metal Mania', cursive;
 }
 
