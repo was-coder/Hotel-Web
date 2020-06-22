@@ -18,30 +18,30 @@ header {
   z-index : 15;
   background-color: #fff;
   width: 100%;
-  padding: 1rem;
+  padding: 10px;
 }
 /*end of heading styling*/
 
-/*start of hamburger*/
+/*start of hamburger styling*/
 .menu-btn {
   position: absolute;
   z-index: 1;
-  right: 1rem;
-  top: 1rem;
+  right: 15px;
+  top: 15px;
   height: 20px;
-  width: 28px;
+  width: 30px;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .menu-btn__burger {
   position: absolute;
   right: 0;
-  top: 0.5rem;
+  top: 5px;
   width: 28px;
   height: 3px;
   background-color: #000;
-  transition: all 0.5 ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .menu-btn__burger::before {
@@ -51,17 +51,17 @@ header {
   width: 28px;
   height: 3px;
   background-color: #000;
-  transition: all 0.5 ease-in-out; 
+  transition: all 1s ease-in-out; 
 }
 
 .menu-btn__burger::after {
   content: "";
   position: absolute;
   top: 8px;
-  width: 25px;
+  width: 28px;
   height: 3px;
   background-color: #000;
-  transition: all 0.5 ease-in-out; 
+  transition: all 1s ease-in-out; 
 }
 /*end of hamburger styling*/
 
@@ -80,13 +80,25 @@ header {
 }
 /*end of opening and closing style for hamburger*/
 
+/*start of logo styling*/
+#my-h2 { 
+  text-transform: uppercase;
+  font-family: 'Metal Mania', cursive;
+  font-weight: bold;
+  color: darkblue;
+}
+
+sub {
+  color: #000;
+}
+/*end of logo styling*/
+
 /*start of styling of navigation items*/
 .nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  opacity: 0.8;
+  width: 100%;
   visibility: hidden;
 }
 
@@ -104,31 +116,17 @@ header {
   overflow: hidden;
   margin:auto;
   list-style: none;
-  transition: all 0.5 ease-in-out;
-  transform: translateY(-100%);
+  transition: all 1s ease-in-out;
+  transform: translateX(-100%);
 }
 
 .menu-nav.open {
-  transform: translateY(0);
+  transform: translateX(0);
 }
-
-#my-h2 { 
-  text-transform: uppercase;
-  font-family: 'Metal Mania', cursive;
-  font-weight: bold;
-  color: darkblue;
-}
-
-sub {
-  color: #000;
-}
-
-
 
 .menu-nav__item {
   transform: translateX(100vw);
-  transition: all 0.5 ease-in-out;
-  padding: 40px 0;
+  padding: 50px 0;
   font-family: 'Metal Mania', cursive;
 }
 
@@ -140,14 +138,13 @@ sub {
   transform: translateX(0);
 }
 
-.menu-nav__item.active > a {
-  color: #000;
+.menu-nav__link.active {
+  color: darkblue;
 }
 
 .menu-nav__link {
   display: inline-block;
   font-size: 30px;
-  transition: all 0.5 ease-in-out;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
@@ -161,19 +158,65 @@ sub {
   color: blue;
   transform: scale(1);
 }
+/*end of navigation bar styling*/
+
+.first-section {
+  height: 80vh;
+  overflow: hidden;
+  }
 
 
+img {
+  height: 70vh;
+}
+
+.my-text {
+  top: 150px;
+}
+
+.my-text h1 {
+  font-family: 'Metal Mania', cursive;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 25px;
+  letter-spacing: 2px;
+}
+
+.my-text p {
+  margin: auto;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.first-a {
+  color: #fff;
+  font-size: 15px;  
+}
+
+.first-a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.large {
+  visibility: hidden;
+}
+
+/*start of styling for tablet screen size*/
 @media only screen and (min-width:768px) {
+
+  /*start of styling for hamburger button*/
   .menu-btn {
     visibility: hidden;
   }
+  /*end of styling for hamburger button*/
 
+  /*start of styling for navigation*/
   .nav {
     visibility: visible;
     height: 70px;
   }
-
-  
 
   #unique__link {
     display: none;
@@ -197,10 +240,53 @@ sub {
     font-size: 20px;
     margin: 15px 0;
   }
-  
-}
+/*end of styling for navigation*/
 
+/*start of style on first section*/
+
+.small {
+  display: none;
+  }
+
+  .large {
+    visibility: visible;
+  }
+
+  .carousel-item {
+    min-width: 300px;
+    background: no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+  }
+
+  .my-text h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Metal Mania', cursive;
+  color: rgb(16, 16, 94);
+  }
+
+  .my-text p {
+    font-size: 20px;
+  }
+
+  img {
+  height: 80vh;
+  }
+
+
+  .first-a {
+  font-size: 20px;  
+  }
+/*end of style for first section*/
+}
+/*end of styling for tablet screen size*/
+
+
+/*start of styling for desktop screen size*/
 @media only screen and (min-width:1024px) {
+
+/*start of styling for navigation*/
   #unique-li {
     visibility: visible;
   }
@@ -214,46 +300,12 @@ sub {
       font-size: 20px;
       text-decoration: none;
       text-transform: uppercase;
- }
- /*start of style on first section*/
-.first-section {
-  height: 80vh;
-  overflow: hidden;
-}
-
-.my-text {
-  line-height: 40px;
-  font-size: 25px;
-  bottom: 50%;
-}
+  }
+/*end of styling for navigation*/
 
 .my-text h1 {
-  top: 50%;
-  font-size: 70px;
-  font-weight: bolder;
-  font-family: 'Metal Mania', cursive;
-  color: rgb(16, 16, 94);
-}
-
-img {
-  height: 80vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.small {
-  visibility: hidden;
-}
-
-.first-a {
-  color: #fff;
-  font-size: 20px;  
-}
-
-.first-a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-/*end of style for first section*/
+  font-size: 60px;
+  }
 
 }
+/*end of styling for desktop screen size*/
