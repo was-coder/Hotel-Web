@@ -228,10 +228,10 @@ img {
 .second-button {
   position: absolute;
   bottom: 0;
-  left: 40%;
+  right: 25%;
   margin-bottom: 10px;
   height: 7%;
-  width: 30%;
+  width: 40%;
 }
 
 .second-button a {
