@@ -160,6 +160,7 @@ sub {
 }
 /*end of navigation bar styling*/
 
+/*start of first section styling*/
 .first-section {
   height: 80vh;
   overflow: hidden;
@@ -202,6 +203,7 @@ img {
 .large {
   visibility: hidden;
 }
+/*end of first section styling*/
 
 /*start of styling for tablet screen size*/
 @media only screen and (min-width:768px) {
@@ -243,7 +245,6 @@ img {
 /*end of styling for navigation*/
 
 /*start of style on first section*/
-
 .small {
   display: none;
   }
@@ -274,7 +275,6 @@ img {
   height: 80vh;
   }
 
-
   .first-a {
   font-size: 20px;  
   }
@@ -303,9 +303,10 @@ img {
   }
 /*end of styling for navigation*/
 
+/*start of styling for first-section*/
 .my-text h1 {
   font-size: 60px;
   }
-
+/*end of styling for first-section*/
 }
 /*end of styling for desktop screen size*/
