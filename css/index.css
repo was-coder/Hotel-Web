@@ -179,14 +179,14 @@ img {
   font-family: 'Metal Mania', cursive;
   font-size: 35px;
   font-weight: bolder;
-  margin-top: 25px;
+  margin-top: 30px;
   letter-spacing: 2px;
 }
 
 .my-text p {
   margin: auto;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 17px;
 }
 
