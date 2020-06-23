@@ -29,7 +29,7 @@
         <nav class="nav">        
             <ul class="menu-nav">
                 <li class="menu-nav__item"><a href="#home" class="menu-nav__link active ">home</a></li>
-                <li class="menu-nav__item"><a href="#" class="menu-nav__link">reservations</a></li>
+                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link">reservations</a></li>
                 <li class="menu-nav__item"><a href="#" class="menu-nav__link">contact us</a></li>
                 <li class="menu-nav__item"><a href="#" class="menu-nav__link">about us</a></li>
                 <li class="menu-nav__item" id="unique-li"><a href="#" id="unique__link">book now</a></li>
@@ -113,14 +113,35 @@
     </section>
     <!--end of first section page-->
 
-    <!--start of second section page-->
-    <section>
-        
-    </section>
-    <!--end of second section page-->
+    <!--start of second section-->
+    <section class="second-section" id="reservations">
+            <!--start of heading for the second section-->
+            <div class="text-primary second-section__grid1">
+                <h2 class="text-capitalize">our suites & rates<hr id="second-hr" class="bg-primary"></h2>
+                <button class="text-capitalize btn btn-outline-white bg-white second-button">
+                    <a href="#" class="second-a text-primary">view all <i class="fas fa-chevron-right ml-3 fa-1x"></i></a>
+                </button>
+            </div>
+            <!--end of heading for the second section-->
 
-    <!--link to js and jquery-->
+            <div class="second-section1">
+                <div>
+                    <figure>
+                        <img class="second-img" src="./images/suits5.jfif" alt="My Suite">
+                        <figcaption>
+                            <h2 class="mt-3">The Sea-Side Suite</h2>
+                            <h4 class="text-primary"> <s>N</s>230,000 / <span class="text-dark">night</span></h4>
+                            <button class="btn btn-primary"><a href="#" class="text-dark first-a">Book Now</a></button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+    </section>
+    <!--end of second section-->
+
+    <!--link to js and jquery, popper and font awesome-->
     <script src="./js/index.js"></script>
+    <script src="./js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
