@@ -162,7 +162,7 @@ sub {
 
 /*start of first section styling*/
 .first-section {
-  height: 70vh;
+  height: 80vh;
   overflow: hidden;
   }
 
@@ -208,7 +208,7 @@ img {
 
 /*start of styling for second section*/
 .second-section {
-  height: 190vh;
+  min-height: 200vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
@@ -216,7 +216,7 @@ img {
 /*start of styling for head section*/
 .second-section__grid1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 #second-hr {
@@ -305,6 +305,7 @@ img {
     justify-content: space-between;
     width: 90%;
     margin: auto;
+    padding-top: 70px;
   }
   
   #second-hr {
@@ -315,7 +316,7 @@ img {
   }
 
   .second-button {
-    top: 40px;
+    top: 70px;
     right: 40px;
     width: 20%;
   }
