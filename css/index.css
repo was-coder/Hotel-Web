@@ -208,7 +208,7 @@ img {
 
 /*start of styling for second section*/
 .second-section {
-  height: 180vh;
+  height: 190vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
@@ -251,7 +251,7 @@ img {
 .second-img {
   background-size: cover;
   background-position: center;
-  width: 80%;
+  min-width: 80%;
   height: 40vh;
 }
 /*end of styling for head section*/
@@ -295,6 +295,39 @@ img {
     font-size: 20px;
     margin: 15px 0;
   }
+  
+  .second-section__grid1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #second-hr {
+    margin: 0;
+    height: 3px;
+    width: 30%;
+    justify-content: start;
+  }
+
+  .second-button {
+    top: 60px;
+    right: 20px;
+    width: 20%;
+  }
+
+  .second-section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+
+  .second-img {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+
 /*end of styling for navigation*/
 
 /*start of style on first section*/
