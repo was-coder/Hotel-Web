@@ -73,10 +73,12 @@ header {
 
 .menu-btn__burger.open::before {
   transform: rotate(45deg) translate(5px,8px);
+  background-color: darkblue;
 }
 
 .menu-btn__burger.open::after {
   transform: rotate(-45deg) translate(3px,-7px);
+  background-color: darkblue;
 }
 /*end of opening and closing style for hamburger*/
 
