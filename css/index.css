@@ -2,12 +2,12 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Muli";
 }
 /*end of standard styling for css*/
@@ -17,7 +17,7 @@ header {
   position:fixed;
   z-index : 15;
   background-color: #fff;
-  width: 100%;
+  min-width: 100%;
   padding: 10px;
 }
 /*end of heading styling*/
@@ -198,7 +198,7 @@ img {
 
 .first-a:hover {
   text-decoration: none;
-  color: #fff !important;
+  color: #fff;
 }
 
 .large {
@@ -222,7 +222,7 @@ img {
 #second-hr {
   width: 30%;
   height: 3px;
-  margin-top: 0;
+  margin: 0 auto;
 }
 
 .second-button {
@@ -299,38 +299,6 @@ img {
   .first-section {
     height: 80vh;
   }
-  
-  .second-section__grid1 {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    padding-top: 70px;
-  }
-  
-  #second-hr {
-    margin: 0;
-    height: 3px;
-    width: 30%;
-    justify-content: start;
-  }
-
-  .second-button {
-    top: 70px;
-    right: 40px;
-    width: 20%;
-  }
-
-  .second-section1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-  }
-
-  .second-img {
-    width:80%;
-    flex-basis: 50%;
-  }
 
 /*end of styling for navigation*/
 
@@ -373,6 +341,34 @@ img {
   font-size: 20px;  
   }
 /*end of style for first section*/
+.second-section__grid1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#second-hr {
+  margin: 0;
+  justify-content: start;
+}
+
+.second-button {
+  top: 70px;
+  right: 40px;
+  width: 20%;
+}
+
+.second-section1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
+  justify-content: space-between;
+}
+
+.second-img {
+  width:80%;
+}
 }
 /*end of styling for tablet screen size*/
 
@@ -403,10 +399,16 @@ img {
   }
 /*end of styling for first-section*/
 
+.second-section {
+  height: 250vh;
+}
+
 .second-button {
-  right: 5%;
+  right: 4%;
+  height: 4%;
   width: 15%;
 }
+
 
 
 
