@@ -216,7 +216,7 @@ img {
 /*start of styling for head section*/
 .second-section__grid1 {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 #second-hr {
@@ -295,6 +295,10 @@ img {
     font-size: 20px;
     margin: 15px 0;
   }
+
+  .first-section {
+    height: 80vh;
+  }
   
   .second-section__grid1 {
     display: flex;
@@ -311,8 +315,8 @@ img {
   }
 
   .second-button {
-    top: 60px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
     width: 20%;
   }
 
@@ -326,7 +330,6 @@ img {
     width: 50%;
     flex-basis: 50%;
   }
-
 
 /*end of styling for navigation*/
 
@@ -399,6 +402,10 @@ img {
   }
 /*end of styling for first-section*/
 
+.second-button {
+  right: 5%;
+  width: 15%;
+}
 
 
 /*end of style for second section*/
