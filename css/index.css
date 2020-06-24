@@ -208,7 +208,7 @@ img {
 
 /*start of styling for second section*/
 .second-section {
-  height: 200vh;
+  min-height: 200vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
@@ -228,7 +228,7 @@ img {
 .second-button {
   position: absolute;
   bottom: 0;
-  margin-bottom: 15px;
+  margin: 20px auto;
   height: 5%;
   right: 30%;
   width: 40%;
