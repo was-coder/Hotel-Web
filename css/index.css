@@ -251,7 +251,7 @@ img {
 .second-img {
   background-size: cover;
   background-position: center;
-  min-width: 80%;
+  width: 80%;
   height: 40vh;
 }
 /*end of styling for head section*/
