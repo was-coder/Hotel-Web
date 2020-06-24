@@ -168,7 +168,7 @@ sub {
 
 
 img {
-  height: 75vh;
+  height: 80vh;
 }
 
 .my-text {
@@ -208,7 +208,7 @@ img {
 
 /*start of styling for second section*/
 .second-section {
-  height: 100vh;
+  height: 180vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
@@ -228,9 +228,9 @@ img {
 .second-button {
   position: absolute;
   bottom: 0;
-  right: 25%;
-  margin-bottom: 10px;
-  height: 7%;
+  margin-bottom: 15px;
+  height: 5%;
+  right: 30%;
   width: 40%;
 }
 
