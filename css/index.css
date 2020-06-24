@@ -208,7 +208,7 @@ img {
 
 /*start of styling for second section*/
 .second-section {
-  min-height: 200vh;
+  height: 200vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
@@ -328,7 +328,7 @@ img {
   }
 
   .second-img {
-    width: 50%;
+    width:80%;
     flex-basis: 50%;
   }
 
