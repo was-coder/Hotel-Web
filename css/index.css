@@ -299,7 +299,7 @@ sub {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    height: 220vh;
+    height: 250vh;
   }
 
   .section4__div1 h2 {
@@ -337,7 +337,7 @@ sub {
     font-size: 20px;
     position: absolute;
     bottom: -100px;
-    left: 28%;
+    left: 25%;
     margin: 0 auto;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -346,7 +346,7 @@ sub {
   .quote-img {
     margin: auto;
     position: absolute;
-    bottom: -70px;
+    bottom: -55px;
     left: 30%;
     height: 20vh;
     width: 20vh;
