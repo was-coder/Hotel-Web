@@ -238,6 +238,7 @@ sub {
   height: 4rem;
   width: 40%;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .btn-div button a {
@@ -298,7 +299,7 @@ sub {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    height: 200vh;
+    height: 220vh;
   }
 
   .section4__div1 h2 {
@@ -335,11 +336,11 @@ sub {
   .section4__div2__flex__1 p {
     font-size: 20px;
     position: absolute;
-    bottom: -120px;
-    left: 30%;
+    bottom: -100px;
+    left: 28%;
+    margin: 0 auto;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin: auto;
   }
 
   .quote-img {
@@ -353,7 +354,6 @@ sub {
   }
 
 /*end of styling for about section*/
-
 
 
 
