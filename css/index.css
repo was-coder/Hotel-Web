@@ -23,7 +23,7 @@ header {
 /*end of heading styling*/
 
 /*start of hamburger styling*/
-.menu-btn {
+.collapse-btn {
   position: absolute;
   z-index: 1;
   right: 15px;
@@ -34,7 +34,7 @@ header {
   transition: all 1s ease-in-out;
 }
 
-.menu-btn__burger {
+.collapse-btn__burger {
   position: absolute;
   right: 0;
   top: 5px;
@@ -44,7 +44,7 @@ header {
   transition: all 1s ease-in-out;
 }
 
-.menu-btn__burger::before {
+.collapse-btn__burger::before {
   content: "";
   position: absolute;
   top: -8px;
@@ -54,7 +54,7 @@ header {
   transition: all 1s ease-in-out; 
 }
 
-.menu-btn__burger::after {
+.collapse-btn__burger::after {
   content: "";
   position: absolute;
   top: 8px;
@@ -66,24 +66,24 @@ header {
 /*end of hamburger styling*/
 
 /*start of opening and closing style for hamburger*/
-.menu-btn__burger.open {
+.collapse-btn__burger.open {
   transform: rotate(720deg);
   background: transparent;
 }
 
-.menu-btn__burger.open::before {
+.collapse-btn__burger.open::before {
   transform: rotate(45deg) translate(5px,8px);
   background-color: darkblue;
 }
 
-.menu-btn__burger.open::after {
+.collapse-btn__burger.open::after {
   transform: rotate(-45deg) translate(3px,-7px);
   background-color: darkblue;
 }
 /*end of opening and closing style for hamburger*/
 
 /*start of logo styling*/
-#my-h2 { 
+#logo { 
   text-transform: uppercase;
   font-family: 'Metal Mania', cursive;
   font-weight: bold;
@@ -162,22 +162,22 @@ sub {
 }
 /*end of navigation bar styling*/
 
-/*start of first section styling*/
-.first-section {
+/*start of carousel section styling*/
+.section1 {
   height: 80vh;
   overflow: hidden;
   }
 
 
-img {
+.first-img {
   height: 80vh;
 }
 
-.my-text {
+.embedded-text {
   top: 60px;
 }
 
-.my-text h1 {
+.embedded-text h1 {
   font-family: 'Metal Mania', cursive;
   font-size: 40px;
   font-weight: bolder;
@@ -185,7 +185,7 @@ img {
   letter-spacing: 2px;
 }
 
-.my-text p {
+.embedded-text p {
   margin: auto;
   line-height: 1.5;
   margin-bottom: 5px;
@@ -202,21 +202,17 @@ img {
   text-decoration: none;
   color: #fff;
 }
+/*end of carousel section styling*/
 
-.large {
-  visibility: hidden;
-}
-/*end of first section styling*/
-
-/*start of styling for second section*/
-.second-section {
-  min-height: 202vh;
+/*start of styling for suite section*/
+.section2 {
+  min-height: 190vh;
   background-color: rgb(212, 212, 212);
   width: 100%;
   position: relative;
 }
 /*start of styling for head section*/
-.second-section__grid1 {
+.section2__head {
   text-align: center;
   padding-top: 80px;
 }
@@ -227,26 +223,31 @@ img {
   margin: 0 auto;
 }
 
-.second-button {
+.section2__head button {
   position: absolute;
   bottom: 0;
   margin: 25px auto;
   height: 5%;
   right: 30%;
   width: 40%;
+  border-radius: 10px;
 }
 
-.second-button a {
+.btn-div button {
+  border-radius: 10px;
+  height: 4rem;
+  width: 40%;
+  margin-top: 80px;
+}
+
+.btn-div button a {
+  text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: none;
 }
+/*end of styling for head section*/
 
-.second-button a:hover {
-  text-decoration: none;
-}
-
-.second-section1 {
+.section2__flex {
   text-align: center;
 }
 
@@ -255,19 +256,110 @@ img {
   background-position: center;
   width: 80%;
   height: 40vh;
+  border-radius: 10px;
 }
-/*end of styling for head section*/
+/*end of style for suite section*/
 
-/*end of style for second section*/
+/*start of styling for facilities section*/
+.section3 {
+  min-height: 180vh;
+  background-color: rgb(49, 224, 181);
+  width: 100%;
+  position: relative;
+}
+/*start of styling for head section*/
+.section3__head {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.section3__head button {
+  position: absolute;
+  bottom: 0;
+  margin: 25px auto;
+  height: 5%;
+  right: 30%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.section3__head button a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section3__head button a:hover {
+  text-decoration: none;
+}
+/*end of styling for facilities section*/
+
+/*start of styling for about section*/
+
+  .section4 {
+    background-color: rgb(92, 103, 104);
+    height: 200vh;
+  }
+
+  .section4__div1 h2 {
+    font-size: 50px;
+    padding-top: 60px;
+  }
+
+  .about-hr {
+    width: 30%;
+    height: 3px;
+    margin:auto;
+  }
+
+  .section4__div1 p {
+    font-size: 25px;
+    margin: auto;
+    width: 95%;
+  }
+
+  .section4__div2__flex__1 {
+    position: relative;
+    border: 2px solid blue;
+    margin: 50px auto;
+    margin-bottom: 140px;
+    width: 80%;
+    padding: 7px 7px 70px 7px;
+    border-radius: 15px;
+  }
+  
+  .section4__div2__flex__1 q {
+    font-size: 20px;
+  }
+  
+  .section4__div2__flex__1 p {
+    font-size: 20px;
+    position: absolute;
+    bottom: -120px;
+    left: 30%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+  }
+
+  .quote-img {
+    margin: auto;
+    position: absolute;
+    bottom: -70px;
+    left: 30%;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+  }
+
+/*end of styling for about section*/
+
+
+
+
 
 /*start of styling for tablet screen size*/
 @media only screen and (min-width:768px) {
-
-  /*start of styling for hamburger button*/
-  .menu-btn {
-    visibility: hidden;
-  }
-  /*end of styling for hamburger button*/
 
   /*start of styling for navigation*/
   .nav {
@@ -297,22 +389,9 @@ img {
     font-size: 20px;
     margin: 15px 0;
   }
-
-  .first-section {
-    height: 80vh;
-  }
-
 /*end of styling for navigation*/
 
-/*start of style on first section*/
-.small {
-  display: none;
-  }
-
-  .large {
-    visibility: visible;
-  }
-
+/*start of style on carousel section*/
   .carousel-item {
     min-width: 300px;
     background: no-repeat center center;
@@ -320,30 +399,33 @@ img {
     -webkit-background-size: cover;
   }
 
-  .my-text {
+  .embedded-text {
     top: 90px;
   }
 
-  .my-text h1 {
+  .embedded-text h1 {
   font-size: 50px;
   font-weight: bolder;
   font-family: 'Metal Mania', cursive;
   color: rgb(16, 16, 94);
   }
 
-  .my-text p {
+  .embedded-text p {
     font-size: 20px;
   }
 
-  img {
-  height: 80vh;
-  }
-
-  .first-a {
+  .embedded-text button a {
   font-size: 20px;  
   }
-/*end of style for first section*/
-.second-section__grid1 {
+/*end of style for carousel section*/
+
+/*start of styling for suite section*/
+
+.section2 {
+  min-height: 180vh;
+}
+
+.section2__head {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -356,13 +438,20 @@ img {
   justify-content: start;
 }
 
-.second-button {
-  top: 30px;
+.section2__head button {
+  top: 45px;
   right: 40px;
+  height: 4%;
   width: 20%;
 }
 
-.second-section1 {
+.section2__head button a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section2__flex {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
   justify-content: space-between;
@@ -371,8 +460,62 @@ img {
 .second-img {
   width:80%;
 }
+/*end of styling for suite section*/
+
+/*start of styling for facilities section*/
+
+.section3 {
+  min-height: 160vh;
+}
+
+.section3__head {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.section3__head button {
+  top: 45px;
+  right: 40px;
+  height: 4%;
+  width: 20%;
+}
+
+.section3__flex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
+  justify-content: space-between;
+}
+/*end of styling for facilities section*/
+
+/*start of styling about section*/
+.section4 {
+  height: 130vh;
+}
+
+.about-hr {
+  width: 10%;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.section4__div1 p {
+  width: 80%;
+}
+
+.section4__div2__flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+/*end of styling about section*/
+
 }
 /*end of styling for tablet screen size*/
+
+
 
 
 /*start of styling for desktop screen size*/
@@ -395,25 +538,38 @@ img {
   }
 /*end of styling for navigation*/
 
-/*start of styling for first-section*/
-.my-text h1 {
+/*start of styling for carousel section*/
+.embedded-text h1 {
   font-size: 60px;
   }
-/*end of styling for first-section*/
+/*end of styling for carousel section*/
 
-.second-section {
+/*start of styling for suite section*/
+.section2 {
   height: 250vh;
 }
 
-.second-button {
+.section2__head button {
   right: 4%;
-  height: 4%;
+  height: 3%;
   width: 15%;
 }
+/*end of styling for suite section*/
 
+/*start of styling for facilities section*/
 
+.section3__head button {
+  right: 4%;
+  height: 5%;
+  width: 15%;
+}
+/*end of styling for facilities section*/
 
+/*start of styling about section*/
+.section4__div2__flex {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/*end of styling about section*/
 
-/*end of style for second section*/
 }
 /*end of styling for desktop screen size*/

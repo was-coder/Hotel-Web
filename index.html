@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--link to css, bootstrap and fontawesome-->
+    <!--link to css, bootstrap and fontawesome and font-family-->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Staatliches&display=swap" rel="stylesheet">
@@ -16,23 +16,23 @@
     <header>
 
         <!--start of hamburger button on small screen size-->
-        <div class="menu-btn">
-            <span class="menu-btn__burger"></span>
+        <div class="collapse-btn d-md-none">
+            <span class="collapse-btn__burger"></span>
         </div>
         <!--end of burger div on small screen size-->
         
         <!--start of logo-->
-        <h2 id="my-h2">pleasure<sub>point</sub></h2>
+        <h2 id="logo">pleasure<sub>point</sub></h2>
         <!--end of logo-->
 
         <!--start of navigation bar-->
         <nav class="nav">        
             <ul class="menu-nav">
-                <li class="menu-nav__item"><a href="#home" class="menu-nav__link active ">home</a></li>
-                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link">reservations</a></li>
-                <li class="menu-nav__item"><a href="#" class="menu-nav__link">contact us</a></li>
-                <li class="menu-nav__item"><a href="#" class="menu-nav__link">about us</a></li>
-                <li class="menu-nav__item" id="unique-li"><a href="#" id="unique__link">book now</a></li>
+                <li class="menu-nav__item"><a href="#home" class="menu-nav__link active" accesskey="h">home</a></li>
+                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link" accesskey="r">reservations</a></li>
+                <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a">about us</a></li>
+                <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c">contact us</a></li>
+                <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
             </ul>
         </nav>
         <!--end of navigation bar-->
@@ -40,28 +40,28 @@
     </header>
     <!--end of header tag-->
 
-    <!--start of first section page-->
-    <section class="first-section" id="home">
+    <!--start of carousel section-->
+    <section class="section1" id="home">
 
         <!--showing on small screen only-->
-        <div class="small carousel slide" data-ride="carousel">
+        <div class="d-md-none carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/de-java-hotel.jpg" alt="First Image" class="d-block w-100 first-img">
-                <div class="carousel-caption my-text">
-                    <h1>Welcome to Pleasure Point</h1>
-                    <p>Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
-                    <button class="btn btn-outline-primary w-75 text-capitalize">
-                        <a href="#" class="first-a">more information</a>
-                    </button>
+                <div class="carousel-item active">
+                    <img src="./images/de-java-hotel.jpg" alt="First Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption embedded-text">
+                        <h1>Welcome to Pleasure Point</h1>
+                        <p>Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
+                        <button class="btn btn-outline-primary w-75 text-capitalize">
+                            <a href="#about" class="first-a" accesskey="a">more information</a>
+                        </button>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <!--end of showing on small screen-->
 
         <!--start of carousel showing on larger screens-->
-        <div id="indicator" class="large carousel slide" data-ride="carousel">
+        <div id="indicator" class="d-none d-md-block carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#indicator" data-slide-to="0" class="active"></li>
                 <li data-target="#indicator" data-slide-to="1"></li>
@@ -70,31 +70,31 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./images/de-java-hotel.jpg" alt="First Image" class="d-block w-100 first-img">
-                    <div class="carousel-caption d-none d-md-block my-text">
+                    <div class="carousel-caption d-none d-md-block embedded-text">
                         <h1>Welcome to Pleasure Point</h1>
                         <p class="w-50">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-primary w-50 text-capitalize">
-                            <a href="#" class="first-a">more information</a>
+                            <a href="#about" class="first-a" accesskey="a">more information</a>
                         </button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/holiday1.jpg" alt="Second Image" class="d-block w-100">
-                    <div class="carousel-caption d-none d-md-block my-text">
+                    <img src="./images/holiday1.jpg" alt="Second Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption d-none d-md-block embedded-text">
                         <h1 class="text-white">Welcome to Pleasure Point</h1>
                         <p class="w-50 text-primary">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-primary w-50 text-capitalize">
-                            <a href="#" class="first-a">more information</a>
+                            <a href="#about" class="first-a" accesskey="a">more information</a>
                         </button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/holiday.jpg" alt="Fifth Image" class="d-block w-100">
-                    <div class="carousel-caption my-text">
+                    <img src="./images/holiday.jpg" alt="Fifth Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption embedded-text">
                         <h1 class="text-white">Welcome to Pleasure Point</h1>
                         <p class="w-50">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-primary w-50 text-capitalize">
-                            <a href="#" class="first-a">more information</a>
+                            <a href="#about" class="first-a" accesskey="a">more information</a>
                         </button>
                     </div>
                 </div>
@@ -111,34 +111,35 @@
         <!--end of showing on larger screens-->
     
     </section>
-    <!--end of first section page-->
+    <!--end of carousel section-->
 
-    <!--start of second section-->
-    <section class="second-section" id="reservations">
-            <!--start of heading for the second section-->
-            <div class="text-primary second-section__grid1">
+    <!--start of suite section-->
+    <section class="section2" id="reservations">
+            <!--start of heading for suite part-->
+            <div class="text-primary section2__head">
                 <h2 class="text-capitalize">our suites & rates<hr id="second-hr" class="bg-primary"></h2>
-                <button class="text-capitalize btn btn-outline-white bg-white second-button">
-                <a href="#" class="text-primary">view all <i class="fas fa-chevron-right ml-2 fa-1x"></i></a>
+                <button class="text-capitalize btn btn-outline-white bg-white d-none d-md-block">
+                <a href="#" class="text-primary" accesskey="v">view all <i class="fas fa-chevron-right ml-2 fa-1x"></i></a>
                 </button>
             </div>
-            <!--end of heading for the second section-->
+            <!--end of heading for suite part-->
 
-            <div class="second-section1">
+            <!--start of flex style for suite part-->
+            <div class="section2__flex">
                 <div>
-                    <div class="mt-4 flex-style1">
+                    <div class="mt-4">
                         <figure>
                             <img class="second-img" src="./images/suits5.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Sea-Side Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the sea-side suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>230,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
@@ -147,15 +148,15 @@
                         <figure>
                             <img class="second-img" src="./images/suits4.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Hill-Top Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the hill-top suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>100,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
@@ -164,34 +165,34 @@
                         <figure>
                             <img class="second-img" src="./images/suits4.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Hill-Top Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the hill-top suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>100,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
-                <div class="row d-none d-md-block">
-                    <div class="mt-4 flex-style1">
+                <div class="d-none d-md-block">
+                    <div class="mt-4">
                         <figure>
                             <img class="second-img" src="./images/suits5.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Sea-Side Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the sea-side suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>230,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
@@ -200,15 +201,15 @@
                         <figure>
                             <img class="second-img" src="./images/suits4.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Hill-Top Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the hill-top suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>100,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
@@ -217,22 +218,139 @@
                         <figure>
                             <img class="second-img" src="./images/suits4.jfif" alt="My Suite">
                             <figcaption>
-                                <h2 class="mt-3">The Hill-Top Suite</h2>
+                                <h2 class="mt-3 text-capitalize">the hill-top suite</h2>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                     <i class="fas fa-star text-warning fa-2x"></i>
                                 <h4 class="text-primary my-2"> <s>N</s>100,000 / <span class="text-dark">night</span></h4>
-                                <button class="btn btn-primary">
-                                    <a href="#" class="text-dark first-a">Book Now</a>
+                                <button class="btn btn-primary text-capitalize">
+                                    <a href="#book" class="text-dark first-a" accesskey="b">book now</a>
                                 </button>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+                <!--end of flex style for suite part-->
+
+                <!--start of button for small screen size-->
+                <div class="text-center d-sm-block d-md-none btn-div">
+                    <button class="text-capitalize btn btn-outline-white bg-white">
+                        <a href="#" class="text-primary" accesskey="v">view all <i class="fas fa-chevron-right ml-2 fa-1x"></i></a>
+                    </button>
+                </div>
+                <!--end of button for small screen size-->
     </section>
-    <!--end of second section-->
+    <!--end of suite section-->
+
+    <!--start of facilities section-->
+    <section class="section3">
+        <!--start of heading for facility part-->
+        <div class="text-primary section3__head">
+            <h2 class="text-capitalize">facilities & services<hr id="second-hr" class="bg-primary"></h2>
+            <button class="text-capitalize btn btn-outline-white bg-white d-none d-md-block">
+            <a href="#" class="text-primary" accesskey="v">view all <i class="fas fa-chevron-right ml-2 fa-1x"></i></a>
+            </button>
+        </div>
+        <!--end of heading for suite part-->
+
+        <!--start of flex style for facility part-->
+        <div class="section2__flex">
+            <div>
+                <div class="mt-4 flex-style1">
+                    <figure>
+                        <img class="second-img" src="./images/facility-rest.jfif" alt="My Suite">
+                        <figcaption>
+                            <h2 class="mt-3 text-capitalize text-primary">meeting room</h2>
+                            <h4 class="text-capitalize">refreshing conference rooms</h4>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#" class="text-dark first-a">read more</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="./images/pool_and_hotel.jpg" alt="My Suite">
+                        <figcaption>
+                            <h2 class="mt-3 text-capitalize text-primary">recreation</h2>
+                            <h4 class="text-capitalize">olympic sized swimming pool</h4>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#" class="text-dark first-a">read more</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="mt-4 flex-style1">
+                    <figure>
+                        <img class="second-img" src="./images/facility2.jfif" alt="My Suite">
+                        <figcaption>
+                            <h2 class="mt-3 text-capitalize text-primary">resting area</h2>
+                            <h4 class="text-capitalize">relaxation and entertainment part</h4>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#" class="text-dark first-a">read more</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="./images/gym-facility.jfif" alt="My Suite">
+                        <figcaption>
+                            <h2 class="mt-3 text-capitalize text-primary">gym room</h2>
+                            <h4 class="text-capitalize">fitness and building room</h4>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#" class="text-dark first-a text-white">read more</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!--end of flex style for facility part-->
+
+            <!--start of button for small screen size-->
+            <div class="text-center d-sm-block d-md-none btn-div">
+                <button class="text-capitalize btn btn-outline-white bg-white">
+                    <a href="#" class="text-primary" accesskey="v">view all <i class="fas fa-chevron-right ml-2 fa-1x"></i></a>
+                </button>
+            </div>
+            <!--end of button for small screen size-->
+
+        </section>
+    <!--end of facilities section-->
+
+    <!--start of about section-->
+        <section class="section4" id="about">
+            <div class="text-center section4__div1">
+                <h2 class="text-capitalize mb-3">about us<hr class="bg-primary about-hr"></h2>
+                <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim reprehenderit quod vitae nihil. In quasi consequatur ea nulla quo molestias neque aperiam hic dolorum eveniet cum, quibusdam fugit quia.</p>
+            </div>
+
+            <div class="mt-5 section4__div2">
+                <h2 class="text-center text-capitalize mb-3">customers feedback about us<hr class="bg-primary about-hr"></h2>
+                <div class="section4__div2__flex">
+                    <div class="section4__div2__flex__1">
+                        <q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla aliquid ratione veniam sit voluptatibus eligendi omnis ab quam.</q>
+                        <img src="./images/Screenshot_20190601-194617.png" alt="Anthony Joshua" class="quote-img">
+                        <p class="text-warning text-capitalize">anthony joshua</p>
+                    </div>
+                    <div class="section4__div2__flex__1">
+                        <q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla aliquid ratione veniam sit voluptatibus eligendi omnis ab quam.</q>
+                        <img src="./images/Screenshot_20190602-153515.png" alt="Anthony Joshua" class="quote-img">
+                        <p class="text-warning text-capitalize">anthony joshua jn</p>
+                    </div>
+                    <div class="section4__div2__flex__1 d-none d-lg-block">
+                        <q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla aliquid ratione veniam sit voluptatibus eligendi omnis ab quam.</q>
+                        <img src="./images/IMG_20190516_224812_181.JPG" alt="Anthony Joshua" class="quote-img">
+                        <p class="text-warning text-capitalize">merlin sn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end of about section-->
 
     <!--link to js and jquery, popper and font awesome-->
     <script src="./js/index.js"></script>
