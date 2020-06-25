@@ -323,7 +323,7 @@ sub {
     position: relative;
     border: 2px solid blue;
     margin: 50px auto;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
     width: 80%;
     padding: 7px 7px 70px 7px;
     border-radius: 15px;
@@ -336,7 +336,7 @@ sub {
   .section4__div2__flex__1 p {
     font-size: 20px;
     position: absolute;
-    bottom: -100px;
+    bottom: -90px;
     left: 25%;
     margin: 0 auto;
     font-weight: bold;
