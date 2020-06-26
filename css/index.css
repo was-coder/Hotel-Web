@@ -176,7 +176,7 @@ sub {
 
 .embedded-text h2 {
   font-family: 'Metal Mania', cursive;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bolder;
   margin-top: 30px;
   letter-spacing: 2px;
@@ -272,7 +272,7 @@ figcaption h5 {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    min-height: 100rem;
+    max-height: 200vh;
   }
 
   .section4__div1 h3 {
