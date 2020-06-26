@@ -272,7 +272,7 @@ figcaption h5 {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    min-height: 200vh;
+    height: 250vh;
   }
 
   .section4__div1 h3 {
@@ -292,9 +292,10 @@ figcaption h5 {
 
   .section4__div2__flex__1 {
     border: 2px solid blue;
-    margin: 50px auto;
+    margin: 0 auto;
+    margin-top: 30px;
     width: 80%;
-    padding: 7px 7px;
+    padding: 5px 5px;
     border-radius: 15px;
   }
   
@@ -315,8 +316,8 @@ figcaption h5 {
   }
 
   .about-btn button {
-    width: 50%;
-    height: 4rem;
+    width: 40%;
+    height: 3rem;
   }
   
   .about-btn button a {
