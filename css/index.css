@@ -228,6 +228,7 @@ sub {
   width: 40%;
   margin-top: 80px;
   margin-bottom: 20px;
+  border-radius: 0 25px;
 }
 
 .btn-div button a {
@@ -318,6 +319,7 @@ figcaption h5 {
   .about-btn button {
     width: 40%;
     height: 3rem;
+    border-radius: 0 25px;
   }
   
   .about-btn button a {
@@ -326,6 +328,85 @@ figcaption h5 {
 
 /*end of styling for about section*/
 
+/*start of styling for footer section*/
+  .footer__div1 {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .div2 .ul1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .ul1 {
+    list-style: none;
+  }
+
+  .ul1 li {
+    padding-right: 10px;
+  }
+
+  .ul1 li a {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+    color: #fff;
+    transition: 1s;
+  }
+
+  .ul1 a:hover {
+    color: darkblue;
+    transform: matrix(45deg);
+  }
+
+  .div4 p {
+    margin: auto;
+    font-size: 20px;
+    width: 75%;
+  }
+
+  #footer-id {
+    height: 3rem;
+    border-radius: 0 25px;
+    border: 2px solid #fff;
+    width: 75%;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .div4 span button {
+    height: 3rem;
+    border-radius: 0 25px 0 0;
+    border: 2px solid #fff;
+    width: 25%;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+  .div4 span button a {
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+  }
+
+  .div4 span button:hover {
+    background-color: yellow;
+    border: 2px solid yellow;
+  }
+
+  .div4 span button a:hover {
+    color: #000;
+  }
+
+
+
+/*end of styling for footer section*/
 
 
 
@@ -435,7 +516,7 @@ figcaption h5 {
 
 /*start of styling about section*/
 .section4 {
-  height: 150vh;
+  height: 140vh;
 }
 
 .about-hr {
@@ -488,6 +569,25 @@ figcaption h5 {
 }
 /*end of styling about section*/
 }
+
+/*start of style for footer section*/
+.footer__div1 {
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.div2 .ul1 {
+  flex-direction: column;
+}
+
+#footer-id {
+  width: 50%;
+}
+
+/*start of style for footer section*/
+
+
 /*end of styling for tablet screen size*/
 
 
@@ -536,5 +636,17 @@ figcaption h5 {
 }
 /*end of styling about section*/
 
+
+/*start of styling for footer section*/
+  .footer__div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #footer-id {
+    width: 75%;
+  }
+/*start of styling for footer section*/
+
 }
+
 /*end of styling for desktop screen size*/
