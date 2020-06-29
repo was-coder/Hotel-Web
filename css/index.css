@@ -273,7 +273,7 @@ figcaption h5 {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    height: 80rem;
+    height: 70rem;
   }
 
   .section4__div1 h3 {
@@ -339,6 +339,7 @@ figcaption h5 {
 
   .div2 .ul1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-flow: row wrap;
   }
@@ -371,7 +372,7 @@ figcaption h5 {
     width: 75%;
   }
 
-  #footer-id {
+  .div4 #footer-id {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
@@ -402,6 +403,10 @@ figcaption h5 {
 
   .div4 span button a:hover {
     color: #000;
+  }
+
+  .set-modal {
+    border-radius: 0 20px;
   }
 
 
@@ -450,7 +455,7 @@ figcaption h5 {
 /*start of style on carousel section*/
   .carousel-item {
     width: 300px;
-    background: no-repeat center center;
+    background: rgba(0, 0, 0, 0.9) no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
   }
@@ -516,7 +521,7 @@ figcaption h5 {
 
 /*start of styling about section*/
 .section4 {
-  height: 140vh;
+  height: 130vh;
 }
 
 .about-hr {
@@ -581,7 +586,7 @@ figcaption h5 {
   flex-direction: column;
 }
 
-#footer-id {
+.div4 #footer-id {
   width: 50%;
 }
 
@@ -642,8 +647,8 @@ figcaption h5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  #footer-id {
-    width: 75%;
+  .div4 #footer-id {
+    width: 85%;
   }
 /*start of styling for footer section*/
 

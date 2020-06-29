@@ -28,10 +28,10 @@
         <!--start of navigation bar-->
         <nav class="nav">        
             <ul class="menu-nav">
-                <li class="menu-nav__item"><a href="#home" class="menu-nav__link active" accesskey="h">home</a></li>
-                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link" accesskey="r">reservations</a></li>
-                <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a">about us</a></li>
-                <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c">contact us</a></li>
+                <li class="menu-nav__item"><a href="#home" class="menu-nav__link active" accesskey="h"><i class="fas fa-home text-dark fa-1x d-md-none mr-3"></i>home</a></li>
+                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link" accesskey="r"><i class="fas fa-reservation text-dark fa-1x d-md-none mr-3"></i>reservations</a></li>
+                <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a"><i class="fab fa-about text-dark fa-1x d-md-none mr-3"></i>about us</a></li>
+                <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c"><i class="fab fa-contact text-dark fa-1x d-md-none mr-3"></i>contact us</a></li>
                 <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
             </ul>
         </nav>
@@ -89,10 +89,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/holiday.jpg" alt="Fifth Image" class="d-block w-100 first-img">
+                    <img src="./images/pool_and_hotel.jpg" alt="Third Image" class="d-block w-100 first-img">
                     <div class="carousel-caption embedded-text">
                         <h2 class="text-white">Welcome to Pleasure Point</h2>
-                        <p class="w-50">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
+                        <p class="w-50 text-white">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-primary w-50 text-capitalize">
                             <a href="#about" class="first-a">more information</a>
                         </button>
@@ -264,24 +264,62 @@
                         <figcaption>
                             <h4 class="mt-3 text-capitalize text-primary">meeting room</h4>
                             <h5 class="text-capitalize">refreshing conference rooms</h5>
-                            <button class="btn btn-outline-primary text-capitalize">
-                                <a href="#" class="text-dark first-a">read more</a>
+                            <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#exampleModalCenter">
+                                <a href="#facilities" class="text-dark first-a">read more</a>
                             </button>
                         </figcaption>
                     </figure>
                 </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">WHAT TO EXPECT IN MEETING ROOM</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae laboriosam fuga ipsa unde illum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque fugit a voluptatibus error nisi consequuntur nemo. Harum, aliquid minus inventore, eaque quisquam ut voluptatibus deleniti a, perspiciatis facere ab?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+
                 <div class="mt-4">
                     <figure>
                         <img class="second-img" src="./images/pool_and_hotel.jpg" alt="My Suite">
                         <figcaption>
                             <h4 class="mt-3 text-capitalize text-primary">recreation</h4>
                             <h5 class="text-capitalize">olympic sized swimming pool</h5>
-                            <button class="btn btn-outline-primary text-capitalize">
-                                <a href="#" class="text-dark first-a">read more</a>
+                            <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#exampleModalCenter1">
+                                <a href="#facilities" class="text-dark first-a">read more</a>
                             </button>
                         </figcaption>
                     </figure>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">WHAT TO EXPECT IN RECREATION</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae laboriosam fuga ipsa unde illum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque fugit a voluptatibus error nisi consequuntur nemo. Harum, aliquid minus inventore, eaque quisquam ut voluptatibus deleniti a, perspiciatis facere ab?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+
             </div>
             <div class="row d-none d-md-block">
                 <div class="mt-4 flex-style1">
@@ -290,24 +328,62 @@
                         <figcaption>
                             <h4 class="mt-3 text-capitalize text-primary">resting area</h4>
                             <h5 class="text-capitalize">relaxation and entertainment part</h5>
-                            <button class="btn btn-outline-primary text-capitalize">
-                                <a href="#" class="text-dark first-a">read more</a>
+                            <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#exampleModalCenter2">
+                                <a href="#facilities" class="text-dark first-a">read more</a>
                             </button>
                         </figcaption>
                     </figure>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">WHAT TO EXPECT IN RESTING AREA</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae laboriosam fuga ipsa unde illum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque fugit a voluptatibus error nisi consequuntur nemo. Harum, aliquid minus inventore, eaque quisquam ut voluptatibus deleniti a, perspiciatis facere ab?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+
                 <div class="mt-4">
                     <figure>
                         <img class="second-img" src="./images/gym.jpg" alt="My Suite">
                         <figcaption>
                             <h4 class="mt-3 text-capitalize text-primary">gym room</h4>
                             <h5 class="text-capitalize">fitness and building room</h5>
-                            <button class="btn btn-outline-primary text-capitalize">
-                                <a href="#" class="text-dark first-a text-white">read more</a>
+                            <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#exampleModalCenter3">
+                                <a href="#facilities" class="text-dark first-a text-white">read more</a>
                             </button>
                         </figcaption>
                     </figure>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">WHAT TO EXPECT IN GYM AREA</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae laboriosam fuga ipsa unde illum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque fugit a voluptatibus error nisi consequuntur nemo. Harum, aliquid minus inventore, eaque quisquam ut voluptatibus deleniti a, perspiciatis facere ab?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+
             </div>
             <!--end of flex style for facility part-->
 
@@ -318,7 +394,6 @@
                 </button>
             </div>
             <!--end of button for small screen size-->
-
         </section>
     <!--end of facilities section-->
 
@@ -355,14 +430,17 @@
                 <a href="#book" class="text-dark first-a">book now</a>
             </button>
             </div>
+
         </section>
+
+        
     <!--end of about section-->
 
     <!--start of footer section-->
         <section class="bg-primary text-white section5">
             <div class="footer__div1 py-5">
 
-                <div class="text-capitalize div2">
+                <div class="text-capitalize div2 div3">
                     <ul class="ul1">
                         <li><a href="#home" class="active text-white">home</a></li>
                         <li><a href="#reservations">reservation</a></li>
@@ -371,7 +449,7 @@
                     </ul>
                 </div>
 
-                <div class="text-capitalize d-none d-md-block div3">
+                <div class="text-capitalize d-none d-md-block div2">
                     <ul class="ul1">
                         <li><a href="#" class="text-white active">for members</a></li>
                         <li><a href="#">profile</a></li>
@@ -388,7 +466,7 @@
                             <a href="#">sign up</a>
                         </button>
                     </span><br>
-                    <div class="my-5 font-div">
+                    <div class="my-3 font-div">
                             <a href="https://twitter.com/WasleadWears" target="_blank"><i class="fab fa-twitter text-warning fa-3x"></i></a>
                             <a href="https://web.facebook.com/abdulwasiu.olaiya.73" target="_blank"><i class="fab fa-facebook text-warning fa-3x mx-5"></i></a>
                             <a href="https://www.instagram.com/_wasleadwears/" target="_blank"><i class="fab fa-instagram text-warning fa-3x"></i></a>
