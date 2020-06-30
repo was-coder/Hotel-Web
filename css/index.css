@@ -391,11 +391,8 @@ figcaption h5 {
   }
 
   label {
-    visibility: hidden;
-  }
-
-  label > input {
-    visibility: visible;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .div4 span button {
@@ -601,16 +598,6 @@ figcaption h5 {
 .div4 span button {
   width: 15%;
 }
-
-label {
-  visibility: visible;
-}
-
-label {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 
 /*start of style for footer section*/
 
