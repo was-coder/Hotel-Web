@@ -352,6 +352,7 @@ figcaption h5 {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    justify-content: center;
   }
 
   .ul1 {
@@ -381,11 +382,11 @@ figcaption h5 {
     width: 75%;
   }
 
-  .div4 #footer-id {
+  .div4 .footer-id input {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
-    width: 85%;
+    width: 120%;
     font-size: 17px;
     font-weight: bold;
   }
@@ -573,7 +574,6 @@ figcaption h5 {
   width: 25%;
 }
 /*end of styling about section*/
-}
 
 /*start of style for footer section*/
 .footer__div1 {
@@ -591,9 +591,13 @@ figcaption h5 {
   width: 50%;
 }
 
+.div4 span button {
+  width: 15%;
+}
+
 /*start of style for footer section*/
 
-
+}
 /*end of styling for tablet screen size*/
 
 
@@ -650,6 +654,10 @@ figcaption h5 {
   }
   .div4 #footer-id {
     width: 85%;
+  }
+
+  .div4 span button {
+    width:20%;
   }
 /*start of styling for footer section*/
 
