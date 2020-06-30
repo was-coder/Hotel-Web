@@ -386,7 +386,6 @@ figcaption h5 {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
-    width: 100%;
     font-size: 17px;
     font-weight: bold;
   }
@@ -587,10 +586,6 @@ figcaption h5 {
   flex-flow: column wrap;
 }
 
-.div4 #footer-id {
-  width: 50%;
-}
-
 .div4 span button {
   width: 15%;
 }
@@ -651,9 +646,6 @@ figcaption h5 {
   .footer__div1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  .div4 #footer-id {
-    width: 85%;
   }
 
   .div4 span button {
