@@ -390,6 +390,14 @@ figcaption h5 {
     font-weight: bold;
   }
 
+  label {
+    visibility: hidden;
+  }
+
+  label > input {
+    visibility: visible;
+  }
+
   .div4 span button {
     height: 3rem;
     border-radius: 0 25px 0 0;
