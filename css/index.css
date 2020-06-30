@@ -602,6 +602,16 @@ figcaption h5 {
   width: 15%;
 }
 
+label {
+  visibility: visible;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 /*start of style for footer section*/
 
 }
