@@ -382,7 +382,7 @@ figcaption h5 {
     width: 75%;
   }
 
-  .div4 .footer-id input {
+  .div4 .footer-id {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
@@ -466,6 +466,10 @@ figcaption h5 {
 
   .embedded-text h2 {
   color: rgb(16, 16, 94);
+  }
+
+  .embedded-text .last-carousel {
+    color:#fff;
   }
 
   .embedded-text p {
