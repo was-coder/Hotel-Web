@@ -382,7 +382,7 @@ figcaption h5 {
     width: 75%;
   }
 
-  .div4 .footer-id {
+  .div4 .footer-id input {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
