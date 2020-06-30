@@ -268,7 +268,7 @@ figcaption h5 {
 }
 
 .modal-title {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .modal-btn span {
@@ -285,7 +285,7 @@ figcaption h5 {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    height: 70rem;
+    height: 80rem;
   }
 
   .section4__div1 h3 {
@@ -385,7 +385,7 @@ figcaption h5 {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
-    width: 75%;
+    width: 85%;
     font-size: 17px;
     font-weight: bold;
   }
