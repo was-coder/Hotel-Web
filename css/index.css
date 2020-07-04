@@ -344,7 +344,7 @@ figcaption h5 {
 
 /*start of contact section*/
   .section5 {
-    height: 150vh;
+    height: 140vh;
     background: url(/images/pool_and_hotel.jpg) center;
     background-size: cover;
     display: flex;
@@ -353,7 +353,7 @@ figcaption h5 {
   }
 
   .contact-div1 {
-    height: 100vh;
+    height: 110vh;
     width: 95%;
     margin: auto;
     border: 2px solid #fff;
