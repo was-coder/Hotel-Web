@@ -230,7 +230,7 @@ sub {
   width: 40%;
   margin-top: 80px;
   margin-bottom: 20px;
-  border-radius: 0 70px;
+  border-radius: 0 50px;
 }
 
 .btn-div button a {
@@ -353,8 +353,8 @@ figcaption h5 {
   }
 
   .contact-div1 {
-    height: 90vh;
-    width: 80%;
+    height: 100vh;
+    width: 95%;
     margin: auto;
     border: 2px solid #fff;
     border-radius:20px;
@@ -438,6 +438,7 @@ figcaption h5 {
     border: 2px solid #fff;
     font-size: 17px;
     font-weight: bold;
+    width: 50%;
   }
 
   label {
