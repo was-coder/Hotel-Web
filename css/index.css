@@ -3,6 +3,9 @@
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
   padding: 0;
   margin: 0;
 }
@@ -104,6 +107,7 @@ sub {
 .nav.open {
   visibility: visible;
   background-color: rgb(92, 103, 104);
+  height: 100%;
 }
 
 .menu-nav {
@@ -111,7 +115,6 @@ sub {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   overflow: hidden;
   margin:auto;
   list-style: none;
@@ -223,12 +226,11 @@ sub {
 }
 
 .btn-div button {
-  border-radius: 10px;
   height: 4rem;
   width: 40%;
   margin-top: 80px;
   margin-bottom: 20px;
-  border-radius: 0 25px;
+  border-radius: 0 70px;
 }
 
 .btn-div button a {
@@ -309,7 +311,7 @@ figcaption h5 {
     margin-top: 30px;
     width: 80%;
     padding: 5px 5px;
-    border-radius: 15px;
+    border-radius: 0 50px;
   }
   
   .section4__div2__flex__1 q {
@@ -331,7 +333,7 @@ figcaption h5 {
   .about-btn button {
     width: 40%;
     height: 3rem;
-    border-radius: 0 25px;
+    border-radius: 0 70px;
   }
   
   .about-btn button a {
@@ -339,6 +341,54 @@ figcaption h5 {
   }
 
 /*end of styling for about section*/
+
+/*start of contact section*/
+  .section5 {
+    height: 150vh;
+    background: url(/images/pool_and_hotel.jpg) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-div1 {
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius:20px;
+  }
+
+  .contact-div1 h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contact-div1 input{
+    background-color: rgb(231, 225, 225);
+    color: darkblue;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .contact-div1 #message {
+    height: 140px;
+    padding-bottom: 100px;
+  }
+
+  .send {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    height: 50px;
+  }
+
+
+
+/*end of contact styling*/
 
 /*start of styling for footer section*/
   .footer__div1 {
@@ -382,7 +432,7 @@ figcaption h5 {
     width: 75%;
   }
 
-  .div4 .footer-id input {
+  .div4 input {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
@@ -393,6 +443,7 @@ figcaption h5 {
   label {
     font-size: 20px;
     font-weight: bold;
+    visibility: hidden;
   }
 
   .div4 span button {
@@ -583,6 +634,15 @@ figcaption h5 {
 }
 /*end of styling about section*/
 
+/*start of contact section*/
+
+.contact-div1 {
+  width: 60%;
+}
+
+
+/*end of contact section*/
+
 /*start of style for footer section*/
 .footer__div1 {
   flex-direction: row;
@@ -649,6 +709,12 @@ figcaption h5 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 /*end of styling about section*/
+
+/*start of contact styling*/
+.contact-div1 {
+  width: 40%;
+}
+/*end of contact styling*/
 
 
 /*start of styling for footer section*/
