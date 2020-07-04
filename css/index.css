@@ -287,7 +287,7 @@ figcaption h5 {
 
   .section4 {
     background-color: rgb(92, 103, 104);
-    height: 80rem;
+    height: 70rem;
   }
 
   .section4__div1 h3 {
@@ -344,7 +344,7 @@ figcaption h5 {
 
 /*start of contact section*/
   .section5 {
-    height: 150vh;
+    height: 130vh;
     background: url(/images/pool_and_hotel.jpg) center;
     background-size: cover;
     display: flex;
@@ -363,6 +363,11 @@ figcaption h5 {
   .contact-div1 h6 {
     font-size: 30px;
     text-align: center;
+  }
+  
+  .contact-div1 label {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .contact-div1 input{
@@ -427,9 +432,7 @@ figcaption h5 {
   }
 
   .div4 p {
-    margin: auto;
     font-size: 20px;
-    width: 75%;
   }
 
   .div4 input {
@@ -438,12 +441,10 @@ figcaption h5 {
     border: 2px solid #fff;
     font-size: 17px;
     font-weight: bold;
-    width: 50%;
+    width: 60%;
   }
 
-  label {
-    font-size: 20px;
-    font-weight: bold;
+  .div4 label {
     visibility: hidden;
   }
 
@@ -654,6 +655,11 @@ figcaption h5 {
 .div2 .ul1 {
   flex-direction: column;
   flex-flow: column wrap;
+}
+
+.div4 p {
+  margin: auto;
+  width: 80%;
 }
 
 .div4 span button {
