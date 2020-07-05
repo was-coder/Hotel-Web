@@ -97,7 +97,7 @@ sub {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 60%;
   visibility: hidden;
   transition: all 1s ease-in-out;
 }
@@ -105,16 +105,13 @@ sub {
 .nav.open {
   visibility: visible;
   background-color: #59656f;
-  height: 100%;
+  height: 50%;
 }
 
 .menu-nav {
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
-  margin:auto;
   list-style: none;
   transition: all 1s ease-in-out;
   transform: translateX(-100%);
@@ -126,7 +123,7 @@ sub {
 
 .menu-nav__item {
   transform: translateX(100vw);
-  padding: 35px 0;
+  padding: 20px 0;
 }
 
 #unique-li {
@@ -143,7 +140,7 @@ sub {
 
 .menu-nav__link {
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
@@ -515,6 +512,7 @@ figcaption h5 {
   .nav {
     visibility: visible;
     height: 70px;
+    width: 100%;
   }
 
   .nav.open {
