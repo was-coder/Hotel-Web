@@ -16,7 +16,7 @@ body {
 /*start of heading styling*/
 header {
   position:fixed;
-  z-index : 15;
+  z-index : 17;
   background-color: #59656f;
   width: 100%;
   padding: 10px;
@@ -84,7 +84,7 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 sub {
@@ -164,31 +164,20 @@ sub {
 /*end of navigation bar styling*/
 
 /*start of carousel section styling*/
-.section1 {
-  height: 70vh;
-  overflow: hidden;
-  }
-
 
 .first-img {
-  height: 80vh;
-}
-
-.embedded-text {
-  top: 60px;
+  height: 60vh;
+  margin: 0 auto;
 }
 
 .embedded-text h2 {
   font-size: 40px;
   font-weight: bolder;
-  margin-top: 30px;
   letter-spacing: 2px;
 }
 
 .embedded-text p {
-  margin: auto;
   line-height: 1.5;
-  margin-bottom: 5px;
   font-size: 17px;
 }
 
@@ -215,7 +204,7 @@ sub {
 
 /*start of styling for suite section*/
 .section2 {
-  min-height: 180vh;
+  height: 180vh;
   background-color: #7d1d3f;
 }
 /*start of styling for head section*/
@@ -250,7 +239,7 @@ sub {
 
 .btn-div button {
   height: 4rem;
-  width: 40%;
+  width: 30%;
   margin-top: 80px;
   margin-bottom: 20px;
   border-radius: 0 30px;
@@ -277,19 +266,16 @@ figcaption h5 {
 }
 
 .second-img {
-  background-position: center;
+  display: inline-block;
   width: 80%;
   height: 40vh;
   border-radius: 10px;
-  background: no-repeat center center;
-  background-size: cover;
-  -webkit-background-size: cover;
 }
 /*end of style for suite section*/
 
 /*start of styling for facilities section*/
 .section3 {
-  min-height: 170vh;
+  height: 170vh;
   background-color: #7d1d3f;  
 }
 
@@ -314,7 +300,7 @@ figcaption h5 {
   .section4 {
     background-color:#7d1d3f;
     color: #000;
-    height: 65rem;
+    height: 70rem;
   }
 
   .section4__div1 h3 {
@@ -372,7 +358,7 @@ figcaption h5 {
 
 /*start of contact section*/
   .section5 {
-    height: 140vh;
+    height: 120vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -381,7 +367,7 @@ figcaption h5 {
   }
 
   .contact-div1 {
-    min-height: 90vh;
+    height: 90vh;
     width: 95%;
     margin: auto;
     border: 2px solid #fff;
@@ -439,15 +425,11 @@ figcaption h5 {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .ul1 {
     list-style: none;
-  }
-
-  .ul1 li {
-    padding-right: 10px;
   }
 
   .ul1 li a {
@@ -513,12 +495,7 @@ figcaption h5 {
   /*start of styling for navigation*/
   .nav {
     visibility: visible;
-    height: 70px;
     width: 100%;
-  }
-
-  .nav.open {
-    background-color: #fff;
   }
 
   #unique__link {
@@ -528,9 +505,7 @@ figcaption h5 {
   .menu-nav {
     display: block;
     transform: translateY(0);
-    height: 100%;
     width: 100%;
-    background: transparent;
     text-align: right;
   }
 
@@ -547,27 +522,30 @@ figcaption h5 {
 
 /*start of style on carousel section*/
 
-.section1 {
+.first-img {
   height: 80vh;
 }
 
-.embedded-text {
-    top: 90px;
+
+.embedded-text{
+   top: 150px;
   }
 
   .embedded-text p {
     font-size: 20px;
+    width: 70%;
+    margin: auto;
   }
 
   .embedded-text button a {
-  font-size: 20px;  
+    font-size: 20px;  
   }
 /*end of style for carousel section*/
 
 /*start of styling for suite section*/
 
 .section2 {
-  min-height: 170vh;
+  height: 170vh;
 }
 
 .section2__head {
@@ -575,7 +553,6 @@ figcaption h5 {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding-top: 70px;
 }
 
 .second-hr {
@@ -585,8 +562,6 @@ figcaption h5 {
 
 .section2__head button {
   border-radius: 10px;
-  height: 4rem;
-  width: 20%;
 }
 
 .section2__head button a {
@@ -600,15 +575,18 @@ figcaption h5 {
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
 }
-
-.second-img {
-  width:80%;
-}
 /*end of styling for suite section*/
+
+/*start of facilities section*/
+.section3 {
+  height: 150vh;  
+}
+/*end of facilities section*/
+
 
 /*start of styling about section*/
 .section4 {
-  height: 130vh;
+  height: 145vh;
 }
 
 .about-hr {
@@ -665,9 +643,7 @@ figcaption h5 {
 
 .contact-div1 {
   width: 60%;
-  height: 90vh;
 }
-
 
 /*end of contact section*/
 
@@ -681,10 +657,6 @@ figcaption h5 {
 .div2 .ul1 {
   flex-direction: column;
   flex-flow: column wrap;
-}
-
-.div4 input {
-  width: 75%;
 }
 
 .div4 p {
@@ -732,12 +704,9 @@ figcaption h5 {
 
 /*start of styling for suite section*/
 .section2 {
-  height: 250vh;
+  height: 230vh;
 }
 
-.section2__head button {  
-  width: 15%;
-}
 /*end of styling for suite section*/
 
 
