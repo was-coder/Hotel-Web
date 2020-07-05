@@ -8,6 +8,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*end of standard styling for css*/
@@ -83,7 +84,6 @@ header {
 /*start of logo styling*/
 #logo { 
   text-transform: uppercase;
-  font-family: 'Metal Mania', cursive;
   font-weight: bold;
   color: darkblue;
   font-size: 35px;
@@ -129,7 +129,6 @@ sub {
 .menu-nav__item {
   transform: translateX(100vw);
   padding: 35px 0;
-  font-family: 'Metal Mania', cursive;
 }
 
 #unique-li {
@@ -178,7 +177,6 @@ sub {
 }
 
 .embedded-text h2 {
-  font-family: 'Metal Mania', cursive;
   font-size: 40px;
   font-weight: bolder;
   margin-top: 30px;
@@ -323,7 +321,6 @@ figcaption h5 {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
   }
 
   .about-btn {
@@ -360,7 +357,7 @@ figcaption h5 {
     border-radius:20px;
   }
 
-  .contact-div1 h6 {
+  .contact-div1 h4 {
     font-size: 30px;
     text-align: center;
   }
@@ -439,16 +436,17 @@ figcaption h5 {
     height: 3rem;
     border-radius: 0 25px;
     border: 2px solid #fff;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
-    width: 60%;
+    width: 75%;
   }
 
   .div4 span button {
     height: 3rem;
+    font-size: 15px;
     border-radius: 0 25px 0 0;
     border: 2px solid #fff;
-    width: 25%;
+    width: 20%;
     font-weight: bold;
     background-color: #fff;
   }
@@ -636,6 +634,7 @@ figcaption h5 {
 
 .contact-div1 {
   width: 60%;
+  height: 90vh;
 }
 
 
@@ -651,6 +650,10 @@ figcaption h5 {
 .div2 .ul1 {
   flex-direction: column;
   flex-flow: column wrap;
+}
+
+.div4 input {
+  width: 75%;
 }
 
 .div4 p {
