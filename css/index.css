@@ -166,12 +166,12 @@ sub {
 /*start of carousel section styling*/
 
 .first-img {
-  height: 60vh;
+  height: 70vh;
   margin: 0 auto;
 }
 
 .embedded-text h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
@@ -204,7 +204,7 @@ sub {
 
 /*start of styling for suite section*/
 .section2 {
-  height: 180vh;
+  height: 200vh;
   background-color: #7d1d3f;
 }
 /*start of styling for head section*/
@@ -239,7 +239,7 @@ sub {
 
 .btn-div button {
   height: 4rem;
-  width: 30%;
+  width: 40%;
   margin-top: 80px;
   margin-bottom: 20px;
   border-radius: 0 30px;
@@ -275,7 +275,7 @@ figcaption h5 {
 
 /*start of styling for facilities section*/
 .section3 {
-  height: 170vh;
+  height: 190vh;
   background-color: #7d1d3f;  
 }
 
@@ -367,7 +367,7 @@ figcaption h5 {
   }
 
   .contact-div1 {
-    height: 90vh;
+    height: 100vh;
     width: 95%;
     margin: auto;
     border: 2px solid #fff;
