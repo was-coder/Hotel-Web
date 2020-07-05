@@ -17,7 +17,7 @@ body {
 header {
   position:fixed;
   z-index : 15;
-  background-color: #fff;
+  background-color: #59656f;
   width: 100%;
   padding: 10px;
 }
@@ -72,12 +72,10 @@ header {
 
 .collapse-btn__burger.open::before {
   transform: rotate(45deg) translate(5px,8px);
-  background-color: darkblue;
 }
 
 .collapse-btn__burger.open::after {
   transform: rotate(-45deg) translate(3px,-7px);
-  background-color: darkblue;
 }
 /*end of opening and closing style for hamburger*/
 
@@ -85,7 +83,7 @@ header {
 #logo { 
   text-transform: uppercase;
   font-weight: bold;
-  color: darkblue;
+  color: #fff;
   font-size: 35px;
 }
 
@@ -106,7 +104,7 @@ sub {
 
 .nav.open {
   visibility: visible;
-  background-color: rgb(92, 103, 104);
+  background-color: #59656f;
   height: 100%;
 }
 
@@ -140,7 +138,7 @@ sub {
 }
 
 .menu-nav__link.active {
-  color: darkblue;
+  color: #fff;
 }
 
 .menu-nav__link {
@@ -153,12 +151,17 @@ sub {
 }
 
 .menu-nav__link:hover {
-  border-top: 3px solid darkblue;
-  border-bottom: 3px solid darkblue;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
   text-decoration: none;
-  color: blue;
+  color: #fff;
   transform: scale(1);
 }
+
+.menu-nav__link i:hover {
+    color: #fff;
+}
+
 /*end of navigation bar styling*/
 
 /*start of carousel section styling*/
@@ -190,6 +193,15 @@ sub {
   font-size: 17px;
 }
 
+.embedded-text button {
+  border: 2px solid #000;
+}
+
+.embedded-text button:hover {
+  background-color: #000;
+  border: 2px solid #000;
+}
+
 .first-a {
   color: #fff;
   font-size: 17px;
@@ -205,12 +217,13 @@ sub {
 /*start of styling for suite section*/
 .section2 {
   min-height: 180vh;
-  background-color: rgb(212, 212, 212);
+  background-color: #7d1d3f;
 }
 /*start of styling for head section*/
 .section2__head {
   text-align: center;
   padding-top: 80px;
+  color: #000;
 }
 
 .section2__head h3 {
@@ -223,18 +236,32 @@ sub {
   margin: 0 auto;
 }
 
+.section2__head button a {
+  font-size: 35px;
+  color: #000;
+}
+
+.section2__flex {
+  color: #000;
+}
+
+.section2__flex button {
+  background-color: #000;
+}
+
 .btn-div button {
   height: 4rem;
   width: 40%;
   margin-top: 80px;
   margin-bottom: 20px;
-  border-radius: 0 50px;
+  border-radius: 0 30px;
 }
 
 .btn-div button a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  color: #000;
 }
 /*end of styling for head section*/
 
@@ -264,12 +291,14 @@ figcaption h5 {
 /*start of styling for facilities section*/
 .section3 {
   min-height: 170vh;
-  background-color: rgb(49, 224, 181);  
+  background-color: #7d1d3f;  
 }
 
 .modal-title {
+  margin: 0 auto;
   font-size: 30px;
 }
+
 
 .modal-btn span {
   font-size: 50px;
@@ -284,7 +313,8 @@ figcaption h5 {
 /*start of styling for about section*/
 
   .section4 {
-    background-color: rgb(92, 103, 104);
+    background-color:#7d1d3f;
+    color: #000;
     height: 70rem;
   }
 
@@ -304,7 +334,7 @@ figcaption h5 {
   }
 
   .section4__div2__flex__1 {
-    border: 2px solid blue;
+    border: 2px solid #fff;
     margin: 0 auto;
     margin-top: 30px;
     width: 80%;
@@ -330,11 +360,13 @@ figcaption h5 {
   .about-btn button {
     width: 40%;
     height: 3rem;
-    border-radius: 0 70px;
+    border-radius: 0 30px;
+    border: 2px solid white;
   }
   
   .about-btn button a {
     font-size: 20px;
+    color: #000;
   }
 
 /*end of styling for about section*/
@@ -342,7 +374,7 @@ figcaption h5 {
 /*start of contact section*/
   .section5 {
     height: 140vh;
-    background: url(/images/pool_and_hotel.jpg) center;
+    background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -369,7 +401,6 @@ figcaption h5 {
 
   .contact-div1 input{
     background-color: rgb(231, 225, 225);
-    color: darkblue;
     display: block;
     width: 100%;
     height: 50px;
@@ -381,19 +412,24 @@ figcaption h5 {
     padding-bottom: 100px;
   }
 
-  .send {
+  #send {
     width: 100%;
     display: block;
-    text-transform: uppercase;
     height: 50px;
+    color: #000;
+    font-weight: bold;
   }
-
-
 
 /*end of contact styling*/
 
 /*start of styling for footer section*/
-  .footer__div1 {
+.section6 {
+  background-color: #7d1d3f;
+  color: #000;
+}  
+
+
+.footer__div1 {
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -419,12 +455,12 @@ figcaption h5 {
     font-size: 20px;
     cursor: pointer;
     text-decoration: none;
-    transition: 1s ease-in;
-    color: #fff;
+    transition: 0.5s ease-in;
+    color: #000;
   }
 
   .ul1 a:hover {
-    color: darkblue;
+    color: #fff;
     transform: scale(1);
   }
 
@@ -456,9 +492,14 @@ figcaption h5 {
     color: rgb(105, 104, 104);
   }
 
+  .div4 span button a:hover {
+    color: #fff;
+  }
+
   .div4 span button:hover {
-    background-color: yellow;
-    border: 2px solid yellow;
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
   }
 
 /*end of styling for footer section*/
@@ -505,23 +546,9 @@ figcaption h5 {
 /*end of styling for navigation*/
 
 /*start of style on carousel section*/
-  .carousel-item {
-    width: 300px;
-    background: rgba(0, 0, 0, 0.9) no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-  }
 
-  .embedded-text {
+.embedded-text {
     top: 90px;
-  }
-
-  .embedded-text h2 {
-  color: rgb(16, 16, 94);
-  }
-
-  .embedded-text .last-carousel {
-    color:#fff;
   }
 
   .embedded-text p {
@@ -682,7 +709,7 @@ figcaption h5 {
   }
 
   #unique__link {
-      background-color: blue;
+      background-color: #7d1d3f;
       border-radius: 10px;
       padding: 5px;
       color: #fff;
