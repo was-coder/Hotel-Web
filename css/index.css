@@ -97,7 +97,7 @@ sub {
   position: fixed;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 70%;
   visibility: hidden;
   transition: all 1s ease-in-out;
 }
@@ -105,7 +105,8 @@ sub {
 .nav.open {
   visibility: visible;
   background-color: #59656f;
-  height: 50%;
+  min-height: 70%;
+  transition: all 1s ease-out;
 }
 
 .menu-nav {
@@ -159,11 +160,12 @@ sub {
     color: #fff;
 }
 
+
 /*end of navigation bar styling*/
 
 /*start of carousel section styling*/
 .section1 {
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
   }
 
@@ -312,7 +314,7 @@ figcaption h5 {
   .section4 {
     background-color:#7d1d3f;
     color: #000;
-    height: 70rem;
+    height: 65rem;
   }
 
   .section4__div1 h3 {
@@ -379,7 +381,7 @@ figcaption h5 {
   }
 
   .contact-div1 {
-    height: 110vh;
+    min-height: 90vh;
     width: 95%;
     margin: auto;
     border: 2px solid #fff;
@@ -545,6 +547,10 @@ figcaption h5 {
 
 /*start of style on carousel section*/
 
+.section1 {
+  height: 80vh;
+}
+
 .embedded-text {
     top: 90px;
   }
@@ -647,7 +653,7 @@ figcaption h5 {
 }
 
 .about-btn {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .about-btn button {
