@@ -2,7 +2,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 body {
@@ -50,7 +51,7 @@ header {
   width: 28px;
   height: 3px;
   background-color: #000;
-  transition: all 1s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
 }
 
 .collapse-btn__burger::after {
@@ -60,7 +61,7 @@ header {
   width: 28px;
   height: 3px;
   background-color: #000;
-  transition: all 1s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
 }
 /*end of hamburger styling*/
 
@@ -99,14 +100,14 @@ sub {
   left: 0;
   width: 70%;
   visibility: hidden;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav.open {
   visibility: visible;
   background-color: #59656f;
-  min-height: 60%;
-  transition: all 1s ease-out;
+  height: 50%;
+  transition: all 0.5s ease-out;
 }
 
 .menu-nav {
@@ -114,7 +115,7 @@ sub {
   flex-flow: column wrap;
   overflow: hidden;
   list-style: none;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform: translateX(-100%);
 }
 
@@ -311,7 +312,7 @@ figcaption h5 {
   .section4 {
     background-color:#7d1d3f;
     color: #000;
-    height: 170vh;
+    height: 175vh;
   }
 
   .section4__div1 h3 {
@@ -427,16 +428,26 @@ figcaption h5 {
 
 .footer__div1 {
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display:flex;
     flex-direction: column;
     flex-flow: column wrap;
   }
 
   .div2 .ul1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+  }
+
+  #div2-ul1__li3 {
+    display: none;
   }
 
   .div3 {
@@ -541,12 +552,18 @@ figcaption h5 {
     .footer__div1 {
       flex-direction: row;
       flex-flow: row wrap;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
       justify-content: space-evenly;
     }
     
     .div2 .ul1 {
       flex-direction: column;
       flex-flow: column wrap;
+    }
+
+    #div2-ul1__li3 {
+      display: block;
     }
 
     .div3 {
