@@ -105,7 +105,7 @@ sub {
 .nav.open {
   visibility: visible;
   background-color: #59656f;
-  min-height: 70%;
+  min-height: 60%;
   transition: all 1s ease-out;
 }
 
@@ -175,11 +175,11 @@ sub {
 }
 
 .embedded-text {
-  top: 30%;
+  top: 25%;
 }
 
 .embedded-text h2 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
@@ -248,7 +248,7 @@ sub {
 .btn-div button {
   height: 4rem;
   width: 40%;
-  margin-top: 80px;
+  margin-top: 40px;
   border-radius: 0 30px;
 }
 
@@ -311,7 +311,7 @@ figcaption h5 {
   .section4 {
     background-color:#7d1d3f;
     color: #000;
-    height: 150vh;
+    height: 170vh;
   }
 
   .section4__div1 h3 {
@@ -506,7 +506,13 @@ figcaption h5 {
 
 /*start of styling for tablet screen size*/
 @media only screen and (min-width:600px) {
-    
+/*start of carousel section*/
+  .embedded-text h2 {
+    font-size: 40px;
+  }
+  /*end of carousel section*/
+
+
   /*start of styling for suite section*/
   
   .btn-div button {
@@ -515,7 +521,13 @@ figcaption h5 {
   }
    
   /*end of style for suite section*/
-    
+  
+  /*start of about section*/
+  .section4 {
+    height: 150vh;
+  }
+
+  /*end of about section*/
   
   /*start of contact section*/
   
