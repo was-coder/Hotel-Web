@@ -165,9 +165,17 @@ sub {
 
 /*start of carousel section styling*/
 
+.section1 {
+  height: 70vh;
+}
+
 .first-img {
   height: 70vh;
   margin: 0 auto;
+}
+
+.embedded-text {
+  top: 30%;
 }
 
 .embedded-text h2 {
@@ -210,7 +218,7 @@ sub {
 /*start of styling for head section*/
 .section2__head {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
   color: #000;
 }
 
@@ -241,7 +249,6 @@ sub {
   height: 4rem;
   width: 40%;
   margin-top: 80px;
-  margin-bottom: 20px;
   border-radius: 0 30px;
 }
 
@@ -275,8 +282,12 @@ figcaption h5 {
 
 /*start of styling for facilities section*/
 .section3 {
-  height: 190vh;
+  height: 170vh;
   background-color: #7d1d3f;  
+}
+
+.section3 .section2__head {
+  padding-top: 0;
 }
 
 .modal-title {
@@ -300,7 +311,7 @@ figcaption h5 {
   .section4 {
     background-color:#7d1d3f;
     color: #000;
-    height: 70rem;
+    height: 150vh;
   }
 
   .section4__div1 h3 {
@@ -428,6 +439,10 @@ figcaption h5 {
     justify-content: space-evenly;
   }
 
+  .div3 {
+    display: none;
+  }
+
   .ul1 {
     list-style: none;
   }
@@ -490,189 +505,203 @@ figcaption h5 {
 
 
 /*start of styling for tablet screen size*/
-@media only screen and (min-width:768px) {
-
-  /*start of styling for navigation*/
-  .nav {
-    visibility: visible;
-    width: 100%;
+@media only screen and (min-width:600px) {
+    
+  /*start of styling for suite section*/
+  
+  .btn-div button {
+    width: 30%;
+    margin-top: 30px;
   }
+   
+  /*end of style for suite section*/
+    
+  
+  /*start of contact section*/
+  
+    .contact-div1 {
+      width: 80%;
+    }
+  
+  /*end of contact styling*/
+  
+    /*start of style for footer section*/
+    .footer__div1 {
+      flex-direction: row;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+    }
+    
+    .div2 .ul1 {
+      flex-direction: column;
+      flex-flow: column wrap;
+    }
 
-  #unique__link {
-    display: none;
-  }
-
-  .menu-nav {
-    display: block;
-    transform: translateY(0);
-    width: 100%;
-    text-align: right;
-  }
-
-  .menu-nav__item {
-    display: inline;
-    padding-right: 10px;
-  }
-
-  .menu-nav__link {
-    font-size: 20px;
-    margin: 15px 0;
-  }
-/*end of styling for navigation*/
-
-/*start of style on carousel section*/
-
-.first-img {
-  height: 80vh;
-}
-
-
-.embedded-text{
-   top: 150px;
-  }
-
-  .embedded-text p {
-    font-size: 20px;
-    width: 70%;
-    margin: auto;
-  }
-
-  .embedded-text button a {
-    font-size: 20px;  
-  }
-/*end of style for carousel section*/
-
-/*start of styling for suite section*/
-
-.section2 {
-  height: 170vh;
-}
-
-.section2__head {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.second-hr {
-  margin: 0;
-  justify-content: start;
-}
-
-.section2__head button {
-  border-radius: 10px;
-}
-
-.section2__head button a {
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.section2__flex {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-}
-/*end of styling for suite section*/
-
-/*start of facilities section*/
-.section3 {
-  height: 150vh;  
-}
-/*end of facilities section*/
-
-
-/*start of styling about section*/
-.section4 {
-  height: 145vh;
-}
-
-.about-hr {
-  width: 10%;
-  height: 3px;
-  margin: 0 auto;
-}
-
-.section4__div1 p {
-  width: 80%;
-}
-
-.section4__div2__flex {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
-}
-
-.section4__div2__flex__1 {
-  position: relative;
-}
-
-.quote-img {
-  margin: auto;
-  position: absolute;
-  bottom: -55px;
-  left: 30%;
-  height: 20vh;
-  width: 20vh;
-  border-radius: 50%;
-}
-
-.section4__div2__flex__1 p {
-  position: absolute;
-  bottom: -90px;
-  left: 30%;
-  margin: 0 auto;
-}
-
-.section4__div2__flex__1 {
-  padding-bottom:100px;
-}
-
-.about-btn {
-  padding-top: 70px;
-}
-
-.about-btn button {
-  width: 25%;
-}
-/*end of styling about section*/
-
-/*start of contact section*/
-
-.contact-div1 {
-  width: 60%;
-}
-
-/*end of contact section*/
-
-/*start of style for footer section*/
-.footer__div1 {
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.div2 .ul1 {
-  flex-direction: column;
-  flex-flow: column wrap;
-}
-
-.div4 p {
-  margin: auto;
-  width: 80%;
-}
-
-.div4 span button {
-  width: 15%;
-}
-
-/*start of style for footer section*/
+    .div3 {
+      display: block;
+    }
+    
+    .div4 p {
+      margin: auto;
+      width: 80%;
+    }
+    
+    .div4 span button {
+      width: 15%;
+    }
+    /*end of style for footer section*/
 
 }
 /*end of styling for tablet screen size*/
 
+
+@media only screen and (min-width:768px) {
+    /*start of styling for navigation*/
+    .nav {
+      visibility: visible;
+      width: 100%;
+    }
+  
+    #unique__link {
+      display: none;
+    }
+  
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      width: 100%;
+      text-align: right;
+    }
+  
+    .menu-nav__item {
+      display: inline;
+      padding-right: 10px;
+    }
+  
+    .menu-nav__link {
+      font-size: 20px;
+      margin: 15px 0;
+    }
+  /*end of styling for navigation*/
+  
+  /*start of style on carousel section*/
+  
+    .embedded-text p {
+      font-size: 20px;
+      width: 70%;
+      margin: auto;
+    }
+  
+    .embedded-text button a {
+      font-size: 20px;  
+    }
+  /*end of style for carousel section*/
+  
+  /*start of styling for suite section*/
+  
+  .section2 {
+    height: 170vh;
+  }
+  
+  .section2__head {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .second-hr {
+    margin: 0;
+    justify-content: start;
+  }
+  
+  .section2__head button {
+    border-radius: 10px;
+  }
+  
+  .section2__head button a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .section2__flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+
+  /*end of styling for suite section*/
+  
+  /*start of facilities section*/
+  .section3 {
+    height: 150vh;  
+  }
+  /*end of facilities section*/
+  
+  
+  /*start of styling about section*/
+  .section4 {
+    height: 140vh;
+  }
+  
+  .about-hr {
+    width: 10%;
+    height: 3px;
+    margin: 0 auto;
+  }
+  
+  .section4__div1 p {
+    width: 80%;
+  }
+  
+  .section4__div2__flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+  
+  .section4__div2__flex__1 {
+    position: relative;
+  }
+  
+  .quote-img {
+    margin: auto;
+    position: absolute;
+    bottom: -55px;
+    left: 30%;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+  }
+  
+  .section4__div2__flex__1 p {
+    position: absolute;
+    bottom: -90px;
+    left: 30%;
+    margin: 0 auto;
+  }
+  
+  .section4__div2__flex__1 {
+    padding-bottom:100px;
+  }
+  
+  .about-btn {
+    padding-top: 70px;
+  }
+  
+  .about-btn button {
+    width: 25%;
+  }
+  /*end of styling about section*/
+  
+  /*start of contact section*/
+  
+  .contact-div1 {
+    width: 60%;
+  }
+  /*end of contact section*/
+}
 
 
 
@@ -698,7 +727,7 @@ figcaption h5 {
 
 /*start of styling for carousel section*/
 .embedded-text h2 {
-  font-size: 60px;
+  font-size: 50px;
   }
 /*end of styling for carousel section*/
 
