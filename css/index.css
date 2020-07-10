@@ -668,18 +668,18 @@ figcaption h5 {
   
   /*start of facilities section*/
   .section3 {
-    height: 150vh;  
+    height: 160vh;  
   }
 
   .section3 .section2__head {
-    padding-top: 30px;
+    padding-top: 70px;
   }
   /*end of facilities section*/
   
   
   /*start of styling about section*/
   .section4 {
-    height: 150vh;
+    height: 160vh;
   }
   
   .about-hr {
