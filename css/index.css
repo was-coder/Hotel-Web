@@ -18,7 +18,7 @@ body {
 header {
   position:fixed;
   z-index : 17;
-  background-color: #59656f;
+  background-color: rgb(247, 245, 245);
   width: 100%;
   padding: 10px;
 }
@@ -84,12 +84,12 @@ header {
 #logo { 
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   font-size: 30px;
 }
 
 sub {
-  color: #000;
+  color: #0275d8;
 }
 /*end of logo styling*/
 
@@ -105,8 +105,8 @@ sub {
 
 .nav.open {
   visibility: visible;
-  background-color: #59656f;
-  height: 50%;
+  background-color: rgb(247, 245, 245);
+  height: 60%;
   transition: all 0.5s ease-out;
 }
 
@@ -137,7 +137,7 @@ sub {
 }
 
 .menu-nav__link.active {
-  color: #fff;
+  color: #0275d8;
 }
 
 .menu-nav__link {
@@ -150,15 +150,11 @@ sub {
 }
 
 .menu-nav__link:hover {
-  border-top: 3px solid #000;
-  border-bottom: 3px solid #000;
+  border-top: 3px solid #0275d8;
+  border-bottom: 3px solid #0275d8;
   text-decoration: none;
-  color: #fff;
+  color: #0275d8;
   transform: scale(1);
-}
-
-.menu-nav__link i:hover {
-    color: #fff;
 }
 
 
@@ -214,7 +210,7 @@ sub {
 /*start of styling for suite section*/
 .section2 {
   height: 200vh;
-  background-color: #7d1d3f;
+  background-color: rgb(247, 245, 245);
 }
 /*start of styling for head section*/
 .section2__head {
@@ -240,10 +236,6 @@ sub {
 
 .section2__flex {
   color: #000;
-}
-
-.section2__flex button {
-  background-color: #000;
 }
 
 .btn-div button {
@@ -274,17 +266,19 @@ figcaption h5 {
 }
 
 .second-img {
-  display: inline-block;
+  display: block;
   width: 80%;
+  margin: auto;
   height: 40vh;
   border-radius: 10px;
+  box-shadow: -5px -5px 10px #000;
 }
 /*end of style for suite section*/
 
 /*start of styling for facilities section*/
 .section3 {
   height: 170vh;
-  background-color: #7d1d3f;  
+  background-color: rgb(247, 245, 245);  
 }
 
 .section3 .section2__head {
@@ -310,7 +304,7 @@ figcaption h5 {
 /*start of styling for about section*/
 
   .section4 {
-    background-color:#7d1d3f;
+    background-color:rgb(247, 245, 245);
     color: #000;
     height: 175vh;
   }
@@ -331,7 +325,7 @@ figcaption h5 {
   }
 
   .section4__div2__flex__1 {
-    border: 2px solid #fff;
+    border: 2px solid #0275d8;
     margin: 0 auto;
     margin-top: 30px;
     width: 80%;
@@ -421,8 +415,7 @@ figcaption h5 {
 
 /*start of styling for footer section*/
 .section6 {
-  background-color: #7d1d3f;
-  color: #000;
+  color: #fff;
 }  
 
 
@@ -437,13 +430,18 @@ figcaption h5 {
 
   .div2 .ul1 {
     display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-flex-pack: space-between;
+    justify-content: space-between;
+    text-align: start;
   }
 
   #div2-ul1__li3 {
@@ -463,11 +461,11 @@ figcaption h5 {
     cursor: pointer;
     text-decoration: none;
     transition: 0.5s ease-in;
-    color: #000;
+    color: #fff;
   }
 
   .ul1 a:hover {
-    color: #fff;
+    color: #0275d8;
     transform: scale(1);
   }
 
@@ -504,9 +502,8 @@ figcaption h5 {
   }
 
   .div4 span button:hover {
-    background-color: #000;
-    border: 2px solid #000;
-    color: #fff;
+    background-color: #0275d8;
+    border: 2px solid #0275d8;
   }
 
 /*end of styling for footer section*/
@@ -552,9 +549,11 @@ figcaption h5 {
     .footer__div1 {
       flex-direction: row;
       flex-flow: row wrap;
-      -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-      justify-content: space-evenly;
+      -webkit-box-pack: space-around;
+      -moz-box-pack: space-around;
+      -ms-flex-pack: space-around;
+      -webkit-flex-pack: space-around;
+      justify-content: space-around;
     }
     
     .div2 .ul1 {
@@ -655,6 +654,10 @@ figcaption h5 {
   }
   
   .section2__flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-grid;
+    display: -webkit-grid;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
@@ -743,7 +746,7 @@ figcaption h5 {
   }
 
   #unique__link {
-      background-color: #7d1d3f;
+      background-color: #0275d8;
       border-radius: 10px;
       padding: 5px;
       color: #fff;
