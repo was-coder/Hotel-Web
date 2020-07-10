@@ -282,7 +282,7 @@ figcaption h5 {
 }
 
 .section3 .section2__head {
-  padding-top: 0;
+  padding-top: 50px;
 }
 
 .modal-title {
@@ -311,7 +311,7 @@ figcaption h5 {
 
   .section4__div1 h3 {
     font-size: 50px;
-    padding-top: 40px;
+    padding-top:70px;
   }
 
   .section4__div1 p {
@@ -636,6 +636,7 @@ figcaption h5 {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+    padding-top: 50px;
   }
   
   .second-hr {
