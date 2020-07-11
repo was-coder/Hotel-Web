@@ -160,7 +160,7 @@ header {
 
 /*start of styling for facilities section*/
 .section3 {
-  display: block;
+  display: inline-block;
   background-color: rgb(231, 216, 216);  
 }
 
@@ -215,7 +215,7 @@ font-size: 25px;
 display: block;
 width: 80%;
 margin: auto;
-min-height: 40vh;
+height: 40vh;
 border-radius: 10px;
 box-shadow: -5px -5px 10px #000;
 }

@@ -60,20 +60,9 @@
 
 /*end of styling for about section*/
 
-@media only screen and (min-width:600px) {
-     /*start of about section*/
-  .section4 {
-    min-height: 150vh;
-  }
-
-  /*end of about section*/ 
-}
 
 @media only screen and (min-width:768px) {
       /*start of styling about section*/
-  .section4 {
-    min-height: 160vh;
-  }
   
   .about-hr {
     width: 10%;
