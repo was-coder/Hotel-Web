@@ -259,7 +259,7 @@ box-shadow: -5px -5px 10px #000;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #div2-ul1__li3 {
@@ -313,15 +313,6 @@ box-shadow: -5px -5px 10px #000;
 .div4 span button a {
   text-decoration: none;
   color: rgb(105, 104, 104);
-}
-
-.div4 span button a:hover {
-  color: #fff;
-}
-
-.div4 span button:hover {
-  background-color: #0275d8;
-  border: 2px solid #0275d8;
 }
 /*end of styling for footer section*/
 
