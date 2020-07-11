@@ -4,7 +4,7 @@
 .section4 {
     background-color:rgb(231, 216, 216);
     color: #000;
-    display: block;
+    display: inline-block;
   }
 
   .section4__div1 h3 {
