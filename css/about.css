@@ -26,7 +26,7 @@
     border: 2px solid #0275d8;
     margin: 0 auto;
     margin-top: 30px;
-    width: 80%;
+    max-width: 80%;
     padding: 5px 5px;
     border-radius: 0 50px;
   }
@@ -85,18 +85,18 @@
   }
   
   .quote-img {
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
-    bottom: -55px;
-    left: 30%;
-    height: 20vh;
-    width: 20vh;
+    top: 50%;
+    right: 35%;
+    display: block;
+    max-width: 30%;
     border-radius: 50%;
   }
   
   .section4__div2__flex__1 p {
     position: absolute;
-    bottom: -90px;
+    bottom: -60%;
     left: 30%;
     margin: 0 auto;
   }
@@ -106,7 +106,7 @@
   }
   
   .about-btn {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   
   .about-btn button {

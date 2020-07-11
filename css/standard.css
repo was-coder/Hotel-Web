@@ -160,7 +160,7 @@ header {
 
 /*start of styling for facilities section*/
 .section3 {
-  display: inline-block;
+  display: block;
   background-color: rgb(231, 216, 216);  
 }
 
