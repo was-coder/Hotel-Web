@@ -4,8 +4,8 @@
 /*start of carousel section styling*/
 
 .first-img {
-  display: block;
-  height: 70vh;
+  display: inline-block;
+  min-height: 70vh;
   margin: 0 auto;
 }
 
