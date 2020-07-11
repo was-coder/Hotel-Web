@@ -4,7 +4,7 @@
 /*start of carousel section styling*/
 
 .section1 {
-  height: 70vh;
+  display: block;
 }
 
 .first-img {

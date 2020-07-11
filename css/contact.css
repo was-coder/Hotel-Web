@@ -3,7 +3,7 @@
 /*start of contact section*/
 .section5 {
     display: inline-block;
-    min-height: 130vh;
+    min-height: 100vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -14,7 +14,7 @@
   .contact-div1 {
     display: inline-block;
     width: 95%;
-    margin: 0 auto;
+    margin: 20px auto;
     border: 2px solid rgb(231, 216, 216);
     border-radius:20px;
   }
