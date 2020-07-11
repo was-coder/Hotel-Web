@@ -3,11 +3,8 @@
 
 /*start of carousel section styling*/
 
-.section1 {
-  display: block;
-}
-
 .first-img {
+  display: block;
   height: 70vh;
   margin: 0 auto;
 }
