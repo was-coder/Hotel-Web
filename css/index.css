@@ -278,7 +278,8 @@ figcaption h5 {
 
 /*start of styling for facilities section*/
 .section3 {
-  height: 170vh;
+  display: inline-block;
+  min-height: 170vh;
   background-color: rgb(231, 216, 216);  
 }
 
@@ -307,7 +308,8 @@ figcaption h5 {
   .section4 {
     background-color:rgb(231, 216, 216);
     color: #000;
-    height: 180vh;
+    display: inline-block;
+    min-height: 180vh;
   }
 
   .section4__div1 h3 {
@@ -365,7 +367,8 @@ figcaption h5 {
 
 /*start of contact section*/
   .section5 {
-    height: 120vh;
+    display: inline-block;
+    min-height: 120vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -534,7 +537,7 @@ figcaption h5 {
   
   /*start of about section*/
   .section4 {
-    height: 150vh;
+    min-height: 150vh;
   }
 
   /*end of about section*/
@@ -630,7 +633,7 @@ figcaption h5 {
   /*start of styling for suite section*/
   
   .section2 {
-    height: 170vh;
+    min-height: 170vh;
   }
   
   .section2__head {
@@ -670,7 +673,7 @@ figcaption h5 {
   
   /*start of facilities section*/
   .section3 {
-    height: 160vh;  
+    min-height: 160vh;  
   }
 
   .section3 .section2__head {
@@ -681,7 +684,7 @@ figcaption h5 {
   
   /*start of styling about section*/
   .section4 {
-    height: 160vh;
+    min-height: 160vh;
   }
   
   .about-hr {
@@ -773,7 +776,7 @@ figcaption h5 {
 
 /*start of styling for suite section*/
 .section2 {
-  height: 230vh;
+  min-height: 230vh;
 }
 
 /*end of styling for suite section*/
