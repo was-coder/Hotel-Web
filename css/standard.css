@@ -160,7 +160,7 @@ header {
 
 /*start of styling for facilities section*/
 .section3 {
-  min-height: 180vh;
+  display: block;
   background-color: rgb(231, 216, 216);  
 }
 
@@ -187,7 +187,7 @@ color: #000;
 .btn-div button {
 height: 4rem;
 width: 40%;
-margin-top: 30px;
+margin: 30px 0;
 border-radius: 0 30px;
 }
 
@@ -415,10 +415,7 @@ box-shadow: -5px -5px 10px #000;
 /*end of styling for navigation*/
 
     /*start of facilities section*/
-    .section3 {
-      min-height: 160vh;  
-    }
-  
+    
     .section3 .section2__head {
       padding-top: 70px;
     }

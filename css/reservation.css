@@ -2,27 +2,8 @@
 
 /*start of styling for suite section*/
 .section2 {
-    min-height: 190vh;
+    display: block;
     background-color: rgb(231, 216, 216);
   } 
   /*end of style for suite section*/
   
-
-@media only screen and (min-width:768px) {
-
-/*start of styling for suite section*/
-  .section2 {
-    min-height: 100vh;
-  }
-}
-
-@media only screen and (min-width:1024px) {
-
-/*start of styling for suite section*/
-    .section2 {
-        min-height: 230vh;
-    }
-  
-  /*end of styling for suite section*/
-
-}
