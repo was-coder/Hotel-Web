@@ -375,7 +375,7 @@ figcaption h5 {
 
   .contact-div1 {
     display: inline-block;
-    height: 90vh;
+    min-height: 100vh;
     width: 95%;
     margin: auto;
     border: 2px solid #fff;
