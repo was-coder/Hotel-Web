@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The about page of pleasure point hotel website">
+    <!--link to css, bootstrap and fontawesome and font-family-->
+    <link rel="stylesheet" href="/css/about.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>pleasurepoint.com/about</title>
+</head>
+<body>
+
+        <!--start of header tag-->
+        <header>
+
+            <!--start of hamburger button on small screen size-->
+            <div class="collapse-btn d-md-none">
+                <span class="collapse-btn__burger"></span>
+            </div>
+            <!--end of burger div on small screen size-->
+            
+            <!--start of logo-->
+            <h1 id="logo">pleasure<sub>point</sub></h1>
+            <!--end of logo-->
+    
+            <!--start of navigation bar-->
+            <nav class="nav">        
+                <ul class="menu-nav">
+                    <li class="menu-nav__item"><a href="/index.html" class="menu-nav__link active" accesskey="h"><i class="fas fa-home d-md-none mr-2"></i>home</a></li>
+                    <li class="menu-nav__item"><a href="/html/reservation.html" class="menu-nav__link" accesskey="r"><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
+                    <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
+                    <li class="menu-nav__item"><a href="/html/contact.html" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
+                    <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
+                </ul>
+            </nav>
+            <!--end of navigation bar-->
+    
+        </header>
+        <!--end of header tag-->
+
+        <!--start of about section-->
+        <section class="section4" id="about">
+            <div class="text-center section4__div1">
+                <h3 class="text-capitalize mb-3">about us<hr class="bg-primary about-hr second-hr"></h3>
+                <p>
+                    Pleasure Point is a resort that put all clients interest in mind and 
+                    make you comfortable in all way possible. We are located at Charles 
+                    Avenue behind All Star barracks.
+                </p>
+            </div>
+
+            <div class="mt-5 section4__div2">
+                <h3 class="text-center text-capitalize mb-3">customers feedback about us<hr class="bg-primary about-hr second-hr"></h3>
+                <div class="section4__div2__flex">
+                    <div class="section4__div2__flex__1">
+                        <q>It has been really amazing staying here and i recommend this resort to all my fans.</q>
+                        <img src="./images/Screenshot_20190601-194617.png" alt="Anthony Joshua" class="quote-img d-none d-md-block">
+                        <p class="text-primary text-capitalize">anthony joshua</p>
+                    </div>
+                    <div class="section4__div2__flex__1">
+                        <q>The pool, the rooms, the reservation areas and lot more are just top notch.</q>
+                        <img src="./images/Screenshot_20190602-153515.png" alt="Anthony Joshua" class="quote-img d-none d-md-block">
+                        <p class="text-primary text-capitalize">anthony joshua</p>
+                    </div>
+                    <div class="section4__div2__flex__1 d-none d-lg-block">
+                        <q>Love the way the staffs are jovial and always ready to serve us, i am really glad i came here.</q>
+                        <img src="./images/Screenshot_20190509-121415.png" alt="Adelakun Wasiu" class="quote-img d-none d-md-block">
+                        <p class="text-primary text-capitalize" id="">adelakun wasiu</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-btn my-5">
+            <button class="btn text-capitalize bg-primary">
+                <a href="#book" class="first-a">book now</a>
+            </button>
+            </div>
+
+        </section>
+
+        
+    <!--end of about section-->
+
+        <!--start of footer section-->
+        <section class="section6 bg-dark">
+            <div class="footer__div1 py-5">
+
+                <div class="text-capitalize div2">
+                    <ul class="ul1">
+                        <li><a href="/index.html">home</a></li>
+                        <li><a href="/html/reservation.html">reservations</a></li>
+                        <li id="div2-ul1__li3"><a href="#">help</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-capitalize div2 div3">
+                    <ul class="ul1">
+                        <li><a href="#">for members</a></li>
+                        <li><a href="#">profile</a></li>
+                        <li><a href="/index.html">facilities</a></li>
+                        <li><a href="/html/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="div4">
+                    <p>Stay up to date with us and get amazing discounts by joining our exclusive newsletter list</p>
+                    <label for="email" class="footer-id mt-3"> Email:
+                        <input type="text" id="email" placeholder="Enter your email address" class="pl-2">
+                    </label>
+                    <span>
+                        <button class="text-capitalize">
+                            <a href="#">sign up</a>
+                        </button>
+                    </span><br>
+                    <div class="my-3 font-div">
+                            <a href="https://twitter.com/WasleadWears" target="_blank" rel="noreferrer"><i class="fab fa-twitter text-white fa-2x"></i></a>
+                            <a href="https://web.facebook.com/abdulwasiu.olaiya.73" target="_blank" rel="noreferrer"><i class="fab fa-facebook text-white fa-2x mx-5"></i></a>
+                            <a href="https://www.instagram.com/_wasleadwears/" target="_blank" rel="noreferrer"><i class="fab fa-instagram text-white fa-2x"></i></a>
+                    </div>             
+                </div>
+                
+            </div>
+        </section>
+    <!--end of footer section-->
+
+        <!--link to js and jquery, popper and font awesome-->
+        <script src="/js/index.js"></script>
+        <script src="/js/all.js"></script>
+        <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

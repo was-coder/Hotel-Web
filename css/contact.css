@@ -1,0 +1,81 @@
+@import "standard.css";
+
+/*start of contact section*/
+.section5 {
+    display: inline-block;
+    min-height: 120vh;
+    background: url(/images/rest.jpg) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-div1 {
+    display: inline-block;
+    min-height: 100vh;
+    width: 95%;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius:20px;
+  }
+
+  .contact-div1 h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .contact-div1 input{
+    background-color: rgb(231, 216, 216);
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .contact-div1 #message {
+    height: 140px;
+    padding-bottom: 100px;
+  }
+
+  #send {
+    width: 100%;
+    display: block;
+    height: 50px;
+    color: #000;
+    font-weight: bold;
+  }
+
+/*end of contact styling*/
+
+@media only screen and (min-width:600px) {
+      /*start of contact section*/
+  
+      .contact-div1 {
+        width: 80%;
+      }
+    
+    /*end of contact styling*/
+}
+
+@media only screen and (min-width:768px) {
+/*start of contact section*/
+  .contact-div1 {
+    width: 60%;
+  }
+  /*end of contact section*/
+}
+
+@media only screen and (min-width:1024px) {
+    /*start of contact styling*/
+.contact-div1 {
+    width: 40%;
+  }
+  /*end of contact styling*/
+  
+}

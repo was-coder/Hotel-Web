@@ -1,0 +1,137 @@
+@import "standard.css";
+/*start of styling for about section*/
+
+.section4 {
+    background-color:rgb(231, 216, 216);
+    color: #000;
+    display: inline-block;
+    min-height: 180vh;
+  }
+
+  .section4__div1 h3 {
+    font-size: 50px;
+    padding-top:70px;
+  }
+
+  .section4__div1 p {
+    font-size: 25px;
+    margin: auto;
+    width: 95%;
+  }
+
+  .section4__div2 h3 {
+    font-size: 30px;
+  }
+
+  .section4__div2__flex__1 {
+    border: 2px solid #0275d8;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    padding: 5px 5px;
+    border-radius: 0 50px;
+  }
+  
+  .section4__div2__flex__1 q {
+    font-size: 20px;
+  }
+  
+  .section4__div2__flex__1 p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .about-btn {
+    text-align: center;
+  }
+
+  .about-btn button {
+    width: 40%;
+    height: 3rem;
+    border-radius: 0 30px;
+    border: 2px solid white;
+  }
+  
+  .about-btn button a {
+    font-size: 20px;
+    color: #000;
+  }
+
+/*end of styling for about section*/
+
+@media only screen and (min-width:600px) {
+     /*start of about section*/
+  .section4 {
+    min-height: 150vh;
+  }
+
+  /*end of about section*/ 
+}
+
+@media only screen and (min-width:768px) {
+      /*start of styling about section*/
+  .section4 {
+    min-height: 160vh;
+  }
+  
+  .about-hr {
+    width: 10%;
+    height: 3px;
+    margin: 0 auto;
+  }
+  
+  .section4__div1 p {
+    width: 80%;
+  }
+  
+  .section4__div2__flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+  
+  .section4__div2__flex__1 {
+    position: relative;
+  }
+  
+  .quote-img {
+    margin: auto;
+    position: absolute;
+    bottom: -55px;
+    left: 30%;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+  }
+  
+  .section4__div2__flex__1 p {
+    position: absolute;
+    bottom: -90px;
+    left: 30%;
+    margin: 0 auto;
+  }
+  
+  .section4__div2__flex__1 {
+    padding-bottom:100px;
+  }
+  
+  .about-btn {
+    padding-top: 70px;
+  }
+  
+  .about-btn button {
+    width: 25%;
+  }
+  /*end of styling about section*/
+}
+
+@media only screen and (min-width: 1024px) {
+    /*start of styling about section*/
+.section4__div2__flex {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /*end of styling about section*/
+  
+}

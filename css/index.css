@@ -1,4 +1,4 @@
-@import "nav.css";
+@import "standard.css";
 
 
 /*start of carousel section styling*/
@@ -48,120 +48,86 @@
 }
 /*end of carousel section styling*/
 
-/*start of styling for about section*/
 
-  .section4 {
-    background-color:rgb(231, 216, 216);
-    color: #000;
+  /*start of styling for facilities section*/
+  .section3 {
     display: inline-block;
-    min-height: 180vh;
+    min-height: 170vh;
+    background-color: rgb(231, 216, 216);  
   }
+  
+/*start of styling for head section*/
+.section2__head {
+  text-align: center;
+  padding-top: 70px;
+  color: #000;
+}
 
-  .section4__div1 h3 {
-    font-size: 50px;
-    padding-top:70px;
-  }
+.section2__head h3 {
+  font-size: 35px;
+}
 
-  .section4__div1 p {
-    font-size: 25px;
-    margin: auto;
-    width: 95%;
-  }
+.section2__head button a {
+  font-size: 35px;
+  color: #000;
+}
 
-  .section4__div2 h3 {
-    font-size: 30px;
-  }
+.section2__flex {
+  color: #000;
+}
 
-  .section4__div2__flex__1 {
-    border: 2px solid #0275d8;
+.btn-div button {
+  height: 4rem;
+  width: 40%;
+  margin-top: 40px;
+  border-radius: 0 30px;
+}
+
+.btn-div button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+/*end of styling for head section*/
+
+.section2__flex {
+  text-align: center;
+}
+
+figcaption h4 {
+  font-size: 30px;
+}
+
+figcaption h5 {
+  font-size: 25px;
+}
+
+.second-img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: 40vh;
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px #000;
+}
+  
+  .modal-title {
     margin: 0 auto;
-    margin-top: 30px;
-    width: 80%;
-    padding: 5px 5px;
-    border-radius: 0 50px;
-  }
-  
-  .section4__div2__flex__1 q {
-    font-size: 20px;
-  }
-  
-  .section4__div2__flex__1 p {
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .about-btn {
-    text-align: center;
-  }
-
-  .about-btn button {
-    width: 40%;
-    height: 3rem;
-    border-radius: 0 30px;
-    border: 2px solid white;
-  }
-  
-  .about-btn button a {
-    font-size: 20px;
-    color: #000;
-  }
-
-/*end of styling for about section*/
-
-/*start of contact section*/
-  .section5 {
-    display: inline-block;
-    min-height: 120vh;
-    background: url(/images/rest.jpg) center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contact-div1 {
-    display: inline-block;
-    min-height: 100vh;
-    width: 95%;
-    margin: auto;
-    border: 2px solid #fff;
-    border-radius:20px;
-  }
-
-  .contact-div1 h4 {
     font-size: 30px;
-    text-align: center;
   }
   
-  label {
-    font-size: 20px;
-    font-weight: bold;
+  
+  .modal-btn span {
+    font-size: 50px;
   }
-
-  .contact-div1 input{
-    background-color: rgb(231, 216, 216);
-    display: block;
-    width: 100%;
-    height: 50px;
+  
+  .modal-body p {
     font-size: 20px;
   }
+  
+  /*end of styling for facilities section*/
 
-  .contact-div1 #message {
-    height: 140px;
-    padding-bottom: 100px;
-  }
-
-  #send {
-    width: 100%;
-    display: block;
-    height: 50px;
-    color: #000;
-    font-weight: bold;
-  }
-
-/*end of contact styling*/
 
 
 /*start of styling for tablet screen size*/
@@ -171,21 +137,13 @@
     font-size: 40px;
   }
   /*end of carousel section*/
-  
-  /*start of about section*/
-  .section4 {
-    min-height: 150vh;
-  }
 
-  /*end of about section*/
-  
-  /*start of contact section*/
-  
-    .contact-div1 {
-      width: 80%;
-    }
-  
-  /*end of contact styling*/
+  /*start of facilities section*/
+.btn-div button {
+    width: 30%;
+    margin-top: 30px;
+  }
+  /*end of facilities section*/
 
 }
 /*end of styling for tablet screen size*/
@@ -206,68 +164,47 @@
     }
   /*end of style for carousel section*/
   
-  /*start of styling about section*/
-  .section4 {
-    min-height: 160vh;
-  }
+    /*start of facilities section*/
+    .section3 {
+      min-height: 160vh;  
+    }
   
-  .about-hr {
-    width: 10%;
-    height: 3px;
-    margin: 0 auto;
-  }
-  
-  .section4__div1 p {
-    width: 80%;
-  }
-  
-  .section4__div2__flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-  }
-  
-  .section4__div2__flex__1 {
-    position: relative;
-  }
-  
-  .quote-img {
-    margin: auto;
-    position: absolute;
-    bottom: -55px;
-    left: 30%;
-    height: 20vh;
-    width: 20vh;
-    border-radius: 50%;
-  }
-  
-  .section4__div2__flex__1 p {
-    position: absolute;
-    bottom: -90px;
-    left: 30%;
-    margin: 0 auto;
-  }
-  
-  .section4__div2__flex__1 {
-    padding-bottom:100px;
-  }
-  
-  .about-btn {
-    padding-top: 70px;
-  }
-  
-  .about-btn button {
-    width: 25%;
-  }
-  /*end of styling about section*/
-  
-  /*start of contact section*/
-  
-
-  .contact-div1 {
-    width: 60%;
-  }
-  /*end of contact section*/
+    .section3 .section2__head {
+      padding-top: 70px;
+    }
+    .section2__head {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+    
+    .second-hr {
+      margin: 0;
+      justify-content: start;
+    }
+    
+    .section2__head button {
+      border-radius: 10px;
+    }
+    
+    .section2__head button a {
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    .section2__flex {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-grid;
+      display: -webkit-grid;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+    }
+    /*end of facilities section*/
 }
 
 
@@ -280,18 +217,6 @@
   font-size: 50px;
   }
 /*end of styling for carousel section*/
-
-/*start of styling about section*/
-.section4__div2__flex {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-/*end of styling about section*/
-
-/*start of contact styling*/
-.contact-div1 {
-  width: 40%;
-}
-/*end of contact styling*/
 
 }
 

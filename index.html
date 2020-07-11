@@ -30,8 +30,8 @@
             <ul class="menu-nav">
                 <li class="menu-nav__item"><a href="#home" class="menu-nav__link active" accesskey="h"><i class="fas fa-home d-md-none mr-2"></i>home</a></li>
                 <li class="menu-nav__item"><a href="/html/reservation.html" class="menu-nav__link" accesskey="r"><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
-                <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
-                <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
+                <li class="menu-nav__item"><a href="/html/about.html" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
+                <li class="menu-nav__item"><a href="/html/contact.html" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
                 <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
             </ul>
         </nav>
@@ -52,7 +52,7 @@
                         <h2>Welcome to Pleasure Point</h2>
                         <p>Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn w-75 text-capitalize">
-                            <a href="#about" class="first-a text-white">more information</a>
+                            <a href="/html/about.html" class="first-a text-white">more information</a>
                         </button>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <h2>Welcome to Pleasure Point</h2>
                         <p>Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-dark w-50 text-capitalize">
-                            <a href="#about" class="first-a text-white">more information</a>
+                            <a href="/html/about.html" class="first-a text-white">more information</a>
                         </button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                         <h2>Welcome to Pleasure Point</h2>
                         <p>Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-dark w-50 text-capitalize">
-                            <a href="#about" class="first-a text-white">more information</a>
+                            <a href="/html/about.html" class="first-a text-white">more information</a>
                         </button>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                         <h2>Welcome to Pleasure Point</h2>
                         <p class="last-carousel">Experience a magical stay & make the most beautiful memories with your loved ones at the resort</p>
                         <button class="btn btn-outline-dark w-50 text-capitalize">
-                            <a href="#about" class="first-a text-white">more information</a>
+                            <a href="/html/about.html" class="first-a text-white">more information</a>
                         </button>
                     </div>
                 </div>
@@ -113,65 +113,161 @@
     </section>
     <!--end of carousel section-->
 
-    <!--start of about section-->
-        <section class="section4" id="about">
-            <div class="text-center section4__div1">
-                <h3 class="text-capitalize mb-3">about us<hr class="bg-primary about-hr second-hr"></h3>
-                <p>
-                    Pleasure Point is a resort that put all clients interest in mind and 
-                    make you comfortable in all way possible. We are located at Charles 
-                    Avenue behind All Star barracks.
-                </p>
-            </div>
+    <!--start of facilities section-->
+<section class="section3" id="facilities">
+    <!--start of heading for facility part-->
+    <div class="section2__head">
+        <h3 class="text-capitalize">facilities & services<hr class="bg-primary second-hr"></h3>
+        <button class="text-capitalize btn btn-outline-dark d-none d-md-block bg-white">
+        <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
+        </button>
+    </div>
+    <!--end of heading for facilities part-->
 
-            <div class="mt-5 section4__div2">
-                <h3 class="text-center text-capitalize mb-3">customers feedback about us<hr class="bg-primary about-hr second-hr"></h3>
-                <div class="section4__div2__flex">
-                    <div class="section4__div2__flex__1">
-                        <q>It has been really amazing staying here and i recommend this resort to all my fans.</q>
-                        <img src="./images/Screenshot_20190601-194617.png" alt="Anthony Joshua" class="quote-img d-none d-md-block">
-                        <p class="text-primary text-capitalize">anthony joshua</p>
-                    </div>
-                    <div class="section4__div2__flex__1">
-                        <q>The pool, the rooms, the reservation areas and lot more are just top notch.</q>
-                        <img src="./images/Screenshot_20190602-153515.png" alt="Anthony Joshua" class="quote-img d-none d-md-block">
-                        <p class="text-primary text-capitalize">anthony joshua</p>
-                    </div>
-                    <div class="section4__div2__flex__1 d-none d-lg-block">
-                        <q>Love the way the staffs are jovial and always ready to serve us, i am really glad i came here.</q>
-                        <img src="./images/Screenshot_20190509-121415.png" alt="Adelakun Wasiu" class="quote-img d-none d-md-block">
-                        <p class="text-primary text-capitalize" id="">adelakun wasiu</p>
-                    </div>
-                </div>
+    <!--start of flex style for facility part-->
+    <div class="section2__flex">
+        <div class="flex1">
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/conference.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">meeting room</h4>
+                        <h5 class="text-capitalize">refreshing conference rooms</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read1">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
             </div>
             
-            <div class="about-btn my-5">
-            <button class="btn text-capitalize bg-primary">
-                <a href="#book" class="first-a">book now</a>
+            <!-- Modal -->
+            <div class="modal fade" id="read1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">MEETING ROOM</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/pool_and_hotel.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">recreation</h4>
+                        <h5 class="text-capitalize">olympic sized swimming pool</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read2">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">RECREATION</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+        </div>
+        <div class="row d-none d-md-block flex1">
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/rest.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">resting area</h4>
+                        <h5 class="text-capitalize">relaxation and entertainment part</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read3">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">RESTING AREA</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/gym.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">gym room</h4>
+                        <h5 class="text-capitalize">fitness and building room</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read4">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">GYM AREA</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+        </div>
+        <!--end of flex style for facility part-->
+
+        <!--start of button for small screen size-->
+        <div class="text-center d-sm-block d-md-none btn-div">
+            <button class="text-capitalize btn btn-outline-primary bg-white">
+                <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
             </button>
-            </div>
+        </div>
+        <!--end of button for small screen size-->
+    </section>
+<!--end of facilities section-->
 
-        </section>
 
-        
-    <!--end of about section-->
 
-    <!--start of contact section-->
-        <section class="section5" id="contact">
-            <div class="contact-div1 bg-white px-3 py-3">
-                <h4>Get in touch with Us</h4>
-                <form action="" class="text-capitalize">
-                    <label for="name">name </label><br>
-                        <input type="text" id="name" placeholder="Enter Your Name Here" class="pl-2" required> <br>
-                    <label for="email">email </label><br>
-                        <input type="email" id="cont-email" placeholder="Enter Your Email Here" class="pl-2" required> <br>
-                    <label for="message">message </label><br>
-                        <input type="text" id="message" placeholder="Tell us how we can be of help" class="pl-2" required><br>
-                    <button class="btn btn-outline-dark text-uppercase" id="send">send message</button>
-                </form>
-            </div>
-        </section>
-    <!--end of contact section-->
 
     <!--start of footer section-->
         <section class="section6 bg-dark">
@@ -180,9 +276,9 @@
                 <div class="text-capitalize div2">
                     <ul class="ul1">
                         <li><a href="#home">home</a></li>
-                        <li><a href="#reservations">reservations</a></li>
-                        <li id="div2-ul1__li3"><a href="#">help</a></li>
-                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="/html/reservation.html">reservations</a></li>
+                        <li id="div2-ul1__li3"><a href="/html/about.html">help</a></li>
+                        <li><a href="/html/about.html">terms & conditions</a></li>
                     </ul>
                 </div>
 
@@ -191,7 +287,7 @@
                         <li><a href="#">for members</a></li>
                         <li><a href="#">profile</a></li>
                         <li><a href="#facilities">facilities</a></li>
-                        <li><a href="#">contact us</a></li>
+                        <li><a href="/html/contact.html">contact us</a></li>
                     </ul>
                 </div>
 

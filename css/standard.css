@@ -136,10 +136,6 @@ header {
     transform: translateX(0);
   }
   
-  .menu-nav__link.active {
-    color: #0275d8;
-  }
-  
   .menu-nav__link {
     display: inline-block;
     font-size: 25px;
@@ -155,7 +151,11 @@ header {
     text-decoration: none;
     color: #0275d8;
     transform: scale(1);
-  }  
+  }
+  
+  .menu-nav__link.active {
+    color: #0275d8;
+  }
   /*end of navigation bar styling*/
   
   @media only screen and (min-width:768px) {
@@ -232,7 +232,6 @@ header {
       flex-direction: row;
       flex-flow: row wrap;
       justify-content: space-evenly;
-      text-align: start;
     }
   
     #div2-ul1__li3 {
