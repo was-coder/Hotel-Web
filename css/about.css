@@ -5,6 +5,7 @@
     background-color:rgb(231, 216, 216);
     color: #000;
     display: inline-block;
+    min-height: 100vh;
   }
 
   .section4__div1 h3 {
@@ -96,7 +97,7 @@
   
   .section4__div2__flex__1 p {
     position: absolute;
-    bottom: -60%;
+    bottom: -70%;
     left: 30%;
     margin: 0 auto;
   }
@@ -106,7 +107,7 @@
   }
   
   .about-btn {
-    padding-top: 100px;
+    padding-top: 120px;
   }
   
   .about-btn button {
