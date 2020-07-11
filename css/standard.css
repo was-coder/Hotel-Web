@@ -212,7 +212,7 @@ font-size: 25px;
 }
 
 .second-img {
-display: inline-block;
+display: block;
 width: 80%;
 margin: auto;
 min-height: 40vh;

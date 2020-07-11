@@ -4,8 +4,7 @@
 .section4 {
     background-color:rgb(231, 216, 216);
     color: #000;
-    display: inline-block;
-    min-height: 180vh;
+    display: block;
   }
 
   .section4__div1 h3 {
