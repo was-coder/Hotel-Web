@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The reservation page of pleasure point hotel website">
+    <!--link to css, bootstrap and fontawesome and font-family-->
+    <link rel="stylesheet" href="/css/reservation.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>pleasurepoint.com/reservation</title>
+</head>
+<body>
+
+    <!--start of header tag-->
+    <header>
+
+        <!--start of hamburger button on small screen size-->
+        <div class="collapse-btn d-md-none">
+            <span class="collapse-btn__burger"></span>
+        </div>
+        <!--end of burger div on small screen size-->
+        
+        <!--start of logo-->
+        <h1 id="logo">pleasure<sub>point</sub></h1>
+        <!--end of logo-->
+
+        <!--start of navigation bar-->
+        <nav class="nav">        
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="/index.html" class="menu-nav__link active" accesskey="h"><i class="fas fa-home d-md-none mr-2"></i>home</a></li>
+                <li class="menu-nav__item"><a href="#reservations" class="menu-nav__link" accesskey="r"><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
+                <li class="menu-nav__item"><a href="#about" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
+                <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
+                <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
+            </ul>
+        </nav>
+        <!--end of navigation bar-->
+
+    </header>
+    <!--end of header tag-->
+
+    <!--start of suite section-->
+    <section class="section2" id="reservations">
+        <!--start of heading for suite part-->
+        <div class="section2__head">
+            <h3 class="text-capitalize">our suites & rates<hr  class="bg-primary second-hr"></h3>
+            <button class="text-capitalize btn btn-outline-dark bg-white d-none d-md-block">
+            <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
+            </button>
+        </div>
+        <!--end of heading for suite part-->
+
+        <!--start of flex style for suite part-->
+        <div class="section2__flex">
+            <div class="flex1">
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="/images/de-java2.jpeg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the sea-side suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>230,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="/images/holiday.jpg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the hill-top suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>100,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                
+                </div>
+                <div class="mt-4 d-none d-lg-block">
+                    <figure>
+                        <img class="second-img" src="/images/holiday1.jpg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the hill-top suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>100,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="d-none d-md-block flex1">
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="/images/suite1.jpg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the sea-side suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>230,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mt-4">
+                    <figure>
+                        <img class="second-img" src="/images/suite.jpeg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the hill-top suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>100,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mt-4 d-md-none d-lg-block">
+                    <figure>
+                        <img class="second-img" src="/images/pool1.jpg" alt="My Suite">
+                        <figcaption>
+                            <h4 class="mt-3 text-capitalize">the hill-top suite</h4>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                                <i class="fas fa-star text-primary fa-2x"></i>
+                            <h5 class="my-2"> <s>N</s>100,000 / night</h5>
+                            <button class="btn btn-outline-primary text-capitalize">
+                                <a href="#book" class="first-a">book now</a>
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!--end of flex style for suite part-->
+
+            <!--start of button for small screen size-->
+            <div class="text-center d-sm-block d-md-none btn-div">
+                <button class="text-capitalize btn btn-outline-primary bg-white">
+                    <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
+                </button>
+            </div>
+            <!--end of button for small screen size-->
+</section>
+<!--end of suite section-->
+
+<!--start of facilities section-->
+<section class="section3" id="facilities">
+    <!--start of heading for facility part-->
+    <div class="section2__head">
+        <h3 class="text-capitalize">facilities & services<hr class="bg-primary second-hr"></h3>
+        <button class="text-capitalize btn btn-outline-dark d-none d-md-block bg-white">
+        <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
+        </button>
+    </div>
+    <!--end of heading for facilities part-->
+
+    <!--start of flex style for facility part-->
+    <div class="section2__flex">
+        <div class="flex1">
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/conference.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">meeting room</h4>
+                        <h5 class="text-capitalize">refreshing conference rooms</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read1">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="read1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">MEETING ROOM</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/pool_and_hotel.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">recreation</h4>
+                        <h5 class="text-capitalize">olympic sized swimming pool</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read2">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">RECREATION</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+        </div>
+        <div class="row d-none d-md-block flex1">
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/rest.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">resting area</h4>
+                        <h5 class="text-capitalize">relaxation and entertainment part</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read3">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">RESTING AREA</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+            <div class="mt-4">
+                <figure>
+                    <img class="second-img" src="/images/gym.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">gym room</h4>
+                        <h5 class="text-capitalize">fitness and building room</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read4">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="read4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content bg-white">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="exampleModalLongTitle">GYM AREA</h6>
+                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos vitae fugiat asperiores ipsum odio repellat eos, explicabo dolor voluptatum modi, atque quod recusandae</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--end of modal-->
+
+        </div>
+        <!--end of flex style for facility part-->
+
+        <!--start of button for small screen size-->
+        <div class="text-center d-sm-block d-md-none btn-div">
+            <button class="text-capitalize btn btn-outline-primary bg-white">
+                <a href="#">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
+            </button>
+        </div>
+        <!--end of button for small screen size-->
+    </section>
+<!--end of facilities section-->
+
+        <!--start of footer section-->
+        <section class="section6 bg-dark">
+            <div class="footer__div1 py-5">
+
+                <div class="text-capitalize div2">
+                    <ul class="ul1">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#reservations">reservations</a></li>
+                        <li id="div2-ul1__li3"><a href="#">help</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-capitalize div2 div3">
+                    <ul class="ul1">
+                        <li><a href="#">for members</a></li>
+                        <li><a href="#">profile</a></li>
+                        <li><a href="#facilities">facilities</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="div4">
+                    <p>Stay up to date with us and get amazing discounts by joining our exclusive newsletter list</p>
+                    <label for="email" class="footer-id mt-3"> Email:
+                        <input type="text" id="email" placeholder="Enter your email address" class="pl-2">
+                    </label>
+                    <span>
+                        <button class="text-capitalize">
+                            <a href="#">sign up</a>
+                        </button>
+                    </span><br>
+                    <div class="my-3 font-div">
+                            <a href="https://twitter.com/WasleadWears" target="_blank" rel="noreferrer"><i class="fab fa-twitter text-white fa-2x"></i></a>
+                            <a href="https://web.facebook.com/abdulwasiu.olaiya.73" target="_blank" rel="noreferrer"><i class="fab fa-facebook text-white fa-2x mx-5"></i></a>
+                            <a href="https://www.instagram.com/_wasleadwears/" target="_blank" rel="noreferrer"><i class="fab fa-instagram text-white fa-2x"></i></a>
+                    </div>             
+                </div>
+                
+            </div>
+        </section>
+    <!--end of footer section-->
+    
+
+    
+    <script src="/js/index.js"></script>
+    <script src="/js/all.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

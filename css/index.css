@@ -1,165 +1,5 @@
-/*Start of standard styling for css*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
+@import "nav.css";
 
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Oswald', sans-serif;
-  height: 100%;
-}
-
-/*end of standard styling for css*/
-
-/*start of heading styling*/
-header {
-  position:fixed;
-  z-index : 17;
-  background-color: rgb(247, 245, 245);
-  width: 100%;
-  padding: 10px;
-}
-/*end of heading styling*/
-
-/*start of hamburger styling*/
-.collapse-btn {
-  position: absolute;
-  z-index: 1;
-  right: 15px;
-  top: 15px;
-  height: 20px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.collapse-btn__burger {
-  position: absolute;
-  right: 0;
-  top: 5px;
-  width: 28px;
-  height: 3px;
-  background-color: #000;
-}
-
-.collapse-btn__burger::before {
-  content: "";
-  position: absolute;
-  top: -8px;
-  width: 28px;
-  height: 3px;
-  background-color: #000;
-  transition: all 0.5s ease-in-out; 
-}
-
-.collapse-btn__burger::after {
-  content: "";
-  position: absolute;
-  top: 8px;
-  width: 28px;
-  height: 3px;
-  background-color: #000;
-  transition: all 0.5s ease-in-out; 
-}
-/*end of hamburger styling*/
-
-/*start of opening and closing style for hamburger*/
-.collapse-btn__burger.open {
-  transform: rotate(720deg);
-  background: transparent;
-}
-
-.collapse-btn__burger.open::before {
-  transform: rotate(45deg) translate(5px,8px);
-}
-
-.collapse-btn__burger.open::after {
-  transform: rotate(-45deg) translate(3px,-7px);
-}
-/*end of opening and closing style for hamburger*/
-
-/*start of logo styling*/
-#logo { 
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #000;
-  font-size: 30px;
-}
-
-sub {
-  color: #0275d8;
-}
-/*end of logo styling*/
-
-/*start of styling of navigation items*/
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 70%;
-  visibility: hidden;
-  transition: all 0.5s ease-in-out;
-}
-
-.nav.open {
-  visibility: visible;
-  background-color: rgb(247, 245, 245);
-  height: 60%;
-  transition: all 0.5s ease-out;
-}
-
-.menu-nav {
-  display: flex;
-  flex-flow: column wrap;
-  overflow: hidden;
-  list-style: none;
-  transition: all 0.5s ease-in-out;
-  transform: translateX(-100%);
-}
-
-.menu-nav.open {
-  transform: translateX(0);
-}
-
-.menu-nav__item {
-  transform: translateX(100vw);
-  padding: 20px 0;
-}
-
-#unique-li {
-  visibility: hidden;
-}
-
-.menu-nav__item.open {
-  transform: translateX(0);
-}
-
-.menu-nav__link.active {
-  color: #0275d8;
-}
-
-.menu-nav__link {
-  display: inline-block;
-  font-size: 25px;
-  text-decoration: none;
-  color: #000;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-
-.menu-nav__link:hover {
-  border-top: 3px solid #0275d8;
-  border-bottom: 3px solid #0275d8;
-  text-decoration: none;
-  color: #0275d8;
-  transform: scale(1);
-}
-
-
-/*end of navigation bar styling*/
 
 /*start of carousel section styling*/
 
@@ -207,101 +47,6 @@ sub {
   color: #fff;
 }
 /*end of carousel section styling*/
-
-/*start of styling for suite section*/
-.section2 {
-  height: 200vh;
-  background-color: rgb(231, 216, 216);
-}
-/*start of styling for head section*/
-.section2__head {
-  text-align: center;
-  padding-top: 70px;
-  color: #000;
-}
-
-.section2__head h3 {
-  font-size: 35px;
-}
-
-.second-hr {
-  width: 30%;
-  height: 3px;
-  margin: 0 auto;
-}
-
-.section2__head button a {
-  font-size: 35px;
-  color: #000;
-}
-
-.section2__flex {
-  color: #000;
-}
-
-.btn-div button {
-  height: 4rem;
-  width: 40%;
-  margin-top: 40px;
-  border-radius: 0 30px;
-}
-
-.btn-div button a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000;
-}
-/*end of styling for head section*/
-
-.section2__flex {
-  text-align: center;
-}
-
-figcaption h4 {
-  font-size: 30px;
-}
-
-figcaption h5 {
-  font-size: 25px;
-}
-
-.second-img {
-  display: block;
-  width: 80%;
-  margin: auto;
-  height: 40vh;
-  border-radius: 10px;
-  box-shadow: -5px -5px 10px #000;
-}
-/*end of style for suite section*/
-
-/*start of styling for facilities section*/
-.section3 {
-  display: inline-block;
-  min-height: 170vh;
-  background-color: rgb(231, 216, 216);  
-}
-
-.section3 .section2__head {
-  padding-top: 50px;
-}
-
-.modal-title {
-  margin: 0 auto;
-  font-size: 30px;
-}
-
-
-.modal-btn span {
-  font-size: 50px;
-}
-
-.modal-body p {
-  font-size: 20px;
-}
-
-/*end of styling for facilities section*/
 
 /*start of styling for about section*/
 
@@ -418,104 +163,6 @@ figcaption h5 {
 
 /*end of contact styling*/
 
-/*start of styling for footer section*/
-.section6 {
-  color: #fff;
-}  
-
-
-.footer__div1 {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display:flex;
-    flex-direction: column;
-    flex-flow: column wrap;
-  }
-
-  .div2 .ul1 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    -webkit-box-pack: space-around;
-    -moz-box-pack: space-around;
-    -ms-flex-pack: space-around;
-    -webkit-flex-pack: space-around;
-    justify-content: space-around;
-    text-align: start;
-  }
-
-  #div2-ul1__li3 {
-    display: none;
-  }
-
-  .div3 {
-    display: none;
-  }
-
-  .ul1 {
-    list-style: none;
-  }
-
-  .ul1 li a {
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: 0.5s ease-in;
-    color: #fff;
-  }
-
-  .ul1 a:hover {
-    color: #0275d8;
-    transform: scale(1);
-  }
-
-  .div4 p {
-    font-size: 20px;
-  }
-
-  .div4 input {
-    height: 3rem;
-    border-radius: 0 25px;
-    border: 2px solid #fff;
-    font-size: 15px;
-    font-weight: bold;
-    width: 75%;
-  }
-
-  .div4 span button {
-    height: 3rem;
-    font-size: 15px;
-    border-radius: 0 25px 0 0;
-    border: 2px solid #fff;
-    width: 20%;
-    font-weight: bold;
-    background-color: #fff;
-  }
-
-  .div4 span button a {
-    text-decoration: none;
-    color: rgb(105, 104, 104);
-  }
-
-  .div4 span button a:hover {
-    color: #fff;
-  }
-
-  .div4 span button:hover {
-    background-color: #0275d8;
-    border: 2px solid #0275d8;
-  }
-
-/*end of styling for footer section*/
-
-
-
-
 
 /*start of styling for tablet screen size*/
 @media only screen and (min-width:600px) {
@@ -524,16 +171,6 @@ figcaption h5 {
     font-size: 40px;
   }
   /*end of carousel section*/
-
-
-  /*start of styling for suite section*/
-  
-  .btn-div button {
-    width: 30%;
-    margin-top: 30px;
-  }
-   
-  /*end of style for suite section*/
   
   /*start of about section*/
   .section4 {
@@ -549,73 +186,12 @@ figcaption h5 {
     }
   
   /*end of contact styling*/
-  
-    /*start of style for footer section*/
-    .footer__div1 {
-      flex-direction: row;
-      flex-flow: row wrap;
-      -webkit-box-pack: space-around;
-      -moz-box-pack: space-around;
-      -ms-flex-pack: space-around;
-      -webkit-flex-pack: space-around;
-      justify-content: space-around;
-    }
-    
-    .div2 .ul1 {
-      flex-direction: column;
-      flex-flow: column wrap;
-    }
-
-    #div2-ul1__li3 {
-      display: block;
-    }
-
-    .div3 {
-      display: block;
-    }
-    
-    .div4 p {
-      margin: auto;
-      width: 80%;
-    }
-    
-    .div4 span button {
-      width: 15%;
-    }
-    /*end of style for footer section*/
 
 }
 /*end of styling for tablet screen size*/
 
 
 @media only screen and (min-width:768px) {
-    /*start of styling for navigation*/
-    .nav {
-      visibility: visible;
-      width: 100%;
-    }
-  
-    #unique__link {
-      display: none;
-    }
-  
-    .menu-nav {
-      display: block;
-      transform: translateY(0);
-      width: 100%;
-      text-align: right;
-    }
-  
-    .menu-nav__item {
-      display: inline;
-      padding-right: 10px;
-    }
-  
-    .menu-nav__link {
-      font-size: 20px;
-      margin: 15px 0;
-    }
-  /*end of styling for navigation*/
   
   /*start of style on carousel section*/
   
@@ -629,58 +205,6 @@ figcaption h5 {
       font-size: 20px;  
     }
   /*end of style for carousel section*/
-  
-  /*start of styling for suite section*/
-  
-  .section2 {
-    min-height: 170vh;
-  }
-  
-  .section2__head {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 50px;
-  }
-  
-  .second-hr {
-    margin: 0;
-    justify-content: start;
-  }
-  
-  .section2__head button {
-    border-radius: 10px;
-  }
-  
-  .section2__head button a {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .section2__flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-grid;
-    display: -webkit-grid;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-  }
-
-  /*end of styling for suite section*/
-  
-  /*start of facilities section*/
-  .section3 {
-    min-height: 160vh;  
-  }
-
-  .section3 .section2__head {
-    padding-top: 70px;
-  }
-  /*end of facilities section*/
-  
   
   /*start of styling about section*/
   .section4 {
@@ -751,36 +275,11 @@ figcaption h5 {
 /*start of styling for desktop screen size*/
 @media only screen and (min-width:1024px) {
 
-/*start of styling for navigation*/
-  #unique-li {
-    visibility: visible;
-  }
-
-  #unique__link {
-      background-color: #0275d8;
-      border-radius: 10px;
-      padding: 5px;
-      color: #fff;
-      display: inline-block;
-      font-size: 20px;
-      text-decoration: none;
-      text-transform: uppercase;
-  }
-/*end of styling for navigation*/
-
 /*start of styling for carousel section*/
 .embedded-text h2 {
   font-size: 50px;
   }
 /*end of styling for carousel section*/
-
-/*start of styling for suite section*/
-.section2 {
-  min-height: 230vh;
-}
-
-/*end of styling for suite section*/
-
 
 /*start of styling about section*/
 .section4__div2__flex {
@@ -793,18 +292,6 @@ figcaption h5 {
   width: 40%;
 }
 /*end of contact styling*/
-
-
-/*start of styling for footer section*/
-  .footer__div1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .div4 span button {
-    width:20%;
-  }
-/*start of styling for footer section*/
 
 }
 
