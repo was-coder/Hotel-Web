@@ -16,15 +16,15 @@ html, body {
 
 /*start of heading styling*/
 header {
-    position:fixed;
-    z-index : 17;
-    background-color: rgb(247, 245, 245);
-    width: 100%;
-    padding: 10px;
-  }
-  /*end of heading styling*/
+  position:fixed;
+  z-index : 17;
+  background-color: rgb(247, 245, 245);
+  width: 100%;
+  padding: 10px;
+}
+/*end of heading styling*/
   
-  /*start of hamburger styling*/
+/*start of hamburger styling*/
   .collapse-btn {
     position: absolute;
     z-index: 1;
@@ -63,9 +63,9 @@ header {
     background-color: #000;
     transition: all 0.5s ease-in-out; 
   }
-  /*end of hamburger styling*/
+/*end of hamburger styling*/
   
-  /*start of opening and closing style for hamburger*/
+/*start of opening and closing style for hamburger*/
   .collapse-btn__burger.open {
     transform: rotate(720deg);
     background: transparent;
@@ -78,9 +78,9 @@ header {
   .collapse-btn__burger.open::after {
     transform: rotate(-45deg) translate(3px,-7px);
   }
-  /*end of opening and closing style for hamburger*/
+/*end of opening and closing style for hamburger*/
   
-  /*start of logo styling*/
+/*start of logo styling*/
   #logo { 
     text-transform: uppercase;
     font-weight: bold;
@@ -91,9 +91,9 @@ header {
   sub {
     color: #0275d8;
   }
-  /*end of logo styling*/
+/*end of logo styling*/
   
-  /*start of styling of navigation items*/
+/*start of styling of navigation items*/
   .nav {
     position: fixed;
     top: 0;
@@ -156,11 +156,247 @@ header {
   .menu-nav__link.active {
     color: #0275d8;
   }
-  /*end of navigation bar styling*/
+/*end of navigation bar styling*/
+
+/*start of styling for facilities section*/
+.section3 {
+  min-height: 180vh;
+  background-color: rgb(231, 216, 216);  
+}
+
+/*start of styling for head section*/
+.section2__head {
+text-align: center;
+padding-top: 70px;
+color: #000;
+}
+
+.section2__head h3 {
+font-size: 35px;
+}
+
+.section2__head button a {
+font-size: 35px;
+color: #000;
+}
+
+.section2__flex {
+color: #000;
+}
+
+.btn-div button {
+height: 4rem;
+width: 40%;
+margin-top: 30px;
+border-radius: 0 30px;
+}
+
+.btn-div button a {
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: #000;
+}
+/*end of styling for head section*/
+
+.section2__flex {
+text-align: center;
+}
+
+figcaption h4 {
+font-size: 30px;
+}
+
+figcaption h5 {
+font-size: 25px;
+}
+
+.second-img {
+display: block;
+width: 80%;
+margin: auto;
+height: 40vh;
+border-radius: 10px;
+box-shadow: -5px -5px 10px #000;
+}
+
+.modal-title {
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+
+.modal-btn span {
+  font-size: 50px;
+}
+
+.modal-body p {
+  font-size: 20px;
+}
+
+/*end of styling for facilities section*/
+
+
+/*start of styling for footer section*/
+.section6 {
+  color: #fff;
+}
+
+.footer__div1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display:flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+.div2 .ul1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#div2-ul1__li3 {
+  display: none;
+}
+
+.div3 {
+  display: none;
+}
+
+.ul1 {
+  list-style: none;
+}
+
+.ul1 li a {
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+  color: #fff;
+}
+
+.ul1 a:hover {
+  color: #0275d8;
+  transform: scale(1);
+}
+
+.div4 p {
+  font-size: 20px;
+}
+
+.div4 input {
+  height: 3rem;
+  border-radius: 0 25px;
+  border: 2px solid #fff;
+  font-size: 15px;
+  font-weight: bold;
+  width: 75%;
+}
+
+.div4 span button {
+  height: 3rem;
+  font-size: 15px;
+  border-radius: 0 25px 0 0;
+  border: 2px solid #fff;
+  width: 20%;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.div4 span button a {
+  text-decoration: none;
+  color: rgb(105, 104, 104);
+}
+
+.div4 span button a:hover {
+  color: #fff;
+}
+
+.div4 span button:hover {
+  background-color: #0275d8;
+  border: 2px solid #0275d8;
+}
+/*end of styling for footer section*/
+
+/*start of hr styling*/
+.second-hr {
+  width: 30%;
+  height: 3px;
+  margin: 0 auto;
+}
+/*end of hr styling*/
+
+/*start of button styling*/
+.first-a {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.first-a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/*end of button styling*/
+
+
+
+@media only screen and (min-width:600px) {
   
-  @media only screen and (min-width:768px) {
-    /*start of styling for navigation*/
-    .nav {
+    /*start of facilities section*/
+    .btn-div button {
+      width: 30%;
+    }
+    /*end of facilities section*/
+  
+  /*start of style for footer section*/
+  .footer__div1 {
+    flex-direction: row;
+    flex-flow: row wrap;
+    -webkit-box-pack: space-around;
+    -moz-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    -webkit-flex-pack: space-around;
+    justify-content: space-around;
+  }
+  
+  .div2 .ul1 {
+    flex-direction: column;
+    flex-flow: column wrap;
+  }
+
+  #div2-ul1__li3 {
+    display: block;
+  }
+
+  .div3 {
+    display: block;
+  }
+  
+  .div4 p {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .div4 span button {
+    width: 15%;
+  }
+  /*end of style for footer section*/
+}
+
+
+
+@media only screen and (min-width:768px) {
+    
+/*start of styling for navigation*/
+  .nav {
       visibility: visible;
       width: 100%;
     }
@@ -185,16 +421,59 @@ header {
       font-size: 20px;
       margin: 15px 0;
     }
-  /*end of styling for navigation*/
-  }
+/*end of styling for navigation*/
 
-  @media only screen and (min-width:1024px) {
-    /*start of styling for navigation*/
-#unique-li {
-  visibility: visible;
+    /*start of facilities section*/
+    .section3 {
+      min-height: 160vh;  
+    }
+  
+    .section3 .section2__head {
+      padding-top: 70px;
+    }
+    .section2__head {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+    
+    .second-hr {
+      margin: 0;
+      justify-content: start;
+    }
+    
+    .section2__head button {
+      border-radius: 10px;
+    }
+    
+    .section2__head button a {
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    .section2__flex {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-grid;
+      display: -webkit-grid;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+    }
+    /*end of facilities section*/
 }
 
-#unique__link {
+@media only screen and (min-width:1024px) {
+    
+/*start of styling for navigation*/
+  #unique-li {
+    visibility: visible;
+  }
+  
+  #unique__link {
     background-color: #0275d8;
     border-radius: 10px;
     padding: 5px;
@@ -203,153 +482,17 @@ header {
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-}
-/*end of styling for navigation*/
   }
+/*end of styling for navigation*/
 
-
-  /*start of styling for footer section*/
-.section6 {
-    color: #fff;
-  }  
-  
-  
-  .footer__div1 {
-      text-align: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display:flex;
-      flex-direction: column;
-      flex-flow: column wrap;
-    }
-  
-    .div2 .ul1 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      flex-direction: row;
-      flex-flow: row wrap;
-      justify-content: space-evenly;
-    }
-  
-    #div2-ul1__li3 {
-      display: none;
-    }
-  
-    .div3 {
-      display: none;
-    }
-  
-    .ul1 {
-      list-style: none;
-    }
-  
-    .ul1 li a {
-      font-size: 20px;
-      cursor: pointer;
-      text-decoration: none;
-      transition: 0.5s ease-in;
-      color: #fff;
-    }
-  
-    .ul1 a:hover {
-      color: #0275d8;
-      transform: scale(1);
-    }
-  
-    .div4 p {
-      font-size: 20px;
-    }
-  
-    .div4 input {
-      height: 3rem;
-      border-radius: 0 25px;
-      border: 2px solid #fff;
-      font-size: 15px;
-      font-weight: bold;
-      width: 75%;
+    /*start of styling for footer section*/
+    .footer__div1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   
     .div4 span button {
-      height: 3rem;
-      font-size: 15px;
-      border-radius: 0 25px 0 0;
-      border: 2px solid #fff;
-      width: 20%;
-      font-weight: bold;
-      background-color: #fff;
+      width:20%;
     }
-  
-    .div4 span button a {
-      text-decoration: none;
-      color: rgb(105, 104, 104);
-    }
-  
-    .div4 span button a:hover {
-      color: #fff;
-    }
-  
-    .div4 span button:hover {
-      background-color: #0275d8;
-      border: 2px solid #0275d8;
-    }
-  
-  /*end of styling for footer section*/
-
-  @media only screen and (min-width:600px) {
-        /*start of style for footer section*/
-        .footer__div1 {
-          flex-direction: row;
-          flex-flow: row wrap;
-          -webkit-box-pack: space-around;
-          -moz-box-pack: space-around;
-          -ms-flex-pack: space-around;
-          -webkit-flex-pack: space-around;
-          justify-content: space-around;
-        }
-        
-        .div2 .ul1 {
-          flex-direction: column;
-          flex-flow: column wrap;
-        }
-    
-        #div2-ul1__li3 {
-          display: block;
-        }
-    
-        .div3 {
-          display: block;
-        }
-        
-        .div4 p {
-          margin: auto;
-          width: 80%;
-        }
-        
-        .div4 span button {
-          width: 15%;
-        }
-        /*end of style for footer section*/
-  }
-
-  @media only screen and (min-width:1024px) {
-    /*start of styling for footer section*/
-  .footer__div1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .div4 span button {
-    width:20%;
-  }
-/*start of styling for footer section*/
-  }
-
-  /*hr styling*/
-  .second-hr {
-    width: 30%;
-    height: 3px;
-    margin: 0 auto;
-  }
+  /*start of styling for footer section*/
+}

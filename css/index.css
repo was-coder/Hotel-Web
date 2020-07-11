@@ -32,103 +32,10 @@
 }
 
 .embedded-text button:hover {
-  background-color: #000;
-  border: 2px solid #000;
-}
-
-.first-a {
-  color: #000;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.first-a:hover {
-  text-decoration: none;
-  color: #fff;
+  background-color: #0275d8;
+  border: 2px solid #0275d8;
 }
 /*end of carousel section styling*/
-
-
-  /*start of styling for facilities section*/
-  .section3 {
-    display: inline-block;
-    min-height: 170vh;
-    background-color: rgb(231, 216, 216);  
-  }
-  
-/*start of styling for head section*/
-.section2__head {
-  text-align: center;
-  padding-top: 70px;
-  color: #000;
-}
-
-.section2__head h3 {
-  font-size: 35px;
-}
-
-.section2__head button a {
-  font-size: 35px;
-  color: #000;
-}
-
-.section2__flex {
-  color: #000;
-}
-
-.btn-div button {
-  height: 4rem;
-  width: 40%;
-  margin-top: 40px;
-  border-radius: 0 30px;
-}
-
-.btn-div button a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000;
-}
-/*end of styling for head section*/
-
-.section2__flex {
-  text-align: center;
-}
-
-figcaption h4 {
-  font-size: 30px;
-}
-
-figcaption h5 {
-  font-size: 25px;
-}
-
-.second-img {
-  display: block;
-  width: 80%;
-  margin: auto;
-  height: 40vh;
-  border-radius: 10px;
-  box-shadow: -5px -5px 10px #000;
-}
-  
-  .modal-title {
-    margin: 0 auto;
-    font-size: 30px;
-  }
-  
-  
-  .modal-btn span {
-    font-size: 50px;
-  }
-  
-  .modal-body p {
-    font-size: 20px;
-  }
-  
-  /*end of styling for facilities section*/
-
-
 
 /*start of styling for tablet screen size*/
 @media only screen and (min-width:600px) {
@@ -137,13 +44,6 @@ figcaption h5 {
     font-size: 40px;
   }
   /*end of carousel section*/
-
-  /*start of facilities section*/
-.btn-div button {
-    width: 30%;
-    margin-top: 30px;
-  }
-  /*end of facilities section*/
 
 }
 /*end of styling for tablet screen size*/
@@ -163,50 +63,7 @@ figcaption h5 {
       font-size: 20px;  
     }
   /*end of style for carousel section*/
-  
-    /*start of facilities section*/
-    .section3 {
-      min-height: 160vh;  
-    }
-  
-    .section3 .section2__head {
-      padding-top: 70px;
-    }
-    .section2__head {
-      display: flex;
-      justify-content: space-between;
-      width: 90%;
-      margin: 0 auto;
-      padding-top: 70px;
-    }
-    
-    .second-hr {
-      margin: 0;
-      justify-content: start;
-    }
-    
-    .section2__head button {
-      border-radius: 10px;
-    }
-    
-    .section2__head button a {
-      font-size: 20px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    
-    .section2__flex {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-grid;
-      display: -webkit-grid;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: space-between;
-    }
-    /*end of facilities section*/
 }
-
 
 
 /*start of styling for desktop screen size*/
@@ -217,7 +74,5 @@ figcaption h5 {
   font-size: 50px;
   }
 /*end of styling for carousel section*/
-
 }
-
 /*end of styling for desktop screen size*/
