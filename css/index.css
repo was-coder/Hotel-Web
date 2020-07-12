@@ -32,6 +32,10 @@
   background-color: #0275d8;
   border: 2px solid #0275d8;
 }
+
+.small-btn {
+  padding:0;
+}
 /*end of carousel section styling*/
 
 /*start of styling for tablet screen size*/
