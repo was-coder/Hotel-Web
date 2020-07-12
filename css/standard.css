@@ -106,7 +106,7 @@ header {
   .nav.open {
     visibility: visible;
     background-color: rgb(247, 245, 245);
-    height: 60%;
+    height: 70%;
     transition: all 0.5s ease-out;
   }
   
