@@ -3,7 +3,7 @@
 /*start of contact section*/
 .section5 {
     display: inline-block;
-    height: 130vh;
+    min-height: 140vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
