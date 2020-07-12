@@ -2,8 +2,8 @@
 
 /*start of contact section*/
 .section5 {
-    display: block;
-    min-height: 150vh;
+    display: inline-block;
+    min-height: 120vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -12,11 +12,12 @@
   }
 
   .contact-div1 {
-    display: block;
+    display: inline-block;
     width: 95%;
     margin: auto;
     border: 2px solid rgb(231, 216, 216);
     border-radius:20px;
+    background-color: rgb(231, 216, 216);
   }
 
   .contact-div1 h4 {
