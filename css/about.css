@@ -106,12 +106,8 @@
     padding-bottom:100px;
   }
   
-  .about-btn {
-    padding-top: 120px;
-  }
-  
-  .about-btn button {
-    width: 25%;
+  .btn-div {
+    padding-top: 30vh;
   }
   /*end of styling about section*/
 }

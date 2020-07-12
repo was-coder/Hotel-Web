@@ -2,7 +2,6 @@
 
 /*start of contact section*/
 .section5 {
-    overflow: hidden;
     display: inline-block;
     min-height: 140vh;
     background: url(/images/rest.jpg) center;
@@ -50,6 +49,10 @@
     height: 50px;
     color: #000;
     font-weight: bold;
+  }
+
+  #send:hover {
+    color:#fff;
   }
 
 /*end of contact styling*/
