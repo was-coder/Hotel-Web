@@ -2,6 +2,7 @@
 
 /*start of contact section*/
 .section5 {
+    overflow: hidden;
     display: inline-block;
     min-height: 140vh;
     background: url(/images/rest.jpg) center;
