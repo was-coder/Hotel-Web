@@ -14,6 +14,7 @@
   .contact-div1 {
     display: inline-block;
     width: 95%;
+    min-height: 10vh;
     margin: auto;
     border: 2px solid rgb(231, 216, 216);
     border-radius:20px;
