@@ -26,3 +26,4 @@ function toggleMenu () {
     }
 };
 /*End of JS for button toggling*/
+
