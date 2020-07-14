@@ -11,7 +11,6 @@ html, body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   height: 100%;
-  width: 100%;
 }
 /*end of standard styling for css*/
 
@@ -247,7 +246,7 @@ font-size: 25px;
 .second-img {
 width: 80%;
 margin: auto;
-height: 30vh;
+height: 40vh;
 border-radius: 10px;
 box-shadow: -5px -5px 10px #000;
 }
