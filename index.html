@@ -43,7 +43,6 @@
 
     <!--start of carousel section-->
     <section class="section1" id="home">
-
         <!--showing on small screen only-->
         <div class="d-md-none carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -130,7 +129,7 @@
 <section class="section3" id="facilities">
     <!--start of heading for facility part-->
     <div class="section2__head">
-        <h3 class="text-capitalize"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="10000" data-aos-easing="ease-in-out">facilities & services<hr class="bg-primary second-hr"></h3>
+        <h3 class="text-capitalize"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">facilities & services<hr class="bg-primary second-hr"></h3>
         <button class="text-capitalize btn btn-outline-dark d-none d-md-block bg-white">
         <a href="/html/reservation.html">view all <i class="fas fa-chevron-right ml-2 fa-1x text-primary"></i></a>
         </button>
@@ -139,8 +138,8 @@
 
     <!--start of flex style for facility part-->
     <div class="section2__flex">
-        <div class="flex1">
-            <div class="mt-4">
+        <div class="row">
+            <div class="mt-4 col-md-6 col-lg-4">
                 <figure>
                     <img class="second-img" src="/images/conference.jpg" alt="My Suite">
                     <figcaption>
@@ -151,27 +150,27 @@
                         </button>
                     </figcaption>
                 </figure>
-            </div>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="read1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content bg-white">
-                    <div class="modal-header">
-                      <h6 class="modal-title" id="exampleModalLongTitle">MEETING ROOM</h6>
-                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <p>Our Conference room is quiet,cool and nice for handling for your various business</p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <!--end of modal-->
 
-            <div class="mt-4">
+                <!-- Modal -->
+                <div class="modal fade" id="read1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="modal-title" id="exampleModalLongTitle">MEETING ROOM</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Our Conference room is quiet,cool and nice for handling for your various business</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+            </div>
+
+            <div class="mt-4 col-md-6 col-lg-4">
                 <figure>
                     <img class="second-img" src="/images/pool_and_hotel.jpg" alt="My Suite">
                     <figcaption>
@@ -182,29 +181,27 @@
                         </button>
                     </figcaption>
                 </figure>
-            </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="read2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content bg-white">
-                    <div class="modal-header">
-                      <h6 class="modal-title" id="exampleModalLongTitle">RECREATION</h6>
-                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
+                <!-- Modal -->
+                <div class="modal fade" id="read2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="modal-title" id="exampleModalLongTitle">RECREATION</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Our Recreation area is one of the coolest place and is the best when talking about comfortability</p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="modal-body">
-                      <p>Our Recreation area is one of the coolest place and is the best when talking about comfortability</p>
-                    </div>
-                  </div>
                 </div>
+                <!--end of modal-->
             </div>
-            <!--end of modal-->
 
-        </div>
-        <div class="row d-none d-md-block flex1">
-            <div class="mt-4">
+            <div class="mt-4 d-none d-md-block col-md-6 col-lg-4">
                 <figure>
                     <img class="second-img" src="/images/rest.jpg" alt="My Suite">
                     <figcaption>
@@ -215,57 +212,118 @@
                         </button>
                     </figcaption>
                 </figure>
-            </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="read3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content bg-white">
-                    <div class="modal-header">
-                      <h6 class="modal-title" id="exampleModalLongTitle">RESTING AREA</h6>
-                      <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
+                <!-- Modal -->
+                <div class="modal fade" id="read3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="modal-title" id="exampleModalLongTitle">RESTING AREA</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Our Resting area is the best when talking about comfortability</p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="modal-body">
-                      <p>Our Resting area is the best when talking about comfortability</p>
-                    </div>
-                  </div>
                 </div>
+                <!--end of modal-->
             </div>
-            <!--end of modal-->
 
-            <div class="mt-4">
+            <div class="mt-4 d-none d-md-block col-md-6 col-lg-4">
                 <figure>
                     <img class="second-img" src="/images/gym.jpg" alt="My Suite">
                     <figcaption>
-                        <h4 class="mt-3 text-capitalize">gym room</h4>
-                        <h5 class="text-capitalize">fitness and building room</h5>
+                        <h4 class="mt-3 text-capitalize">dining</h4>
+                        <h5 class="text-capitalize">dining section</h5>
                         <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read4">
                             <a href="#facilities" class="first-a">read more</a>
                         </button>
                     </figcaption>
                 </figure>
-            </div>
 
-            <!-- Modal -->
+                <!-- Modal -->
             <div class="modal fade" id="read4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content bg-white">
                     <div class="modal-header">
-                      <h6 class="modal-title" id="exampleModalLongTitle">GYM AREA</h6>
+                      <h6 class="modal-title" id="exampleModalLongTitle">DINING AREA</h6>
                       <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p>Our Gym section is readily available for your body building</p>
+                      <p>Our Dining section serves and offer you all kind of food varities</p>
                     </div>
                   </div>
                 </div>
             </div>
-            <!--end of modal-->
+                <!--end of modal-->
+            </div>
 
+            <div class="mt-4 d-none d-md-block col-md-6 col-lg-4">
+                <figure>
+                    <img class="second-img" src="/images/gym.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">lobby</h4>
+                        <h5 class="text-capitalize">lobby area</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read5">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+
+                <!-- Modal -->
+                <div class="modal fade" id="read5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="modal-title" id="exampleModalLongTitle">LOBBY</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Our lobby are is readily available for your relaxing and welcomin august visitors</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+               <!--end of modal-->
+            </div>
+
+            <div class="mt-4 d-none d-md-block col-md-6 col-lg-4">
+                <figure>
+                    <img class="second-img" src="/images/gym.jpg" alt="My Suite">
+                    <figcaption>
+                        <h4 class="mt-3 text-capitalize">gym room</h4>
+                        <h5 class="text-capitalize">fitness and building room</h5>
+                        <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read6">
+                            <a href="#facilities" class="first-a">read more</a>
+                        </button>
+                    </figcaption>
+                </figure>
+
+                <!-- Modal -->
+                <div class="modal fade" id="read6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="modal-title" id="exampleModalLongTitle">GYM AREA</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Our Gym section is readily available for your body building</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+            </div>
         </div>
         <!--end of flex style for facility part-->
 
@@ -332,6 +390,6 @@
     <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="scripts.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>

@@ -11,6 +11,7 @@ html, body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   height: 100%;
+  width: 100%;
 }
 /*end of standard styling for css*/
 
@@ -244,10 +245,9 @@ font-size: 25px;
 }
 
 .second-img {
-display: block;
 width: 80%;
 margin: auto;
-height: 40vh;
+height: 30vh;
 border-radius: 10px;
 box-shadow: -5px -5px 10px #000;
 }
@@ -473,16 +473,6 @@ box-shadow: -5px -5px 10px #000;
       font-weight: bold;
       text-decoration: none;
     }
-    
-    .section2__flex {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-grid;
-      display: -webkit-grid;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: space-between;
-    }
     /*end of facilities section*/
 }
 
@@ -506,10 +496,6 @@ box-shadow: -5px -5px 10px #000;
 /*end of styling for navigation*/
 
     /*start of styling for footer section*/
-    .footer__div1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
   
     .div4 span button {
       width:20%;

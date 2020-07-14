@@ -4,12 +4,14 @@
 /*start of carousel section styling*/
 
 .first-img {
+  position: relative;
   display: block;
-  height: 70vh;
+  max-height: 70vh;
   margin: 0 auto;
 }
 
 .embedded-text {
+  position: absolute;
   top: 25%;
 }
 
@@ -53,7 +55,7 @@
 @media only screen and (min-width:768px) {
   
   /*start of style on carousel section*/
-  
+
     .embedded-text p {
       font-size: 20px;
       width: 70%;
