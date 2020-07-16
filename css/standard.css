@@ -362,7 +362,7 @@ box-shadow: -5px -5px 10px #000;
     width: 80%;
   }
   
-  .div4 span button {
+  .div4 button {
     width: 15%;
   }
   /*end of style for footer section*/
@@ -457,8 +457,8 @@ box-shadow: -5px -5px 10px #000;
 
     /*start of styling for footer section*/
   
-    .div4 span button {
-      width:20%;
+    .div4 button {
+      width:25%;
     }
   /*start of styling for footer section*/
 }

@@ -42,20 +42,85 @@
 
         <!--start of contact section-->
             <section class="section5 container-fluid" id="contact">
-                <div class="contact-div1 px-3 py-3">
-                    <h4>Get in touch with Us</h4>
-                    <form action="" class="text-capitalize">
-                        <label for="name" class="get-label">name </label><br>
-                            <input type="text" id="name" placeholder="Enter Your Name Here" class="pl-2" required> <br>
-                        <label for="email" class="get-label">email </label><br>
-                            <input type="email" id="cont-email" placeholder="Enter Your Email Here" class="pl-2" required> <br>
-                        <label for="message" class="get-label">message </label><br>
-                            <input type="text" id="message" placeholder="Tell us how we can be of help" class="pl-2" required><br>
-                        <button class="btn btn-outline-dark text-uppercase" id="send">send message</button>
-                    </form>
+                <div class="row container contact-row d-flex">
+                    <div class="contact-div1 px-3 py-3 col-md-10">
+                        <h4>Get in touch with Us</h4>
+                        <form action="" class="text-capitalize">
+                            <label for="name" class="get-label">name </label><br>
+                                <input type="text" id="name" placeholder="Enter Your Name Here" class="pl-2" required> <br>
+                            <label for="email" class="get-label">email </label><br>
+                                <input type="email" id="cont-email" placeholder="Enter Your Email Here" class="pl-2" required> <br>
+                            <label for="message" class="get-label">message </label><br>
+                                <input type="text" id="message" placeholder="Tell us how we can be of help" class="pl-2" required><br>
+                            <button class="btn btn-outline-dark text-uppercase" id="send">send message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-2 mt-3 py-3 text-center book" id="book">
+                        <h4 class="text-capitalize mb-3">get booked in here</h4>
+                        <form action="#">
+                            <label for="rooms" class="font-weight-bolder">Rooms : 
+                            <select name="loc" id="loc" class="text-capitalize">
+                                <option value="hill">the hill-top suite</option>
+                                <option value="sea">the sea-side suite</option>
+                                <option value="main">the main suite</option>
+                                <option value="legend">the legend-side suite</option>
+                                <option value="master">the master-top suite</option>
+                                <option value="sea1">the sea-view suite</option>
+                            </select>
+                        </label> <br> <br>
+
+                            <label for="dateIn" class="font-weight-bolder">Check-In :
+                                <input type="date">
+                            </label> <br> <br>
+
+                            <label for="dateOut" class="font-weight-bolder">Check-Out :
+                                <input type="date">
+                            </label> <br> <br>
+
+                            <label for="guest" class="font-weight-bolder">Guests :
+                            <select name="guest" id="guest" class="text-capitalize">
+                                <option value="first">1 guest</option>
+                                <option value="second">2 guests</option>
+                                <option value="third">3 guests</option>
+                                <option value="four">4 guests</option>
+                                <option value="more">5+ guests</option>
+                            </select>
+                            </label> <br> <br>
+
+                            <input type="submit" value="View Rates" class="text-white bg-primary submit-cont">
+
+                        </form>
+                    </div>
                 </div>
             </section>
         <!--end of contact section-->
+
+        <!--start of information section-->
+            <section class="container-fluid info">
+                <div class="container py-3">
+                    <h5 class="text-capitalize font-weight-bolder">contact details</h5>
+                    <h6>Reach out to us and we are always happy to hear from you</h6><br>
+                    <div class="row">
+                        <div class="col-md-7 col-lg-4 ads d-flex font-weight-bolder">
+                            <i class="fas fa-map-marker-alt fa-2x text-primary mr-3"></i>
+                            <address>
+                                276, Charlse Avenue behind Alaba Oro, Lagos Nigeria. <br>
+                                177, Phase2 Valvet Station, Slevi Sweden. <br>
+                            </address>
+                        </div>
+                    
+                        <div class="col-md-5 col-lg-4 text-center font-weight-bolder">
+                            <p>(+234)9067125235</p>
+                            <p>(01)73-277-732</p>
+                        </div>
+                        <div class="col-md-12 col-lg-4 email text-center font-weight-bolder">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="">wasleadwears4u2c@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--end of information section-->
     
 
             <!--start of footer section-->
@@ -75,7 +140,7 @@
                         <ul class="ul1">
                             <li><a href="#">for members</a></li>
                             <li><a href="#">profile</a></li>
-                            <li><a href="/index.html">facilities</a></li>
+                            <li><a href="/html/reservation.html#facilities">facilities</a></li>
                             <li><a href="/html/contact.html">contact us</a></li>
                         </ul>
                     </div>

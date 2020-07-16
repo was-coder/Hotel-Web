@@ -3,7 +3,7 @@
 /*start of contact section*/
 .section5 {
     display: inline-block;
-    min-height: 140vh;
+    min-height: 170vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -14,8 +14,6 @@
   .contact-div1 {
     display: inline-block;
     width: 95%;
-    margin: auto;
-    border: 2px solid rgb(231, 216, 216);
     border-radius:20px;
     background-color: rgb(231, 216, 216);
   }
@@ -55,7 +53,42 @@
     color:#fff;
   }
 
+  .book {
+    border-radius:20px;
+    background-color: rgb(231, 216, 216);
+  }
+
+  .book h4 {
+    font-size: 30px;
+    color: #0275d8;
+  }
+
 /*end of contact styling*/
+
+/*start of info styling*/
+  .info {
+    background-color: rgb(231, 216, 216);
+  }
+  h5 {
+    letter-spacing: 2px;
+  }
+
+  .submit-cont {
+    border: 2px solid #0275d8;
+    font-size: 20px;
+  }
+
+  
+
+  .email a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .email a:hover {
+    text-decoration:none;
+  }
+/*end of info styling*/
 
 @media only screen and (min-width:600px) {
       /*start of contact section*/

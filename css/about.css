@@ -24,7 +24,6 @@
   }
 
   .section4__div2__flex__1 {
-    position: relative;
     border: 2px solid #0275d8;
     margin: 10px auto;
     max-width: 80%;
@@ -71,19 +70,10 @@
     margin: 0 auto;
   }
   
-  .section4__div1 p {
-    width: 80%;
-  }
-
-  .section4__div2__flex {
-    margin: 0 auto;
-    width: 80%;
-  }
-  
   .quote-img {
     margin: 0 auto;
     position: absolute;
-    top: 65%;
+    top: 75%;
     right: 40%;
     display: block;
     max-width: 30%;
@@ -92,13 +82,13 @@
   
   .section4__div2__flex__1 p {
     position: absolute;
-    bottom: -70%;
+    bottom: -60%;
     left: 30%;
     margin: 0 auto;
   }
   
   .section4__div2__flex__1 {
-    padding-bottom:100px;
+    padding-bottom:50px;
   }
   
   .btn-div {
