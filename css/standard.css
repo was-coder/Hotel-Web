@@ -308,7 +308,7 @@ box-shadow: -5px -5px 10px #000;
   width: 75%;
 }
 
-.div4 span button {
+.div4 button {
   height: 3rem;
   font-size: 15px;
   border-radius: 0 25px 0 0;
@@ -318,7 +318,7 @@ box-shadow: -5px -5px 10px #000;
   background-color: #fff;
 }
 
-.div4 span button a {
+.div4 button a {
   text-decoration: none;
   color: rgb(105, 104, 104);
 }

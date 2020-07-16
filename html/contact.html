@@ -13,7 +13,7 @@
 <body>
 
         <!--start of header tag-->
-        <header>
+        <header class="container-fluid">
 
             <!--start of hamburger button on small screen size-->
             <div class="collapse-btn d-md-none">
@@ -41,15 +41,15 @@
         <!--end of header tag-->
 
         <!--start of contact section-->
-            <section class="section5" id="contact">
+            <section class="section5 container-fluid" id="contact">
                 <div class="contact-div1 px-3 py-3">
                     <h4>Get in touch with Us</h4>
                     <form action="" class="text-capitalize">
-                        <label for="name">name </label><br>
+                        <label for="name" class="get-label">name </label><br>
                             <input type="text" id="name" placeholder="Enter Your Name Here" class="pl-2" required> <br>
-                        <label for="email">email </label><br>
+                        <label for="email" class="get-label">email </label><br>
                             <input type="email" id="cont-email" placeholder="Enter Your Email Here" class="pl-2" required> <br>
-                        <label for="message">message </label><br>
+                        <label for="message" class="get-label">message </label><br>
                             <input type="text" id="message" placeholder="Tell us how we can be of help" class="pl-2" required><br>
                         <button class="btn btn-outline-dark text-uppercase" id="send">send message</button>
                     </form>
@@ -59,37 +59,37 @@
     
 
             <!--start of footer section-->
-            <section class="section6 bg-dark">
-                <div class="footer__div1 py-5">
+            <section class="section6 bg-dark container-fluid">
+                <div class="footer__div1 py-5 row">
     
-                    <div class="text-capitalize div2">
-                        <ul class="ul1">
+                    <div class="text-capitalize div2 col-md-6 col-lg-4">
+                        <ul class="ul1 d-flex">
                             <li><a href="/index.html">home</a></li>
                             <li><a href="/html/reservation.html">reservations</a></li>
-                            <li><a href="/html/about.html">help</a></li>
-                            <li id="div2-ul1__li3"><a href="/html/about.html">terms & conditions</a></li>
+                            <li><a href="#">help</a></li>
+                            <li class="d-none d-md-block"><a href="#">terms & conditions</a></li>
                         </ul>
                     </div>
     
-                    <div class="text-capitalize div2 div3">
+                    <div class="text-capitalize div2 d-none d-md-block col-md-6 col-lg-4">
                         <ul class="ul1">
                             <li><a href="#">for members</a></li>
                             <li><a href="#">profile</a></li>
                             <li><a href="/index.html">facilities</a></li>
-                            <li><a href="#contact">contact us</a></li>
+                            <li><a href="/html/contact.html">contact us</a></li>
                         </ul>
                     </div>
     
-                    <div class="div4">
+                    <div class="div4 col-lg-4">
                         <p>Stay up to date with us and get amazing discounts by joining our exclusive newsletter list</p>
-                        <label for="email" class="footer-id mt-3"> Email:
-                            <input type="text" id="email" placeholder="Enter your email address" class="pl-2">
-                        </label>
-                        <span>
+                        <div class="d-flex justify-content-center">
+                            <label for="email" class="font-weight-bolder"> Email:
+                                <input type="text" id="email" placeholder="Enter your email address" class="pl-2">
+                            </label>
                             <button class="text-capitalize">
                                 <a href="#">sign up</a>
                             </button>
-                        </span><br>
+                        </div>
                         <div class="my-3 font-div">
                                 <a href="https://twitter.com/WasleadWears" target="_blank" rel="noreferrer"><i class="fab fa-twitter text-white fa-2x"></i></a>
                                 <a href="https://web.facebook.com/abdulwasiu.olaiya.73" target="_blank" rel="noreferrer"><i class="fab fa-facebook text-white fa-2x mx-5"></i></a>
