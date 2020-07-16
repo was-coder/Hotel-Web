@@ -24,9 +24,9 @@
   }
 
   .section4__div2__flex__1 {
+    position: relative;
     border: 2px solid #0275d8;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 10px auto;
     max-width: 80%;
     padding: 5px 5px;
     border-radius: 0 50px;
@@ -74,22 +74,17 @@
   .section4__div1 p {
     width: 80%;
   }
-  
+
   .section4__div2__flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-  }
-  
-  .section4__div2__flex__1 {
-    position: relative;
+    margin: 0 auto;
+    width: 80%;
   }
   
   .quote-img {
     margin: 0 auto;
     position: absolute;
-    top: 50%;
-    right: 35%;
+    top: 65%;
+    right: 40%;
     display: block;
     max-width: 30%;
     border-radius: 50%;
@@ -110,13 +105,4 @@
     padding-top: 30vh;
   }
   /*end of styling about section*/
-}
-
-@media only screen and (min-width: 1024px) {
-    /*start of styling about section*/
-.section4__div2__flex {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  /*end of styling about section*/
-  
 }

@@ -275,34 +275,11 @@ box-shadow: -5px -5px 10px #000;
 
 .footer__div1 {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display:flex;
-  flex-direction: column;
-  flex-flow: column wrap;
-}
-
-.div2 .ul1 {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-#div2-ul1__li3 {
-  display: none;
-}
-
-.div3 {
-  display: none;
 }
 
 .ul1 {
   list-style: none;
+  justify-content: space-around;
 }
 
 .ul1 li a {
@@ -379,28 +356,6 @@ box-shadow: -5px -5px 10px #000;
     /*end of facilities section*/
   
   /*start of style for footer section*/
-  .footer__div1 {
-    flex-direction: row;
-    flex-flow: row wrap;
-    -webkit-box-pack: space-around;
-    -moz-box-pack: space-around;
-    -ms-flex-pack: space-around;
-    -webkit-flex-pack: space-around;
-    justify-content: space-around;
-  }
-  
-  .div2 .ul1 {
-    flex-direction: column;
-    flex-flow: column wrap;
-  }
-
-  #div2-ul1__li3 {
-    display: block;
-  }
-
-  .div3 {
-    display: block;
-  }
   
   .div4 p {
     margin: auto;
@@ -473,6 +428,12 @@ box-shadow: -5px -5px 10px #000;
       text-decoration: none;
     }
     /*end of facilities section*/
+
+    /*start of footer section*/
+    .ul1 {
+      flex-direction: column;
+    }
+    /*end of footer section*/
 }
 
 @media only screen and (min-width:1024px) {
