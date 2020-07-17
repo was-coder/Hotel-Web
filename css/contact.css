@@ -3,7 +3,7 @@
 /*start of contact section*/
 .section5 {
     display: inline-block;
-    min-height: 170vh;
+    min-height: 200vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -54,14 +54,45 @@
   }
 
   .book {
+    display: inline-block;
     border-radius:20px;
     background-color: rgb(231, 216, 216);
+    margin-top: 100px;
+    padding: 70px 0;
   }
 
   .book h4 {
     font-size: 30px;
-    color: #0275d8;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
   }
+
+  .book label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  select, input[type="date"] {
+    display:inline-block;
+    min-width:50%;
+    height:40px;
+  }
+
+  select option {
+    font-size:15px;
+    font-weight:bold;
+  }
+
+  .submit-cont {
+    border: 2px solid #0275d8;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    height:40px;
+    border-radius: 20px;
+  }
+
+
 
 /*end of contact styling*/
 
@@ -73,15 +104,8 @@
     letter-spacing: 2px;
   }
 
-  .submit-cont {
-    border: 2px solid #0275d8;
-    font-size: 20px;
-  }
-
-  
-
   .email a {
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
   }
 
@@ -96,22 +120,27 @@
       .contact-div1 {
         width: 80%;
       }
+
+      .submit-cont {
+        display: inline-block;
+        width: 70%;
+      }
     
     /*end of contact styling*/
-}
-
-@media only screen and (min-width:768px) {
-/*start of contact section*/
-  .contact-div1 {
-    width: 60%;
-  }
-  /*end of contact section*/
 }
 
 @media only screen and (min-width:1024px) {
     /*start of contact styling*/
 .contact-div1 {
     width: 40%;
+  }
+
+  .section5 {
+    min-height: 130vh;
+  }
+  
+  .book {
+    margin-top: 0;;
   }
   /*end of contact styling*/
   
