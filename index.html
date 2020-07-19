@@ -205,7 +205,7 @@
                     <img class="second-img" src="/images/rest.jpg" alt="My Suite">
                     <figcaption>
                         <h4 class="mt-3 text-capitalize">resting area</h4>
-                        <h5 class="text-capitalize">relaxation and entertainment part</h5>
+                        <h5 class="text-capitalize">relaxation and entertainment</h5>
                         <button class="btn btn-outline-primary text-capitalize" data-toggle="modal" data-target="#read3">
                             <a href="#facilities" class="first-a">read more</a>
                         </button>
@@ -282,7 +282,7 @@
                           <h6 class="modal-title" id="exampleModalLongTitle">LOBBY</h6>
                           <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                          </button
+                          </button>
                         </div>
                         <div class="modal-body">
                           <p>Our lobby are is readily available for your relaxing and welcomin august visitors</p>
@@ -327,11 +327,11 @@
         <!--end of flex style for facility part-->
 
         <!--start of button for small screen size-->
-        <div class="text-center text-capitalize d-sm-block d-md-none btn-div">
-                <a href="/html/reservation.html">
-                    <svg><rect></rect></svg>
-                    view all 
-                </a>
+        <div class="text-capitalize d-sm-block d-md-none btn-div">
+            <a href="/html/reservation.html">
+                <svg><rect></rect></svg>
+                view all 
+            </a>
         </div>
         <!--end of button for small screen size-->
     </section>
@@ -368,9 +368,28 @@
                         <label for="email" class="font-weight-bolder"> Email:
                             <input type="text" id="email" placeholder="Enter your email address" class="pl-2">
                         </label>
-                        <button class="text-capitalize">
-                            <a href="#">sign up</a>
+                        <button class="text-capitalize" data-toggle="modal" data-target="#sign">
+                            <a href="#sign">sign up</a>
                         </button>
+
+                        <!-- Modal -->
+                <div class="modal fade" id="sign" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content bg-white">
+                        <div class="modal-header">
+                          <h6 class="text-dark modal-title" id="exampleModalLongTitle">THANK YOU</h6>
+                          <button type="button" class="close modal-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="text-dark modal-body">
+                          <p>We will get back to you anytime soon</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!--end of modal-->
+
                     </div>
                     <div class="my-3 font-div">
                             <a href="https://twitter.com/WasleadWears" target="_blank" rel="noreferrer"><i class="fab fa-twitter text-white fa-2x"></i></a>

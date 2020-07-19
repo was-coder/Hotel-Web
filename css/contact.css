@@ -2,8 +2,7 @@
 
 /*start of contact section*/
 .section5 {
-    display: inline-block;
-    min-height: 200vh;
+    min-height: 150vh;
     background: url(/images/rest.jpg) center;
     background-size: cover;
     display: flex;
@@ -12,87 +11,74 @@
   }
 
   .contact-div1 {
-    display: inline-block;
-    width: 95%;
+    overflow: hidden;
     border-radius:20px;
-    background-color: rgb(231, 216, 216);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    width: 400px;
+    background-color: #fff;
+    max-width: 100%;
   }
 
-  .contact-div1 h4 {
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .get-label {
-    font-size: 20px;
-    font-weight: bold;
-  }
+.form {
+  padding: 30px 40px;
+}
 
-  .contact-div1 input{
-    background-color: rgb(231, 216, 216);
-    display: block;
-    width: 100%;
-    height: 50px;
-    font-size: 20px;
-  }
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: bold;
+}
 
-  .contact-div1 #message {
-    height: 140px;
-    padding-bottom: 100px;
-  }
+.form-control-label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
 
-  #send {
-    width: 100%;
-    display: block;
-    height: 50px;
-    color: #000;
-    font-weight: bold;
-  }
+.form-control input {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  font-size: 17px;
+  padding-left: 5px;
+}
 
-  #send:hover {
-    color:#fff;
-  }
+.form-control .success, .fail {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
 
-  .book {
-    display: inline-block;
-    border-radius:20px;
-    background-color: rgb(231, 216, 216);
-    margin-top: 100px;
-    padding: 70px 0;
-  }
+.form-control .small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
 
-  .book h4 {
-    font-size: 30px;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-  }
+#message {
+  height: 8rem;
+  padding-bottom: 100px;
+}
 
-  .book label {
-    font-size: 20px;
-    font-weight: bold;
-  }
+.form button {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 17px;
+}
 
-  select, input[type="date"] {
-    display:inline-block;
-    min-width:50%;
-    height:40px;
-  }
-
-  select option {
-    font-size:15px;
-    font-weight:bold;
-  }
-
-  .submit-cont {
-    border: 2px solid #0275d8;
-    font-size: 20px;
-    display: block;
-    width: 100%;
-    height:40px;
-    border-radius: 20px;
-  }
-
-
+.form button:hover {
+  border: 2px solid #0275d8;
+  background-color: #0275d8;
+  color: #fff;
+}
 
 /*end of contact styling*/
 
@@ -116,10 +102,6 @@
 
 @media only screen and (min-width:600px) {
       /*start of contact section*/
-  
-      .contact-div1 {
-        width: 80%;
-      }
 
       .submit-cont {
         display: inline-block;
@@ -131,10 +113,6 @@
 
 @media only screen and (min-width:1024px) {
     /*start of contact styling*/
-.contact-div1 {
-    width: 40%;
-  }
-
   .section5 {
     min-height: 130vh;
   }
