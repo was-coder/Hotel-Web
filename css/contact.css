@@ -1,83 +1,122 @@
 @import "standard.css";
 
 /*start of contact section*/
-.section5 {
-    min-height: 150vh;
-    background: url(/images/rest.jpg) center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.contact-div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 250vh;
+  background-image: url(/images/pool_and_hotel.jpg);
+  background-size: cover;
+}
 
-  .contact-div1 {
-    overflow: hidden;
-    border-radius:20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
-    width: 400px;
-    background-color: #fff;
-    max-width: 100%;
-  }
+.container {
+  background-color: #b3b0b0;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  max-width: 95%;
+  border-radius: 10px;
+}
 
-.form {
+.container .h2 {
+  padding: 10px 30px;
+  border-bottom: 1px solid #000;
+}
+
+.container .form {
   padding: 30px 40px;
 }
 
-.form-control {
+.container .form .control {
   margin-bottom: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   position: relative;
-  text-transform: capitalize;
   font-weight: bold;
 }
 
-.form-control-label {
+.container .form .control label {
   display: inline-block;
   margin-bottom: 5px;
 }
 
-.form-control input {
+.container .form .control input {
   display: block;
   width: 100%;
-  height: 3rem;
-  font-size: 17px;
+  height: 40px;
   padding-left: 5px;
+  font-weight: bold;
 }
 
-.form-control .success, .fail {
+.container .form .control select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.container .form .control .check, body .container .form .control .exclame {
   position: absolute;
   top: 40px;
   right: 10px;
   visibility: hidden;
 }
 
-.form-control .small {
+.container .form .control small {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
+  font-weight: bold;
+  color: slategrey;
+}
+
+.container .form .success input {
+  border-color: green;
+}
+
+.container .form .success small {
   visibility: hidden;
 }
 
-#message {
-  height: 8rem;
-  padding-bottom: 100px;
+.container .form .success .check {
+  color: green;
+  visibility: visible;
 }
 
-.form button {
+.container .form .fail input {
+  border-color: red;
+}
+
+.container .form .fail .exclame {
+  color: red;
+  visibility: visible;
+}
+
+.container .form .fail small {
+  color: red;
+  visibility: visible;
+}
+
+#message {
+  height: 20vh;
+  padding-bottom: 110px;
+}
+
+.container .form button {
   display: block;
   width: 100%;
-  height: 3rem;
   text-transform: uppercase;
-  cursor: pointer;
+  color: #000;
   font-weight: bold;
-  border-radius: 5px;
-  font-size: 17px;
-}
-
-.form button:hover {
-  border: 2px solid #0275d8;
-  background-color: #0275d8;
-  color: #fff;
+  letter-spacing: 1px;
 }
 
 /*end of contact styling*/
@@ -85,6 +124,16 @@
 /*start of info styling*/
   .info {
     background-color: rgb(231, 216, 216);
+    min-height: 55vh;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   }
   h5 {
     letter-spacing: 2px;
@@ -100,26 +149,10 @@
   }
 /*end of info styling*/
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:992px) {
       /*start of contact section*/
-
-      .submit-cont {
-        display: inline-block;
-        width: 70%;
-      }
-    
+    .contact-div1 {
+      min-height: 130vh;
+    }
     /*end of contact styling*/
-}
-
-@media only screen and (min-width:1024px) {
-    /*start of contact styling*/
-  .section5 {
-    min-height: 130vh;
-  }
-  
-  .book {
-    margin-top: 0;;
-  }
-  /*end of contact styling*/
-  
 }

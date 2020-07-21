@@ -32,7 +32,7 @@
                     <li class="menu-nav__item"><a href="/html/reservation.html" class="menu-nav__link" accesskey="r"><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
                     <li class="menu-nav__item"><a href="/html/about.html" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
                     <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
-                    <li class="menu-nav__item" id="unique-li"><a href="#book" id="unique__link" accesskey="b">book now</a></li>
+                    <li class="menu-nav__item" id="unique-li"><a href="#contact" id="unique__link" accesskey="b">book now</a></li>
                 </ul>
             </nav>
             <!--end of navigation bar-->
@@ -42,35 +42,84 @@
 
         <!--start of contact section-->
             <section class="section5 container-fluid" id="contact">
-                    <div class="contact-div1">
+                <div class="contact-div1 row">
                         
-                        <div>
-                            <h4>Get in touch with Us</h4>
-                        </div>
+                    <div class="container col-lg-6">
 
-                        <form action="#" class="text-capitalize form" id="form">
-                            <div class="form-control">
-                                <label for="name">name </label>
-                                <input type="text" id="name" placeholder="Enter Your Name Here" required>
-                                <i class="fas fa-check-circle success"></i>
-                                <i class="fas fa-exclamation-circle fail"></i>
-                                <small class="small">Error Message</small>
+                        <div class="h2 text-center text-capitalize font-weight-bold">get in touch with us</div>
+                
+                        <form id="form" class="form">
+                
+                            <div class="control">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter Your Name Here">
+                                <i class="fas fa-check-circle check"></i>
+                                <i class="fas fa-exclamation-circle exclame"></i>
+                                <small>
+                                    <sup>*</sup>Preferably Your full name
+                                </small>
                             </div>
-                            <div class="form-control">
-                                <label for="email">email </label>
-                                <input type="email" id="cont-email" placeholder="Enter Your Email Here" required>
-                                <i class="fas fa-check-circle success"></i>
-                                <i class="fas fa-exclamation-circle success"></i>
-                                <small class="small">Error Message</small>
+                
+                            <div class="control">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Input Your Email-Address">
+                                <i class="fas fa-check-circle check"></i>
+                                <i class="fas fa-exclamation-circle exclame"></i>
+                                <small>
+                                    <sup>*</sup>To get a quick reply to your message
+                                </small>
                             </div>
-                            <div class="form-control">
-                                <label for="message">message </label>
-                                <input type="text" id="message" placeholder="Tell us how we can be of help" required>
+
+                            <div class="control">
+                                <label for="message">Message</label>
+                                <input type="text" id="message" name="message" placeholder="Enter Your Message Here">
                             </div>
-                            <button class="btn btn-outline-dark text-uppercase" id="send">send message</button>
+                
+                            <button class="btn btn-outline-primary">submit</button>
                         </form>
                     </div>
 
+                    <div class="col-lg-5 container" id="book">
+                        <div class="control h2 text-capitalize text-center font-weight-bold">get booked with us</div>
+                        <form action="#" class="form">
+                            <div class="control">
+                                <label for="rooms">Rooms :</label> 
+                                <select name="loc" id="loc" class="text-capitalize">
+                                    <option value="hill">the hill-top suite</option>
+                                    <option value="sea">the sea-side suite</option>
+                                    <option value="main">the main suite</option>
+                                    <option value="legend">the legend-side suite</option>
+                                    <option value="master">the master-top suite</option>
+                                    <option value="sea1">the sea-view suite</option>
+                                </select>
+                            </div>
+    
+                            <div class="control">
+                                <label for="dateIn">Check-In :</label>
+                                <input type="date">
+                           </div>
+
+                            <div class="control">
+                                <label for="dateOut">Check-Out :</label>
+                                <input type="date">
+                            </div>
+
+                            <div class="control">
+                                <label for="guest">Guests :</label>
+                                <select name="guest" id="guest" class="text-capitalize">
+                                    <option value="first">1 guest</option>
+                                    <option value="second">2 guests</option>
+                                    <option value="third">3 guests</option>
+                                    <option value="four">4 guests</option>
+                                    <option value="more">5+ guests</option>
+                                </select>
+                            </div>
+
+                            <button class="btn btn-outline-primary">view rate</button>
+    
+                            </form>
+                    </div>
+                </div>
             </section>
         <!--end of contact section-->
 
