@@ -22,11 +22,12 @@
   -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
   width: 500px;
-  max-width: 90%;
+  max-width: 95%;
   border-radius: 10px;
 }
 
-.container .h2 {
+.container .head {
+  font-size: 30px;
   padding: 10px 30px;
   border-bottom: 1px solid #000;
 }
@@ -124,7 +125,7 @@
 /*start of info styling*/
   .info {
     background-color: rgb(231, 216, 216);
-    min-height: 60vh;
+    min-height: 50vh;
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
