@@ -125,7 +125,7 @@ header {
   
   .menu-nav__item {
     transform: translateX(100vw);
-    padding: 50px 100px;
+    padding: 30px 50px;
   }
   
   #unique-li {
