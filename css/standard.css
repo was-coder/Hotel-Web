@@ -106,7 +106,7 @@ header {
   .nav.open {
     visibility: visible;
     background-color: rgb(247, 245, 245);
-    height: 70%;
+    height: 100vh;
     transition: all 0.5s ease-out;
   }
   
@@ -115,8 +115,8 @@ header {
     flex-flow: column wrap;
     overflow: hidden;
     list-style: none;
-    transition: all 0.5s ease-in-out;
-    transform: translateX(-100%);
+    transition: all 1s ease-in-out;
+    transform: translateY(-100%);
   }
   
   .menu-nav.open {
@@ -125,7 +125,7 @@ header {
   
   .menu-nav__item {
     transform: translateX(100vw);
-    padding: 20px 0;
+    padding: 50px 100px;
   }
   
   #unique-li {
@@ -248,7 +248,7 @@ width: 80%;
 margin: auto;
 height: 40vh;
 border-radius: 10px;
-box-shadow: -5px -5px 10px #000;
+box-shadow: -2px -2px 4px #000;
 }
 
 .modal-title {
@@ -397,6 +397,10 @@ box-shadow: -5px -5px 10px #000;
     .menu-nav__link {
       font-size: 20px;
       margin: 15px 0;
+    }
+
+    .menu-nav__item {
+      padding: 20px 10px;
     }
 /*end of styling for navigation*/
 
