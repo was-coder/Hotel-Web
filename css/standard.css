@@ -125,7 +125,7 @@ header {
   
   .menu-nav__item {
     transform: translateX(100vw);
-    padding: 30px 50px;
+    padding: 30px 10px;
   }
   
   #unique-li {
@@ -397,10 +397,6 @@ box-shadow: -2px -2px 4px #000;
     .menu-nav__link {
       font-size: 20px;
       margin: 15px 0;
-    }
-
-    .menu-nav__item {
-      padding: 20px 10px;
     }
 /*end of styling for navigation*/
 
