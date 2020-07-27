@@ -305,7 +305,8 @@ box-shadow: -2px -2px 4px #000;
   border: 2px solid #fff;
   font-size: 15px;
   font-weight: bold;
-  width: 75%;
+  min-width: 30%;
+  margin: 0 5px;
 }
 
 .div4 button {
@@ -313,7 +314,7 @@ box-shadow: -2px -2px 4px #000;
   font-size: 15px;
   border-radius: 0 25px 0 0;
   border: 2px solid #fff;
-  width: 25%;
+  min-width: 25%;
   font-weight: bold;
   background-color: #fff;
 }
@@ -360,10 +361,6 @@ box-shadow: -2px -2px 4px #000;
   .div4 p {
     margin: auto;
     width: 80%;
-  }
-  
-  .div4 button {
-    width: 15%;
   }
   /*end of style for footer section*/
 }
@@ -456,9 +453,6 @@ box-shadow: -2px -2px 4px #000;
 /*end of styling for navigation*/
 
     /*start of styling for footer section*/
-  
-    .div4 button {
-      width:25%;
-    }
+
   /*start of styling for footer section*/
 }
