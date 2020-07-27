@@ -48,15 +48,7 @@
   margin-bottom: 5px;
 }
 
-.container .form .control input {
-  display: block;
-  width: 100%;
-  height: 40px;
-  padding-left: 5px;
-  font-weight: bold;
-}
-
-.container .form .control select {
+.container .form .control input, .container .form .control select {
   display: block;
   width: 100%;
   height: 40px;
@@ -67,7 +59,7 @@
 .container .form .control .check, .container .form .control .exclame {
   position: absolute;
   top: 40px;
-  right: 10px;
+  right: -20px;
   visibility: hidden;
 }
 
