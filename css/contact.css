@@ -99,8 +99,7 @@
 }
 
 #message {
-  min-height: 20vh;
-  padding-bottom: 100px;
+  height: 20vh;
 }
 
 .container .form button {
