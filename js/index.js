@@ -30,6 +30,7 @@ function toggleMenu () {
 const form = document.getElementById("form");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
+const message = document.getElementById("message");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -40,6 +41,7 @@ form.addEventListener("submit", (e) => {
 function getInputs() {
     const nameValue = name.value.trim();
     const emailValue = email.value.trim();
+    const messageValue = message.value.trim();
 
     if (nameValue === "") {
         setFail(name, "Name cannot be blank");
@@ -56,6 +58,13 @@ function getInputs() {
     }
     else {
         setSuccess(email);
+    }
+
+    if (messageValue === "") {
+        setFail(message, "Message cannot be blank");
+    }
+    else {
+        setSuccess(message);
     }
 }
 

@@ -12,7 +12,7 @@
       -ms-flex-align: center;
           align-items: center;
   min-height: 280vh;
-  background-image: url(/images/pool_and_hotel.jpg);
+  background-image:url(/images/pool_and_hotel.jpg);
   background-size: cover;
 }
 
@@ -64,7 +64,7 @@
   font-weight: bold;
 }
 
-.container .form .control .check, body .container .form .control .exclame {
+.container .form .control .check, .container .form .control .exclame {
   position: absolute;
   top: 40px;
   right: 10px;
