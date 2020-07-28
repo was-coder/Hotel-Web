@@ -7,7 +7,7 @@
   overflow:hidden;
   position: relative;
   display: block;
-  min-height: 70vh;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -18,12 +18,12 @@
   bottom:0;
   left:0;
   right:0;
-  background:rgba(0,0,0,0.3);
+  background:rgba(0,0,0,0.5);
 }
 
 .embedded-text {
   position: absolute;
-  top: 25%;
+  top: 20%;
 }
 
 .embedded-text h2 {
@@ -67,8 +67,8 @@
   
   /*start of style on carousel section*/
 
-  .first-img {
-    max-height: 70vh;
+  .embedded-text {
+    top: 30%;
   }
 
     .embedded-text p {
@@ -88,6 +88,11 @@
 @media only screen and (min-width:1024px) {
 
 /*start of styling for carousel section*/
+
+.embedded-text {
+  top: 35%;
+}
+
 .embedded-text h2 {
   font-size: 50px;
   }
