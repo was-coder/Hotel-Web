@@ -11,7 +11,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 280vh;
+  min-height: 250vh;
   background-image:url(/images/pool_and_hotel.jpg);
   background-size: cover;
 }
@@ -116,7 +116,7 @@
 /*start of info styling*/
   .info {
     background-color: rgb(231, 216, 216);
-    min-height: 50vh;
+    height: auto;
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
