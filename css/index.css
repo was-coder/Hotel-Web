@@ -7,7 +7,7 @@
   overflow:hidden;
   position: relative;
   display: block;
-  height: auto;
+  min-height: 70vh;
   margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@
 
 .embedded-text {
   position: absolute;
-  top: 20%;
+  top: 25%;
 }
 
 .embedded-text h2 {
