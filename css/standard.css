@@ -246,7 +246,7 @@ font-size: 25px;
 .second-img {
 width: 80%;
 margin: auto;
-min-height: 35vh;
+height: 35vh;
 border-radius: 10px;
 box-shadow: -2px -2px 4px #000;
 }
