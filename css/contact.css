@@ -11,7 +11,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 250vh;
+  min-height: 270vh;
   background-image:url(/images/pool_and_hotel.jpg);
   background-size: cover;
 }
