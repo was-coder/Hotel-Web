@@ -17,7 +17,7 @@
 }
 
 .container {
-  background-color: #b3b0b0;
+  background-color: #e2dede;
   overflow: hidden;
   -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
@@ -43,12 +43,12 @@
   font-weight: bold;
 }
 
-.container .form .control label {
+.container .form .control label, .container .form .control textarea {
   display: inline-block;
   margin-bottom: 5px;
 }
 
-.container .form .control input, .container .form .control select {
+.container .form .control input, .container .form .control select, .form .control textarea {
   display: block;
   width: 100%;
   height: 40px;
@@ -71,7 +71,7 @@
   color: slategrey;
 }
 
-.container .form .success input {
+.container .form .success input, .container .form .success textarea {
   border-color: green;
 }
 
@@ -84,7 +84,7 @@
   visibility: visible;
 }
 
-.container .form .fail input {
+.container .form .fail input, .container .form .fail textarea {
   border-color: red;
 }
 
@@ -131,12 +131,12 @@
     letter-spacing: 2px;
   }
 
-  .email a {
+  .email form a {
     font-size: 17px;
     text-decoration: none;
   }
 
-  .email a:hover {
+  .email form a:hover {
     text-decoration:none;
   }
 /*end of info styling*/

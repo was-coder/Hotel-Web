@@ -299,7 +299,7 @@ box-shadow: -2px -2px 4px #000;
   font-size: 20px;
 }
 
-.div4 input {
+.div4 form input {
   height: 3rem;
   border-radius: 0 25px;
   border: 2px solid #fff;
@@ -309,7 +309,7 @@ box-shadow: -2px -2px 4px #000;
   margin: 0 5px;
 }
 
-.div4 button {
+.div4 form button {
   height: 3rem;
   font-size: 15px;
   border-radius: 0 25px 0 0;
@@ -317,10 +317,6 @@ box-shadow: -2px -2px 4px #000;
   min-width: 25%;
   font-weight: bold;
   background-color: #fff;
-}
-
-.div4 button a {
-  text-decoration: none;
   color: rgb(105, 104, 104);
 }
 /*end of styling for footer section*/
@@ -453,6 +449,8 @@ box-shadow: -2px -2px 4px #000;
 /*end of styling for navigation*/
 
     /*start of styling for footer section*/
-
+    .div4 form input {
+      width: 45%;
+    }
   /*start of styling for footer section*/
 }
