@@ -14,5 +14,5 @@
 
 <div>
     <h3>HOST LINK</h3>
-    <p> It is hosted on netlify and the link is https://thirsty-shaw-a5a55d.netlify.app/</p>
+    <p> It is hosted on netlify and the link is https://hotel-web.netlify.app/</p>
 </div>
